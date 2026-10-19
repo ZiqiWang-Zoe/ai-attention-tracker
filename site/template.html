@@ -93,8 +93,6 @@ label.ctl { font-size: 13px; color: var(--muted); display: inline-flex; align-it
 .moved { font-size: 11px; color: var(--faint); margin-left: 6px; }
 
 .review { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 20px; align-items: start; }
-.badge { display: inline-flex; align-items: center; gap: 8px; height: 34px; padding: 0 14px; border-radius: 999px; font-weight: 500; font-size: 14px; border: 1px solid var(--line); background: var(--card); white-space: nowrap; }
-.badge svg { width: 16px; height: 16px; }
 details { margin-top: 12px; }
 summary { cursor: pointer; color: var(--muted); font-size: 14px; }
 pre.review-text { white-space: pre-wrap; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; line-height: 1.6; background: var(--surface); border-radius: 10px; padding: 16px; margin: 12px 0 0; max-height: 420px; overflow: auto; }
@@ -153,7 +151,6 @@ footer { padding: 40px 0 64px; font-size: 13px; color: var(--muted); }
     </div>
     <div class="meta">
       <div>Data through <span id="asof"></span></div>
-      <div id="check-line"></div>
     </div>
   </header>
 
@@ -165,7 +162,7 @@ footer { padding: 40px 0 64px; font-size: 13px; color: var(--muted); }
     <div class="controls" role="group" aria-label="Source">
       <div class="seg" id="src-seg"></div>
     </div>
-    <div class="card">
+    <div class="card" id="rising">
       <div class="legend" aria-hidden="true">
         <span><i class="dot" style="background:var(--context)"></i>Prior 90 days</span>
         <span><i class="dot" style="background:var(--accent)"></i>Last 30 days</span>
@@ -204,7 +201,7 @@ footer { padding: 40px 0 64px; font-size: 13px; color: var(--muted); }
   <section aria-labelledby="h-check">
     <h2 id="h-check">Daily data check</h2>
     <p class="lede">Before each update goes live, Codex reviews the new numbers for broken collection, sudden jumps and bad keyword matches, and writes up what it found.</p>
-    <div class="card review" id="review"></div>
+    <div class="card" id="review"></div>
   </section>
 
   <section id="method" aria-labelledby="h-method">
@@ -259,23 +256,10 @@ function el(tag, attrs = {}, text) {
   if (text != null) n.textContent = text;
   return n;
 }
-const ICON = {
-  PASS: '<svg viewBox="0 0 24 24" fill="none" stroke="#0b7a3e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.8 2.8L16 10"/></svg>',
-  WARN: '<svg viewBox="0 0 24 24" fill="none" stroke="#9a5b00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4 2.8 19.5h18.4L12 4Z"/><path d="M12 10v4.2M12 17.2v.1"/></svg>',
-  FAIL: '<svg viewBox="0 0 24 24" fill="none" stroke="#b42318" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="m9 9 6 6M15 9l-6 6"/></svg>',
-};
-const VERDICT = { PASS: 'Passed', WARN: 'Passed with notes', FAIL: 'Issues found' };
 
 /* ---------- header ---------- */
 document.getElementById('asof').textContent = fmtDate(D.as_of);
 document.getElementById('built').textContent = 'Last built ' + D.built_at + '.';
-if (D.review) {
-  const v = ICON[D.review.verdict] ? D.review.verdict : 'WARN';
-  const line = document.getElementById('check-line');
-  line.className = 'status';
-  line.innerHTML = ICON[v];
-  line.append(document.createTextNode('Codex check: ' + VERDICT[v]));
-}
 
 /* ---------- KPI row ---------- */
 (function kpis() {
@@ -303,9 +287,9 @@ if (D.review) {
   for (const s of SRC) {
     const src = latest.sources[s], cfg = D.sources[s];
     const t = el('div', { class: 'kpi' });
-    t.append(el('div', { class: 'k-label' }, cfg.label + ', last 30 days'));
+    t.append(el('div', { class: 'k-label' }, cfg.label));
     t.append(el('div', { class: 'k-value' }, fmtInt(src.recent_total)));
-    t.append(el('div', { class: 'k-delta' }, cfg.unit + ' counted'));
+    t.append(el('div', { class: 'k-delta' }, cfg.unit + ' in the last 30 days'));
     box.append(t);
   }
 })();
@@ -524,15 +508,13 @@ function drawSnap() {
 (function review() {
   const box = document.getElementById('review');
   if (!D.review) { box.append(el('p', { class: 'muted' }, 'No review has run yet.')); return; }
-  const v = ICON[D.review.verdict] ? D.review.verdict : 'WARN';
-  const b = el('div', { class: 'badge' }); b.innerHTML = ICON[v]; b.append(document.createTextNode(VERDICT[v]));
   const right = el('div');
   const first = D.review.text.split('\n').map(l => l.trim()).filter(l => l && !/^verdict:/i.test(l) && !l.startsWith('#'))[0] || '';
   right.append(el('p', {}, first.replace(/^[-*]\s*/, '').replace(/^summary:\s*/i, '')));
   right.append(el('p', { class: 'muted', style: 'font-size:13px;margin-top:6px' }, 'Review of ' + fmtDate(D.review.date) + ', written by Codex.'));
-  const det = el('details'); det.append(el('summary', {}, 'Read the full review'), el('pre', { class: 'review-text' }, D.review.text));
+  const det = el('details'); det.append(el('summary', {}, 'Read the full review'), el('pre', { class: 'review-text' }, D.review.text.replace(/^verdict:.*\n?/im, '').trim()));
   right.append(det);
-  box.append(b, right);
+  box.append(right);
 })();
 
 function drawAll() { drawDumbbell(); drawMultiples(); }

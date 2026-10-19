@@ -152,12 +152,12 @@ def daily_ai_share(c, as_of, days=90):
 
 
 def latest_review():
+    """Latest Codex review for the page, without the internal verdict line."""
     files = sorted(REVIEWS.glob("*.md")) if REVIEWS.exists() else []
     if not files:
         return None
-    text = files[-1].read_text()
-    verdict = next((l.split(":", 1)[1].strip().split()[0] for l in text.splitlines() if l.lower().startswith("verdict:")), "UNKNOWN")
-    return {"date": files[-1].stem, "verdict": verdict.upper().strip("*"), "text": text}
+    text = "\n".join(l for l in files[-1].read_text().splitlines() if not l.lower().startswith("verdict:")).strip()
+    return {"date": files[-1].stem[:10], "text": text}
 
 
 def build(as_of, backfill=0):

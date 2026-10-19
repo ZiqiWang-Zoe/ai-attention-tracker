@@ -33,7 +33,7 @@ $PY site/build.py                      # rebuild so the page shows the review
 if [[ "$VERDICT" == "FAIL" ]]; then
   # Keep yesterday's page live; commit only the review so the problem is on record.
   git add "reviews/$DAY.md"
-  git commit -q -m "Data check failed for $DAY, update held back" || true
+  git commit -q -m "Daily review $DAY, update held back" || true
   git push -q
   git checkout -q -- data snapshots && git clean -fdq snapshots   # drop the held-back numbers
   notify "Codex flagged $DAY data. Page not updated. See reviews/$DAY.md"
@@ -42,6 +42,6 @@ if [[ "$VERDICT" == "FAIL" ]]; then
 fi
 
 git add data snapshots reviews
-git commit -q -m "Daily update $DAY (Codex check: ${VERDICT:-none})" || { echo "nothing to commit"; exit 0; }
+git commit -q -m "Daily update $DAY" || { echo "nothing to commit"; exit 0; }
 git push -q
 echo "=== $(date -u '+%F %T UTC') published $DAY"
