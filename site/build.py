@@ -17,12 +17,15 @@ import argparse
 import csv
 import datetime as dt
 import json
+import os
 import shutil
+import sys
 from pathlib import Path
 
 import duckdb
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
 SNAP = ROOT / "snapshots"
 REVIEWS = ROOT / "reviews"
 OUT = ROOT / "_site"
@@ -117,6 +120,56 @@ def snapshot_lifts(c, as_of, s, cfg, meta):
     return out
 
 
+def add_examples(snap, as_of, per_topic=3):
+    """Attach the most-voted items behind each rising topic, so readers can check the evidence.
+
+    Needs the local raw cache (data/raw); does nothing without it.
+    """
+    from tracker.common import raw_path, read_raw
+    from tracker.topics import load_topics, match, model_text
+
+    topics = load_topics()
+    for s, v in snap["sources"].items():
+        wanted = {r["topic"] for r in v["rising"]}
+        best = {t: [] for t in wanted}
+        seen = set()
+        for i in range(RECENT):
+            d = as_of - dt.timedelta(days=i)
+            if not raw_path(s, d).exists():
+                continue
+            for row in read_raw(s, d):
+                if s == "hn":
+                    key = row["url"].split("#")[0].rstrip("/").lower() or row["id"]
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    hits = match(row["title"], topics, require_ai_context=True)
+                    item = {"title": row["title"], "url": f"https://news.ycombinator.com/item?id={row['id']}",
+                            "score": row["points"], "date": d.isoformat()}
+                elif s == "hf_papers":
+                    hits = match(row["title"] + "\n" + row["summary"], topics)
+                    item = {"title": row["title"], "url": f"https://huggingface.co/papers/{row['id']}",
+                            "score": row["upvotes"], "date": d.isoformat()}
+                else:
+                    hits = match(model_text(row["id"], row["tags"]), topics, machine_text=True)
+                    item = {"title": row["id"], "url": f"https://huggingface.co/{row['id']}",
+                            "score": row["likes"], "date": d.isoformat()}
+                for t in wanted.intersection(hits):
+                    best[t].append(item)
+        for r in v["rising"]:
+            items = sorted(best[r["topic"]], key=lambda x: -x["score"])
+            # one example per model owner, so a single uploader can't fill the list
+            if s == "hf_models":
+                owners, uniq = set(), []
+                for x in items:
+                    o = x["title"].split("/")[0]
+                    if o not in owners:
+                        owners.add(o)
+                        uniq.append(x)
+                items = uniq
+            r["examples"] = items[:per_topic]
+
+
 def monthly(c):
     """Monthly share per source and topic, in each source's counting unit."""
     out = {}
@@ -167,8 +220,13 @@ def build(as_of, backfill=0):
     for i in range(backfill, -1, -1):
         d = as_of - dt.timedelta(days=i)
         p = SNAP / f"{d.isoformat()}.json"
-        if i == 0 or not p.exists():  # past snapshots are frozen; today's is rewritten on reruns
-            p.write_text(json.dumps(snapshot(c, d, meta), indent=1))
+        # Past snapshots are frozen. Today's is rewritten on local reruns, but not in CI,
+        # which has no raw cache and so could not rebuild the example items.
+        if not p.exists() or (i == 0 and not os.environ.get("CI")):
+            snap = snapshot(c, d, meta)
+            if i == 0:
+                add_examples(snap, d)
+            p.write_text(json.dumps(snap, indent=1))
     snaps = [json.loads(p.read_text()) for p in sorted(SNAP.glob("*.json"))]
     payload = {
         "as_of": as_of.isoformat(),
