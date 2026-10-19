@@ -18,7 +18,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-01-01,hf_models,techniques,multimodal,Multimodal and vision-language,792,99909,0.793,11610,13.976,31
 2025-01-01,hf_models,techniques,reasoning,Reasoning and test-time compute,654,99909,0.655,1771,2.132,31
 2025-01-01,hf_models,labs,openai,OpenAI,614,99909,0.615,283,0.341,31
-2025-01-01,hf_models,techniques,safety_security,AI safety and security,541,99909,0.541,225,0.271,31
 2025-01-01,hf_models,applications,medical_ai,Medical AI,480,99909,0.48,806,0.97,31
 2025-01-01,hf_models,applications,agents,AI agents,300,99909,0.3,139,0.167,31
 2025-01-01,hf_models,techniques,interpretability,Interpretability,253,99909,0.253,143,0.172,31
@@ -38,6 +37,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-01-01,hf_models,techniques,prompt_context_engineering,Prompt and context engineering,41,99909,0.041,3,0.004,31
 2025-01-01,hf_models,techniques,synthetic_data,Synthetic data,28,99909,0.028,87,0.105,31
 2025-01-01,hf_models,market,funding_bubble,Funding valuations and bubble talk,27,99909,0.027,6,0.007,31
+2025-01-01,hf_models,techniques,safety_security,AI safety and security,25,99909,0.025,195,0.235,31
 2025-01-01,hf_models,labs,anthropic_claude,Anthropic and Claude,17,99909,0.017,55,0.066,31
 2025-01-01,hf_models,infrastructure,ai_chips,AI chips and accelerators,16,99909,0.016,2,0.002,31
 2025-01-01,hf_models,market,regulation_policy,Regulation and policy,16,99909,0.016,6,0.007,31
@@ -66,15 +66,15 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-01-01,hf_papers,techniques,multimodal,Multimodal and vision-language,59,266,22.18,2358,27.576,31
 2025-01-01,hf_papers,labs,openai,OpenAI,43,266,16.165,2507,29.318,31
 2025-01-01,hf_papers,techniques,rl_post_training,RL and preference tuning,40,266,15.038,2268,26.523,31
-2025-01-01,hf_papers,techniques,safety_security,AI safety and security,34,266,12.782,1038,12.139,31
 2025-01-01,hf_papers,infrastructure,inference_serving,Inference and serving,31,266,11.654,1316,15.39,31
 2025-01-01,hf_papers,applications,video_generation,Video generation,31,266,11.654,801,9.367,31
 2025-01-01,hf_papers,applications,agents,AI agents,29,266,10.902,1055,12.338,31
-2025-01-01,hf_papers,market,copyright_licensing,Copyright and data rights,27,266,10.15,1017,11.893,31
 2025-01-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),27,266,10.15,1356,15.858,31
+2025-01-01,hf_papers,market,copyright_licensing,Copyright and data rights,27,266,10.15,1017,11.893,31
 2025-01-01,hf_papers,market,funding_bubble,Funding valuations and bubble talk,25,266,9.398,574,6.713,31
 2025-01-01,hf_papers,applications,image_generation,Image generation,22,266,8.271,498,5.824,31
 2025-01-01,hf_papers,techniques,embeddings_vector_search,Embeddings and vector search,15,266,5.639,181,2.117,31
+2025-01-01,hf_papers,techniques,safety_security,AI safety and security,15,266,5.639,463,5.415,31
 2025-01-01,hf_papers,labs,meta_llama,Meta Llama,14,266,5.263,767,8.97,31
 2025-01-01,hf_papers,techniques,distillation,Distillation,14,266,5.263,981,11.472,31
 2025-01-01,hf_papers,applications,voice_audio,Voice speech and audio,12,266,4.511,312,3.649,31
@@ -82,36 +82,36 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-01-01,hf_papers,techniques,interpretability,Interpretability,11,266,4.135,309,3.614,31
 2025-01-01,hf_papers,applications,medical_ai,Medical AI,10,266,3.759,342,4.0,31
 2025-01-01,hf_papers,techniques,synthetic_data,Synthetic data,10,266,3.759,401,4.69,31
+2025-01-01,hf_papers,applications,robotics,Robotics and embodied AI,9,266,3.383,246,2.877,31
 2025-01-01,hf_papers,labs,google_gemini,Google Gemini and Gemma,9,266,3.383,330,3.859,31
 2025-01-01,hf_papers,applications,coding_assistants,AI coding tools,9,266,3.383,171,2.0,31
-2025-01-01,hf_papers,applications,robotics,Robotics and embodied AI,9,266,3.383,246,2.877,31
-2025-01-01,hf_papers,applications,ai_for_science,AI for science,8,266,3.008,224,2.62,31
 2025-01-01,hf_papers,techniques,hallucination,Hallucination,8,266,3.008,157,1.836,31
 2025-01-01,hf_papers,applications,rag,Retrieval-augmented generation,8,266,3.008,370,4.327,31
 2025-01-01,hf_papers,labs,anthropic_claude,Anthropic and Claude,8,266,3.008,581,6.795,31
+2025-01-01,hf_papers,applications,ai_for_science,AI for science,8,266,3.008,224,2.62,31
 2025-01-01,hf_papers,techniques,long_context,Long context,7,266,2.632,586,6.853,31
 2025-01-01,hf_papers,infrastructure,gpus_nvidia,GPUs and Nvidia,6,266,2.256,237,2.772,31
 2025-01-01,hf_papers,techniques,prompt_context_engineering,Prompt and context engineering,5,266,1.88,84,0.982,31
 2025-01-01,hf_papers,applications,computer_use,Computer and browser use,5,266,1.88,205,2.397,31
 2025-01-01,hf_papers,infrastructure,quantization,Quantization,5,266,1.88,133,1.555,31
-2025-01-01,hf_papers,words,term_serving,Word: serving,4,266,1.504,30,0.351,31
 2025-01-01,hf_papers,infrastructure,local_on_device,Local and on-device AI,4,266,1.504,418,4.888,31
 2025-01-01,hf_papers,techniques,ssm_linear_attention,State-space and linear attention,4,266,1.504,48,0.561,31
 2025-01-01,hf_papers,techniques,moe,Mixture of experts,4,266,1.504,428,5.005,31
 2025-01-01,hf_papers,labs,deepseek,DeepSeek,4,266,1.504,576,6.736,31
+2025-01-01,hf_papers,words,term_serving,Word: serving,4,266,1.504,30,0.351,31
 2025-01-01,hf_papers,words,term_assistant,Word: assistant,3,266,1.128,133,1.555,31
-2025-01-01,hf_papers,words,term_open_weights,Word: open weights,3,266,1.128,120,1.403,31
-2025-01-01,hf_papers,market,jobs_work,Jobs and work,3,266,1.128,36,0.421,31
 2025-01-01,hf_papers,infrastructure,ai_chips,AI chips and accelerators,3,266,1.128,32,0.374,31
-2025-01-01,hf_papers,applications,world_models,World models,2,266,0.752,117,1.368,31
+2025-01-01,hf_papers,market,jobs_work,Jobs and work,3,266,1.128,36,0.421,31
+2025-01-01,hf_papers,words,term_open_weights,Word: open weights,3,266,1.128,120,1.403,31
 2025-01-01,hf_papers,applications,ai_search,AI search and answer engines,2,266,0.752,159,1.859,31
-2025-01-01,hf_papers,applications,autonomous_driving,Autonomous driving,2,266,0.752,31,0.363,31
 2025-01-01,hf_papers,labs,other_china_labs,Kimi GLM and MiniMax,2,266,0.752,434,5.075,31
-2025-01-01,hf_papers,applications,chatbots,Chatbots and assistants,1,266,0.376,12,0.14,31
+2025-01-01,hf_papers,applications,autonomous_driving,Autonomous driving,2,266,0.752,31,0.363,31
+2025-01-01,hf_papers,applications,world_models,World models,2,266,0.752,117,1.368,31
+2025-01-01,hf_papers,infrastructure,kv_cache,KV cache and prompt caching,1,266,0.376,90,1.053,31
+2025-01-01,hf_papers,market,regulation_policy,Regulation and policy,1,266,0.376,5,0.058,31
 2025-01-01,hf_papers,labs,mistral,Mistral,1,266,0.376,26,0.304,31
 2025-01-01,hf_papers,infrastructure,fp4,FP4 low precision,1,266,0.376,36,0.421,31
-2025-01-01,hf_papers,market,regulation_policy,Regulation and policy,1,266,0.376,5,0.058,31
-2025-01-01,hf_papers,infrastructure,kv_cache,KV cache and prompt caching,1,266,0.376,90,1.053,31
+2025-01-01,hf_papers,applications,chatbots,Chatbots and assistants,1,266,0.376,12,0.14,31
 2025-01-01,hf_papers,applications,mcp,Model Context Protocol,0,266,0.0,0,0.0,31
 2025-01-01,hf_papers,techniques,diffusion_lms,Diffusion language models,0,266,0.0,0,0.0,31
 2025-01-01,hf_papers,infrastructure,speculative_decoding,Speculative decoding,0,266,0.0,0,0.0,31
@@ -146,7 +146,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-01-01,hn,infrastructure,ai_chips,AI chips and accelerators,36,24707,0.146,492,0.104,31
 2025-01-01,hn,applications,ai_search,AI search and answer engines,32,24707,0.13,453,0.096,31
 2025-01-01,hn,market,regulation_policy,Regulation and policy,30,24707,0.121,380,0.08,31
-2025-01-01,hn,techniques,safety_security,AI safety and security,29,24707,0.117,72,0.015,31
+2025-01-01,hn,techniques,safety_security,AI safety and security,28,24707,0.113,71,0.015,31
 2025-01-01,hn,infrastructure,inference_serving,Inference and serving,28,24707,0.113,86,0.018,31
 2025-01-01,hn,applications,medical_ai,Medical AI,28,24707,0.113,91,0.019,31
 2025-01-01,hn,labs,qwen,Qwen,27,24707,0.109,655,0.138,31
@@ -199,7 +199,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-02-01,hf_models,techniques,multimodal,Multimodal and vision-language,745,94765,0.786,7757,13.707,28
 2025-02-01,hf_models,applications,agents,AI agents,636,94765,0.671,1285,2.271,28
 2025-02-01,hf_models,labs,openai,OpenAI,621,94765,0.655,1005,1.776,28
-2025-02-01,hf_models,techniques,safety_security,AI safety and security,430,94765,0.454,132,0.233,28
 2025-02-01,hf_models,applications,chatbots,Chatbots and assistants,316,94765,0.333,304,0.537,28
 2025-02-01,hf_models,market,agi,AGI and superintelligence,304,94765,0.321,14,0.025,28
 2025-02-01,hf_models,techniques,moe,Mixture of experts,191,94765,0.202,1022,1.806,28
@@ -208,6 +207,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-02-01,hf_models,infrastructure,gpus_nvidia,GPUs and Nvidia,144,94765,0.152,463,0.818,28
 2025-02-01,hf_models,techniques,interpretability,Interpretability,139,94765,0.147,12,0.021,28
 2025-02-01,hf_models,techniques,evals_benchmarks,Evals and benchmarks,109,94765,0.115,4502,7.955,28
+2025-02-01,hf_models,techniques,safety_security,AI safety and security,92,94765,0.097,48,0.085,28
 2025-02-01,hf_models,applications,video_generation,Video generation,87,94765,0.092,5379,9.505,28
 2025-02-01,hf_models,words,term_assistant,Word: assistant,73,94765,0.077,82,0.145,28
 2025-02-01,hf_models,techniques,synthetic_data,Synthetic data,69,94765,0.073,622,1.099,28
@@ -247,7 +247,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-02-01,hf_papers,techniques,multimodal,Multimodal and vision-language,85,502,16.932,1888,15.928,28
 2025-02-01,hf_papers,techniques,rl_post_training,RL and preference tuning,78,502,15.538,2334,19.691,28
 2025-02-01,hf_papers,labs,openai,OpenAI,69,502,13.745,2174,18.341,28
-2025-02-01,hf_papers,techniques,safety_security,AI safety and security,62,502,12.351,1229,10.369,28
 2025-02-01,hf_papers,applications,agents,AI agents,57,502,11.355,1338,11.288,28
 2025-02-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),56,502,11.155,1719,14.503,28
 2025-02-01,hf_papers,labs,meta_llama,Meta Llama,47,502,9.363,1650,13.921,28
@@ -262,6 +261,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-02-01,hf_papers,techniques,long_context,Long context,29,502,5.777,1254,10.58,28
 2025-02-01,hf_papers,techniques,interpretability,Interpretability,26,502,5.179,493,4.159,28
 2025-02-01,hf_papers,labs,google_gemini,Google Gemini and Gemma,25,502,4.98,600,5.062,28
+2025-02-01,hf_papers,techniques,safety_security,AI safety and security,25,502,4.98,545,4.598,28
 2025-02-01,hf_papers,techniques,synthetic_data,Synthetic data,19,502,3.785,592,4.995,28
 2025-02-01,hf_papers,applications,rag,Retrieval-augmented generation,18,502,3.586,322,2.717,28
 2025-02-01,hf_papers,applications,coding_assistants,AI coding tools,18,502,3.586,431,3.636,28
@@ -325,8 +325,8 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-02-01,hn,techniques,evals_benchmarks,Evals and benchmarks,34,22145,0.154,392,0.082,28
 2025-02-01,hn,techniques,rl_post_training,RL and preference tuning,34,22145,0.154,1363,0.285,28
 2025-02-01,hn,infrastructure,inference_serving,Inference and serving,32,22145,0.145,613,0.128,28
-2025-02-01,hn,techniques,safety_security,AI safety and security,31,22145,0.14,722,0.151,28
 2025-02-01,hn,market,agi,AGI and superintelligence,30,22145,0.135,291,0.061,28
+2025-02-01,hn,techniques,safety_security,AI safety and security,30,22145,0.135,721,0.151,28
 2025-02-01,hn,applications,video_generation,Video generation,28,22145,0.126,117,0.024,28
 2025-02-01,hn,infrastructure,ai_chips,AI chips and accelerators,23,22145,0.104,351,0.073,28
 2025-02-01,hn,techniques,fine_tuning,Fine-tuning and LoRA,22,22145,0.099,257,0.054,28
@@ -379,7 +379,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-03-01,hf_models,techniques,reasoning,Reasoning and test-time compute,957,92709,1.032,1169,1.728,31
 2025-03-01,hf_models,applications,medical_ai,Medical AI,921,92709,0.993,396,0.585,31
 2025-03-01,hf_models,applications,agents,AI agents,602,92709,0.649,762,1.126,31
-2025-03-01,hf_models,techniques,safety_security,AI safety and security,409,92709,0.441,74,0.109,31
 2025-03-01,hf_models,applications,chatbots,Chatbots and assistants,405,92709,0.437,150,0.222,31
 2025-03-01,hf_models,market,agi,AGI and superintelligence,399,92709,0.43,8,0.012,31
 2025-03-01,hf_models,techniques,interpretability,Interpretability,342,92709,0.369,11,0.016,31
@@ -393,6 +392,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-03-01,hf_models,applications,ai_for_science,AI for science,104,92709,0.112,32,0.047,31
 2025-03-01,hf_models,applications,robotics,Robotics and embodied AI,100,92709,0.108,492,0.727,31
 2025-03-01,hf_models,words,term_assistant,Word: assistant,73,92709,0.079,2,0.003,31
+2025-03-01,hf_models,techniques,safety_security,AI safety and security,55,92709,0.059,68,0.101,31
 2025-03-01,hf_models,techniques,synthetic_data,Synthetic data,52,92709,0.056,292,0.432,31
 2025-03-01,hf_models,labs,anthropic_claude,Anthropic and Claude,46,92709,0.05,225,0.333,31
 2025-03-01,hf_models,infrastructure,ai_chips,AI chips and accelerators,43,92709,0.046,6,0.009,31
@@ -426,7 +426,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-03-01,hf_papers,techniques,fine_tuning,Fine-tuning and LoRA,121,611,19.804,2854,22.341,31
 2025-03-01,hf_papers,infrastructure,inference_serving,Inference and serving,116,611,18.985,2769,21.675,31
 2025-03-01,hf_papers,techniques,rl_post_training,RL and preference tuning,76,611,12.439,2232,17.472,31
-2025-03-01,hf_papers,techniques,safety_security,AI safety and security,72,611,11.784,1570,12.29,31
 2025-03-01,hf_papers,labs,openai,OpenAI,72,611,11.784,1636,12.806,31
 2025-03-01,hf_papers,applications,agents,AI agents,64,611,10.475,1458,11.413,31
 2025-03-01,hf_papers,applications,video_generation,Video generation,63,611,10.311,1587,12.423,31
@@ -446,6 +445,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-03-01,hf_papers,techniques,prompt_context_engineering,Prompt and context engineering,23,611,3.764,383,2.998,31
 2025-03-01,hf_papers,applications,medical_ai,Medical AI,23,611,3.764,361,2.826,31
 2025-03-01,hf_papers,techniques,interpretability,Interpretability,22,611,3.601,648,5.072,31
+2025-03-01,hf_papers,techniques,safety_security,AI safety and security,20,611,3.273,512,4.008,31
 2025-03-01,hf_papers,applications,voice_audio,Voice speech and audio,20,611,3.273,769,6.02,31
 2025-03-01,hf_papers,techniques,hallucination,Hallucination,19,611,3.11,474,3.71,31
 2025-03-01,hf_papers,techniques,synthetic_data,Synthetic data,19,611,3.11,467,3.656,31
@@ -507,9 +507,9 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-03-01,hn,infrastructure,inference_serving,Inference and serving,34,24974,0.136,117,0.024,31
 2025-03-01,hn,applications,image_generation,Image generation,33,24974,0.132,1292,0.262,31
 2025-03-01,hn,infrastructure,ai_chips,AI chips and accelerators,32,24974,0.128,96,0.019,31
-2025-03-01,hn,techniques,safety_security,AI safety and security,23,24974,0.092,60,0.012,31
 2025-03-01,hn,labs,qwen,Qwen,22,24974,0.088,1106,0.224,31
 2025-03-01,hn,labs,xai_grok,xAI and Grok,22,24974,0.088,935,0.19,31
+2025-03-01,hn,techniques,safety_security,AI safety and security,21,24974,0.084,58,0.012,31
 2025-03-01,hn,techniques,hallucination,Hallucination,18,24974,0.072,1022,0.207,31
 2025-03-01,hn,applications,medical_ai,Medical AI,18,24974,0.072,166,0.034,31
 2025-03-01,hn,techniques,multimodal,Multimodal and vision-language,17,24974,0.068,152,0.031,31
@@ -563,13 +563,13 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-04-01,hf_models,techniques,evals_benchmarks,Evals and benchmarks,417,100097,0.417,9917,13.591,30
 2025-04-01,hf_models,techniques,interpretability,Interpretability,346,100097,0.346,26,0.036,30
 2025-04-01,hf_models,applications,chatbots,Chatbots and assistants,317,100097,0.317,51,0.07,30
-2025-04-01,hf_models,techniques,safety_security,AI safety and security,301,100097,0.301,35,0.048,30
 2025-04-01,hf_models,market,agi,AGI and superintelligence,245,100097,0.245,5,0.007,30
 2025-04-01,hf_models,applications,rag,Retrieval-augmented generation,222,100097,0.222,217,0.297,30
 2025-04-01,hf_models,techniques,moe,Mixture of experts,172,100097,0.172,3414,4.679,30
 2025-04-01,hf_models,applications,robotics,Robotics and embodied AI,164,100097,0.164,154,0.211,30
 2025-04-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,138,100097,0.138,2711,3.715,30
 2025-04-01,hf_models,market,jobs_work,Jobs and work,133,100097,0.133,31,0.042,30
+2025-04-01,hf_models,techniques,safety_security,AI safety and security,107,100097,0.107,11,0.015,30
 2025-04-01,hf_models,applications,ai_for_science,AI for science,101,100097,0.101,17,0.023,30
 2025-04-01,hf_models,words,term_assistant,Word: assistant,81,100097,0.081,95,0.13,30
 2025-04-01,hf_models,applications,video_generation,Video generation,80,100097,0.08,1880,2.577,30
@@ -606,7 +606,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-04-01,hf_papers,techniques,fine_tuning,Fine-tuning and LoRA,114,456,25.0,3102,26.056,30
 2025-04-01,hf_papers,infrastructure,inference_serving,Inference and serving,80,456,17.544,2341,19.664,30
 2025-04-01,hf_papers,techniques,rl_post_training,RL and preference tuning,79,456,17.325,2802,23.536,30
-2025-04-01,hf_papers,techniques,safety_security,AI safety and security,70,456,15.351,2119,17.799,30
 2025-04-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),62,456,13.596,2645,22.218,30
 2025-04-01,hf_papers,applications,agents,AI agents,60,456,13.158,1796,15.086,30
 2025-04-01,hf_papers,labs,openai,OpenAI,48,456,10.526,1891,15.884,30
@@ -618,10 +617,11 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-04-01,hf_papers,labs,deepseek,DeepSeek,29,456,6.36,1114,9.357,30
 2025-04-01,hf_papers,techniques,embeddings_vector_search,Embeddings and vector search,29,456,6.36,680,5.712,30
 2025-04-01,hf_papers,applications,video_generation,Video generation,29,456,6.36,1073,9.013,30
-2025-04-01,hf_papers,techniques,long_context,Long context,21,456,4.605,742,6.233,30
 2025-04-01,hf_papers,labs,meta_llama,Meta Llama,21,456,4.605,566,4.754,30
+2025-04-01,hf_papers,techniques,long_context,Long context,21,456,4.605,742,6.233,30
 2025-04-01,hf_papers,labs,google_gemini,Google Gemini and Gemma,19,456,4.167,895,7.518,30
 2025-04-01,hf_papers,applications,voice_audio,Voice speech and audio,18,456,3.947,500,4.2,30
+2025-04-01,hf_papers,techniques,safety_security,AI safety and security,18,456,3.947,295,2.478,30
 2025-04-01,hf_papers,techniques,prompt_context_engineering,Prompt and context engineering,18,456,3.947,238,1.999,30
 2025-04-01,hf_papers,applications,medical_ai,Medical AI,16,456,3.509,190,1.596,30
 2025-04-01,hf_papers,techniques,interpretability,Interpretability,16,456,3.509,202,1.697,30
@@ -692,12 +692,12 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-04-01,hn,market,regulation_policy,Regulation and policy,24,23743,0.101,261,0.055,30
 2025-04-01,hn,applications,robotics,Robotics and embodied AI,22,23743,0.093,271,0.058,30
 2025-04-01,hn,labs,xai_grok,xAI and Grok,22,23743,0.093,174,0.037,30
-2025-04-01,hn,techniques,safety_security,AI safety and security,19,23743,0.08,175,0.037,30
 2025-04-01,hn,market,funding_bubble,Funding valuations and bubble talk,19,23743,0.08,134,0.028,30
 2025-04-01,hn,applications,voice_audio,Voice speech and audio,18,23743,0.076,75,0.016,30
 2025-04-01,hn,labs,qwen,Qwen,18,23743,0.076,1133,0.24,30
 2025-04-01,hn,applications,medical_ai,Medical AI,18,23743,0.076,51,0.011,30
 2025-04-01,hn,techniques,fine_tuning,Fine-tuning and LoRA,17,23743,0.072,238,0.051,30
+2025-04-01,hn,techniques,safety_security,AI safety and security,17,23743,0.072,171,0.036,30
 2025-04-01,hn,applications,computer_use,Computer and browser use,17,23743,0.072,307,0.065,30
 2025-04-01,hn,techniques,multimodal,Multimodal and vision-language,13,23743,0.055,117,0.025,30
 2025-04-01,hn,infrastructure,quantization,Quantization,11,23743,0.046,129,0.027,30
@@ -738,7 +738,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-05-01,hf_models,techniques,distillation,Distillation,986,103922,0.949,1120,1.987,31
 2025-05-01,hf_models,applications,medical_ai,Medical AI,930,103922,0.895,3063,5.435,31
 2025-05-01,hf_models,labs,openai,OpenAI,677,103922,0.651,226,0.401,31
-2025-05-01,hf_models,techniques,safety_security,AI safety and security,511,103922,0.492,128,0.227,31
 2025-05-01,hf_models,techniques,moe,Mixture of experts,504,103922,0.485,1007,1.787,31
 2025-05-01,hf_models,applications,agents,AI agents,450,103922,0.433,535,0.949,31
 2025-05-01,hf_models,infrastructure,gpus_nvidia,GPUs and Nvidia,387,103922,0.372,1555,2.759,31
@@ -752,6 +751,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-05-01,hf_models,applications,video_generation,Video generation,88,103922,0.085,2266,4.021,31
 2025-05-01,hf_models,applications,coding_assistants,AI coding tools,86,103922,0.083,1619,2.873,31
 2025-05-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,75,103922,0.072,180,0.319,31
+2025-05-01,hf_models,techniques,safety_security,AI safety and security,63,103922,0.061,118,0.209,31
 2025-05-01,hf_models,labs,anthropic_claude,Anthropic and Claude,59,103922,0.057,3,0.005,31
 2025-05-01,hf_models,market,jobs_work,Jobs and work,58,103922,0.056,27,0.048,31
 2025-05-01,hf_models,techniques,ssm_linear_attention,State-space and linear attention,57,103922,0.055,58,0.103,31
@@ -788,7 +788,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-05-01,hf_papers,infrastructure,inference_serving,Inference and serving,121,655,18.473,3385,22.948,31
 2025-05-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),86,655,13.13,2479,16.806,31
 2025-05-01,hf_papers,applications,agents,AI agents,84,655,12.824,2672,18.114,31
-2025-05-01,hf_papers,techniques,safety_security,AI safety and security,79,655,12.061,1691,11.464,31
 2025-05-01,hf_papers,labs,openai,OpenAI,76,655,11.603,3020,20.473,31
 2025-05-01,hf_papers,labs,qwen,Qwen,61,655,9.313,1988,13.477,31
 2025-05-01,hf_papers,market,funding_bubble,Funding valuations and bubble talk,58,655,8.855,1351,9.159,31
@@ -806,6 +805,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-05-01,hf_papers,infrastructure,gpus_nvidia,GPUs and Nvidia,27,655,4.122,670,4.542,31
 2025-05-01,hf_papers,labs,google_gemini,Google Gemini and Gemma,26,655,3.969,489,3.315,31
 2025-05-01,hf_papers,applications,video_generation,Video generation,26,655,3.969,537,3.64,31
+2025-05-01,hf_papers,techniques,safety_security,AI safety and security,23,655,3.511,419,2.84,31
 2025-05-01,hf_papers,techniques,long_context,Long context,23,655,3.511,742,5.03,31
 2025-05-01,hf_papers,techniques,hallucination,Hallucination,22,655,3.359,325,2.203,31
 2025-05-01,hf_papers,applications,rag,Retrieval-augmented generation,22,655,3.359,321,2.176,31
@@ -883,7 +883,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-05-01,hn,applications,computer_use,Computer and browser use,15,24935,0.06,225,0.05,31
 2025-05-01,hn,applications,ai_for_science,AI for science,12,24935,0.048,577,0.127,31
 2025-05-01,hn,labs,mistral,Mistral,12,24935,0.048,1390,0.307,31
-2025-05-01,hn,techniques,safety_security,AI safety and security,12,24935,0.048,199,0.044,31
+2025-05-01,hn,techniques,safety_security,AI safety and security,11,24935,0.044,198,0.044,31
 2025-05-01,hn,techniques,diffusion_lms,Diffusion language models,7,24935,0.028,162,0.036,31
 2025-05-01,hn,techniques,interpretability,Interpretability,5,24935,0.02,11,0.002,31
 2025-05-01,hn,applications,world_models,World models,5,24935,0.02,16,0.004,31
@@ -913,7 +913,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-06-01,hf_models,infrastructure,inference_serving,Inference and serving,1986,78836,2.519,6061,12.139,30
 2025-06-01,hf_models,applications,voice_audio,Voice speech and audio,1682,78836,2.134,5683,11.381,30
 2025-06-01,hf_models,techniques,multimodal,Multimodal and vision-language,1145,78836,1.452,9978,19.983,30
-2025-06-01,hf_models,techniques,safety_security,AI safety and security,830,78836,1.053,56,0.112,30
 2025-06-01,hf_models,applications,agents,AI agents,761,78836,0.965,194,0.389,30
 2025-06-01,hf_models,techniques,reasoning,Reasoning and test-time compute,730,78836,0.926,2620,5.247,30
 2025-06-01,hf_models,labs,deepseek,DeepSeek,726,78836,0.921,440,0.881,30
@@ -935,12 +934,13 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-06-01,hf_models,applications,video_generation,Video generation,69,78836,0.088,1875,3.755,30
 2025-06-01,hf_models,applications,ai_for_science,AI for science,67,78836,0.085,13,0.026,30
 2025-06-01,hf_models,techniques,ssm_linear_attention,State-space and linear attention,66,78836,0.084,29,0.058,30
+2025-06-01,hf_models,techniques,safety_security,AI safety and security,39,78836,0.049,35,0.07,30
 2025-06-01,hf_models,applications,mcp,Model Context Protocol,32,78836,0.041,60,0.12,30
 2025-06-01,hf_models,infrastructure,fp4,FP4 low precision,31,78836,0.039,73,0.146,30
 2025-06-01,hf_models,market,funding_bubble,Funding valuations and bubble talk,31,78836,0.039,2,0.004,30
 2025-06-01,hf_models,applications,autonomous_driving,Autonomous driving,20,78836,0.025,4,0.008,30
-2025-06-01,hf_models,techniques,synthetic_data,Synthetic data,18,78836,0.023,3,0.006,30
 2025-06-01,hf_models,infrastructure,ai_chips,AI chips and accelerators,18,78836,0.023,6,0.012,30
+2025-06-01,hf_models,techniques,synthetic_data,Synthetic data,18,78836,0.023,3,0.006,30
 2025-06-01,hf_models,techniques,long_context,Long context,16,78836,0.02,129,0.258,30
 2025-06-01,hf_models,infrastructure,speculative_decoding,Speculative decoding,14,78836,0.018,1,0.002,30
 2025-06-01,hf_models,market,copyright_licensing,Copyright and data rights,13,78836,0.016,11,0.022,30
@@ -967,7 +967,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-06-01,hf_papers,techniques,rl_post_training,RL and preference tuning,127,667,19.04,3787,28.904,30
 2025-06-01,hf_papers,infrastructure,inference_serving,Inference and serving,97,667,14.543,2004,15.295,30
 2025-06-01,hf_papers,applications,agents,AI agents,94,667,14.093,1824,13.922,30
-2025-06-01,hf_papers,techniques,safety_security,AI safety and security,81,667,12.144,1192,9.098,30
 2025-06-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),75,667,11.244,1952,14.898,30
 2025-06-01,hf_papers,techniques,distillation,Distillation,56,667,8.396,1339,10.22,30
 2025-06-01,hf_papers,market,copyright_licensing,Copyright and data rights,53,667,7.946,1308,9.983,30
@@ -985,11 +984,12 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-06-01,hf_papers,techniques,long_context,Long context,28,667,4.198,806,6.152,30
 2025-06-01,hf_papers,techniques,prompt_context_engineering,Prompt and context engineering,27,667,4.048,257,1.962,30
 2025-06-01,hf_papers,applications,voice_audio,Voice speech and audio,25,667,3.748,333,2.542,30
+2025-06-01,hf_papers,techniques,safety_security,AI safety and security,24,667,3.598,227,1.733,30
 2025-06-01,hf_papers,labs,google_gemini,Google Gemini and Gemma,23,667,3.448,384,2.931,30
 2025-06-01,hf_papers,labs,deepseek,DeepSeek,22,667,3.298,668,5.098,30
 2025-06-01,hf_papers,applications,rag,Retrieval-augmented generation,21,667,3.148,306,2.336,30
-2025-06-01,hf_papers,techniques,hallucination,Hallucination,19,667,2.849,510,3.893,30
 2025-06-01,hf_papers,applications,coding_assistants,AI coding tools,19,667,2.849,376,2.87,30
+2025-06-01,hf_papers,techniques,hallucination,Hallucination,19,667,2.849,510,3.893,30
 2025-06-01,hf_papers,techniques,synthetic_data,Synthetic data,18,667,2.699,620,4.732,30
 2025-06-01,hf_papers,infrastructure,local_on_device,Local and on-device AI,15,667,2.249,275,2.099,30
 2025-06-01,hf_papers,infrastructure,quantization,Quantization,14,667,2.099,378,2.885,30
@@ -1043,13 +1043,13 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-06-01,hn,applications,video_generation,Video generation,34,23523,0.145,224,0.054,30
 2025-06-01,hn,labs,meta_llama,Meta Llama,34,23523,0.145,1057,0.255,30
 2025-06-01,hn,labs,deepseek,DeepSeek,32,23523,0.136,652,0.157,30
-2025-06-01,hn,applications,voice_audio,Voice speech and audio,31,23523,0.132,164,0.04,30
 2025-06-01,hn,techniques,reasoning,Reasoning and test-time compute,31,23523,0.132,1178,0.284,30
+2025-06-01,hn,applications,voice_audio,Voice speech and audio,31,23523,0.132,164,0.04,30
 2025-06-01,hn,techniques,evals_benchmarks,Evals and benchmarks,30,23523,0.128,162,0.039,30
 2025-06-01,hn,techniques,rl_post_training,RL and preference tuning,29,23523,0.123,400,0.097,30
-2025-06-01,hn,techniques,safety_security,AI safety and security,27,23523,0.115,441,0.106,30
 2025-06-01,hn,infrastructure,inference_serving,Inference and serving,27,23523,0.115,816,0.197,30
 2025-06-01,hn,market,regulation_policy,Regulation and policy,25,23523,0.106,82,0.02,30
+2025-06-01,hn,techniques,safety_security,AI safety and security,23,23523,0.098,379,0.091,30
 2025-06-01,hn,applications,medical_ai,Medical AI,23,23523,0.098,223,0.054,30
 2025-06-01,hn,techniques,fine_tuning,Fine-tuning and LoRA,23,23523,0.098,377,0.091,30
 2025-06-01,hn,techniques,hallucination,Hallucination,20,23523,0.085,338,0.082,30
@@ -1110,10 +1110,10 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-07-01,hf_models,techniques,interpretability,Interpretability,221,72777,0.304,16,0.025,31
 2025-07-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,182,72777,0.25,6403,9.93,31
 2025-07-01,hf_models,techniques,evals_benchmarks,Evals and benchmarks,159,72777,0.218,14575,22.603,31
-2025-07-01,hf_models,techniques,safety_security,AI safety and security,153,72777,0.21,39,0.06,31
 2025-07-01,hf_models,applications,rag,Retrieval-augmented generation,118,72777,0.162,548,0.85,31
 2025-07-01,hf_models,words,term_assistant,Word: assistant,94,72777,0.129,23,0.036,31
 2025-07-01,hf_models,applications,video_generation,Video generation,92,72777,0.126,7960,12.344,31
+2025-07-01,hf_models,techniques,safety_security,AI safety and security,82,72777,0.113,36,0.056,31
 2025-07-01,hf_models,market,regulation_policy,Regulation and policy,81,72777,0.111,315,0.488,31
 2025-07-01,hf_models,techniques,ssm_linear_attention,State-space and linear attention,57,72777,0.078,39,0.06,31
 2025-07-01,hf_models,infrastructure,fp4,FP4 low precision,52,72777,0.071,126,0.195,31
@@ -1148,7 +1148,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-07-01,hf_papers,infrastructure,inference_serving,Inference and serving,63,383,16.449,2295,20.112,31
 2025-07-01,hf_papers,applications,agents,AI agents,59,383,15.405,2509,21.988,31
 2025-07-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),51,383,13.316,1956,17.141,31
-2025-07-01,hf_papers,techniques,safety_security,AI safety and security,40,383,10.444,1182,10.358,31
 2025-07-01,hf_papers,labs,qwen,Qwen,34,383,8.877,1850,16.212,31
 2025-07-01,hf_papers,market,copyright_licensing,Copyright and data rights,32,383,8.355,846,7.414,31
 2025-07-01,hf_papers,labs,openai,OpenAI,29,383,7.572,983,8.614,31
@@ -1158,44 +1157,45 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-07-01,hf_papers,market,funding_bubble,Funding valuations and bubble talk,24,383,6.266,699,6.126,31
 2025-07-01,hf_papers,techniques,distillation,Distillation,22,383,5.744,560,4.908,31
 2025-07-01,hf_papers,applications,voice_audio,Voice speech and audio,22,383,5.744,685,6.003,31
-2025-07-01,hf_papers,applications,image_generation,Image generation,21,383,5.483,637,5.582,31
 2025-07-01,hf_papers,techniques,interpretability,Interpretability,21,383,5.483,524,4.592,31
+2025-07-01,hf_papers,applications,image_generation,Image generation,21,383,5.483,637,5.582,31
 2025-07-01,hf_papers,applications,medical_ai,Medical AI,20,383,5.222,535,4.688,31
 2025-07-01,hf_papers,applications,coding_assistants,AI coding tools,19,383,4.961,469,4.11,31
 2025-07-01,hf_papers,labs,meta_llama,Meta Llama,17,383,4.439,583,5.109,31
 2025-07-01,hf_papers,infrastructure,gpus_nvidia,GPUs and Nvidia,17,383,4.439,747,6.546,31
 2025-07-01,hf_papers,techniques,long_context,Long context,17,383,4.439,594,5.206,31
-2025-07-01,hf_papers,applications,rag,Retrieval-augmented generation,14,383,3.655,825,7.23,31
 2025-07-01,hf_papers,techniques,prompt_context_engineering,Prompt and context engineering,14,383,3.655,469,4.11,31
+2025-07-01,hf_papers,applications,rag,Retrieval-augmented generation,14,383,3.655,825,7.23,31
 2025-07-01,hf_papers,techniques,hallucination,Hallucination,12,383,3.133,297,2.603,31
+2025-07-01,hf_papers,techniques,safety_security,AI safety and security,12,383,3.133,194,1.7,31
 2025-07-01,hf_papers,labs,google_gemini,Google Gemini and Gemma,12,383,3.133,482,4.224,31
 2025-07-01,hf_papers,infrastructure,quantization,Quantization,11,383,2.872,450,3.944,31
 2025-07-01,hf_papers,labs,deepseek,DeepSeek,10,383,2.611,260,2.279,31
 2025-07-01,hf_papers,labs,anthropic_claude,Anthropic and Claude,10,383,2.611,230,2.016,31
-2025-07-01,hf_papers,techniques,synthetic_data,Synthetic data,8,383,2.089,143,1.253,31
 2025-07-01,hf_papers,techniques,moe,Mixture of experts,8,383,2.089,472,4.136,31
+2025-07-01,hf_papers,techniques,synthetic_data,Synthetic data,8,383,2.089,143,1.253,31
+2025-07-01,hf_papers,applications,ai_for_science,AI for science,7,383,1.828,128,1.122,31
 2025-07-01,hf_papers,applications,world_models,World models,7,383,1.828,121,1.06,31
 2025-07-01,hf_papers,techniques,ssm_linear_attention,State-space and linear attention,7,383,1.828,197,1.726,31
 2025-07-01,hf_papers,infrastructure,local_on_device,Local and on-device AI,7,383,1.828,218,1.91,31
-2025-07-01,hf_papers,applications,ai_for_science,AI for science,7,383,1.828,128,1.122,31
-2025-07-01,hf_papers,words,term_assistant,Word: assistant,6,383,1.567,105,0.92,31
 2025-07-01,hf_papers,infrastructure,kv_cache,KV cache and prompt caching,6,383,1.567,333,2.918,31
+2025-07-01,hf_papers,words,term_assistant,Word: assistant,6,383,1.567,105,0.92,31
 2025-07-01,hf_papers,words,term_open_weights,Word: open weights,5,383,1.305,182,1.595,31
 2025-07-01,hf_papers,applications,ai_search,AI search and answer engines,5,383,1.305,161,1.411,31
-2025-07-01,hf_papers,market,agi,AGI and superintelligence,4,383,1.044,308,2.699,31
 2025-07-01,hf_papers,techniques,diffusion_lms,Diffusion language models,4,383,1.044,132,1.157,31
 2025-07-01,hf_papers,market,regulation_policy,Regulation and policy,4,383,1.044,67,0.587,31
+2025-07-01,hf_papers,market,agi,AGI and superintelligence,4,383,1.044,308,2.699,31
 2025-07-01,hf_papers,applications,chatbots,Chatbots and assistants,3,383,0.783,76,0.666,31
 2025-07-01,hf_papers,applications,autonomous_driving,Autonomous driving,3,383,0.783,47,0.412,31
 2025-07-01,hf_papers,applications,computer_use,Computer and browser use,3,383,0.783,208,1.823,31
 2025-07-01,hf_papers,infrastructure,speculative_decoding,Speculative decoding,3,383,0.783,30,0.263,31
 2025-07-01,hf_papers,applications,mcp,Model Context Protocol,2,383,0.522,24,0.21,31
-2025-07-01,hf_papers,market,jobs_work,Jobs and work,2,383,0.522,24,0.21,31
 2025-07-01,hf_papers,labs,mistral,Mistral,2,383,0.522,17,0.149,31
 2025-07-01,hf_papers,words,term_serving,Word: serving,2,383,0.522,37,0.324,31
+2025-07-01,hf_papers,market,jobs_work,Jobs and work,2,383,0.522,24,0.21,31
+2025-07-01,hf_papers,infrastructure,fp4,FP4 low precision,1,383,0.261,8,0.07,31
 2025-07-01,hf_papers,labs,xai_grok,xAI and Grok,1,383,0.261,24,0.21,31
 2025-07-01,hf_papers,labs,other_china_labs,Kimi GLM and MiniMax,1,383,0.261,257,2.252,31
-2025-07-01,hf_papers,infrastructure,fp4,FP4 low precision,1,383,0.261,8,0.07,31
 2025-07-01,hf_papers,infrastructure,data_centers,Data centers and power,0,383,0.0,0,0.0,31
 2025-07-01,hf_papers,infrastructure,semiconductors,Semiconductors and fabs,0,383,0.0,0,0.0,31
 2025-07-01,hf_papers,infrastructure,ai_chips,AI chips and accelerators,0,383,0.0,0,0.0,31
@@ -1230,7 +1230,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-07-01,hn,techniques,fine_tuning,Fine-tuning and LoRA,33,25191,0.131,320,0.067,31
 2025-07-01,hn,techniques,prompt_context_engineering,Prompt and context engineering,31,25191,0.123,456,0.096,31
 2025-07-01,hn,applications,image_generation,Image generation,31,25191,0.123,524,0.11,31
-2025-07-01,hn,techniques,safety_security,AI safety and security,30,25191,0.119,918,0.193,31
+2025-07-01,hn,techniques,safety_security,AI safety and security,29,25191,0.115,915,0.192,31
 2025-07-01,hn,market,regulation_policy,Regulation and policy,29,25191,0.115,246,0.052,31
 2025-07-01,hn,techniques,reasoning,Reasoning and test-time compute,28,25191,0.111,430,0.09,31
 2025-07-01,hn,market,copyright_licensing,Copyright and data rights,25,25191,0.099,397,0.083,31
@@ -1288,11 +1288,11 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-08-01,hf_models,applications,chatbots,Chatbots and assistants,212,94246,0.225,71,0.092,31
 2025-08-01,hf_models,techniques,interpretability,Interpretability,208,94246,0.221,1222,1.59,31
 2025-08-01,hf_models,infrastructure,gpus_nvidia,GPUs and Nvidia,186,94246,0.197,3908,5.085,31
-2025-08-01,hf_models,techniques,safety_security,AI safety and security,160,94246,0.17,105,0.137,31
 2025-08-01,hf_models,applications,coding_assistants,AI coding tools,128,94246,0.136,1029,1.339,31
 2025-08-01,hf_models,applications,rag,Retrieval-augmented generation,123,94246,0.131,79,0.103,31
 2025-08-01,hf_models,words,term_assistant,Word: assistant,100,94246,0.106,14,0.018,31
 2025-08-01,hf_models,applications,video_generation,Video generation,87,94246,0.092,3465,4.509,31
+2025-08-01,hf_models,techniques,safety_security,AI safety and security,64,94246,0.068,96,0.125,31
 2025-08-01,hf_models,market,jobs_work,Jobs and work,64,94246,0.068,7,0.009,31
 2025-08-01,hf_models,applications,ai_for_science,AI for science,43,94246,0.046,25,0.033,31
 2025-08-01,hf_models,infrastructure,speculative_decoding,Speculative decoding,42,94246,0.045,151,0.196,31
@@ -1328,13 +1328,12 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-08-01,hf_papers,techniques,fine_tuning,Fine-tuning and LoRA,96,452,21.239,2939,24.281,31
 2025-08-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),78,452,17.257,2970,24.537,31
 2025-08-01,hf_papers,infrastructure,inference_serving,Inference and serving,64,452,14.159,1931,15.953,31
-2025-08-01,hf_papers,techniques,safety_security,AI safety and security,62,452,13.717,1883,15.557,31
 2025-08-01,hf_papers,labs,openai,OpenAI,38,452,8.407,1119,9.245,31
 2025-08-01,hf_papers,market,funding_bubble,Funding valuations and bubble talk,37,452,8.186,1002,8.278,31
 2025-08-01,hf_papers,market,copyright_licensing,Copyright and data rights,36,452,7.965,1224,10.112,31
 2025-08-01,hf_papers,labs,qwen,Qwen,30,452,6.637,1083,8.947,31
-2025-08-01,hf_papers,applications,robotics,Robotics and embodied AI,29,452,6.416,815,6.733,31
 2025-08-01,hf_papers,applications,image_generation,Image generation,29,452,6.416,1033,8.534,31
+2025-08-01,hf_papers,applications,robotics,Robotics and embodied AI,29,452,6.416,815,6.733,31
 2025-08-01,hf_papers,applications,video_generation,Video generation,28,452,6.195,783,6.469,31
 2025-08-01,hf_papers,techniques,interpretability,Interpretability,27,452,5.973,388,3.206,31
 2025-08-01,hf_papers,techniques,distillation,Distillation,25,452,5.531,642,5.304,31
@@ -1349,6 +1348,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-08-01,hf_papers,techniques,long_context,Long context,16,452,3.54,644,5.321,31
 2025-08-01,hf_papers,labs,google_gemini,Google Gemini and Gemma,15,452,3.319,339,2.801,31
 2025-08-01,hf_papers,infrastructure,gpus_nvidia,GPUs and Nvidia,15,452,3.319,806,6.659,31
+2025-08-01,hf_papers,techniques,safety_security,AI safety and security,14,452,3.097,118,0.975,31
 2025-08-01,hf_papers,applications,ai_search,AI search and answer engines,13,452,2.876,758,6.262,31
 2025-08-01,hf_papers,applications,computer_use,Computer and browser use,12,452,2.655,668,5.519,31
 2025-08-01,hf_papers,labs,meta_llama,Meta Llama,11,452,2.434,178,1.471,31
@@ -1409,10 +1409,10 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-08-01,hn,applications,voice_audio,Voice speech and audio,37,25103,0.147,398,0.078,31
 2025-08-01,hn,labs,deepseek,DeepSeek,35,25103,0.139,1413,0.278,31
 2025-08-01,hn,applications,medical_ai,Medical AI,34,25103,0.135,264,0.052,31
-2025-08-01,hn,techniques,safety_security,AI safety and security,33,25103,0.131,219,0.043,31
 2025-08-01,hn,techniques,fine_tuning,Fine-tuning and LoRA,33,25103,0.131,267,0.052,31
 2025-08-01,hn,infrastructure,inference_serving,Inference and serving,32,25103,0.127,751,0.148,31
 2025-08-01,hn,applications,video_generation,Video generation,31,25103,0.123,293,0.058,31
+2025-08-01,hn,techniques,safety_security,AI safety and security,29,25103,0.116,185,0.036,31
 2025-08-01,hn,market,regulation_policy,Regulation and policy,22,25103,0.088,107,0.021,31
 2025-08-01,hn,applications,image_generation,Image generation,22,25103,0.088,405,0.08,31
 2025-08-01,hn,techniques,hallucination,Hallucination,20,25103,0.08,76,0.015,31
@@ -1469,7 +1469,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-09-01,hf_models,applications,coding_assistants,AI coding tools,197,78900,0.25,296,0.534,30
 2025-09-01,hf_models,infrastructure,gpus_nvidia,GPUs and Nvidia,164,78900,0.208,474,0.856,30
 2025-09-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,148,78900,0.188,2553,4.609,30
-2025-09-01,hf_models,techniques,safety_security,AI safety and security,130,78900,0.165,69,0.125,30
 2025-09-01,hf_models,market,jobs_work,Jobs and work,119,78900,0.151,12,0.022,30
 2025-09-01,hf_models,words,term_assistant,Word: assistant,108,78900,0.137,135,0.244,30
 2025-09-01,hf_models,applications,video_generation,Video generation,106,78900,0.134,1918,3.463,30
@@ -1477,6 +1476,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-09-01,hf_models,applications,ai_for_science,AI for science,98,78900,0.124,47,0.085,30
 2025-09-01,hf_models,applications,mcp,Model Context Protocol,88,78900,0.112,21,0.038,30
 2025-09-01,hf_models,techniques,ssm_linear_attention,State-space and linear attention,69,78900,0.087,62,0.112,30
+2025-09-01,hf_models,techniques,safety_security,AI safety and security,53,78900,0.067,62,0.112,30
 2025-09-01,hf_models,market,funding_bubble,Funding valuations and bubble talk,49,78900,0.062,12,0.022,30
 2025-09-01,hf_models,infrastructure,ai_chips,AI chips and accelerators,47,78900,0.06,26,0.047,30
 2025-09-01,hf_models,infrastructure,speculative_decoding,Speculative decoding,47,78900,0.06,68,0.123,30
@@ -1491,8 +1491,8 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-09-01,hf_models,labs,xai_grok,xAI and Grok,14,78900,0.018,96,0.173,30
 2025-09-01,hf_models,techniques,hallucination,Hallucination,14,78900,0.018,11,0.02,30
 2025-09-01,hf_models,techniques,synthetic_data,Synthetic data,13,78900,0.016,6,0.011,30
-2025-09-01,hf_models,applications,world_models,World models,8,78900,0.01,1,0.002,30
 2025-09-01,hf_models,infrastructure,data_centers,Data centers and power,8,78900,0.01,3,0.005,30
+2025-09-01,hf_models,applications,world_models,World models,8,78900,0.01,1,0.002,30
 2025-09-01,hf_models,applications,autonomous_driving,Autonomous driving,5,78900,0.006,19,0.034,30
 2025-09-01,hf_models,applications,ai_search,AI search and answer engines,4,78900,0.005,0,0.0,30
 2025-09-01,hf_models,infrastructure,semiconductors,Semiconductors and fabs,3,78900,0.004,0,0.0,30
@@ -1507,7 +1507,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-09-01,hf_papers,techniques,fine_tuning,Fine-tuning and LoRA,117,503,23.26,4327,30.371,30
 2025-09-01,hf_papers,applications,agents,AI agents,94,503,18.688,3035,21.303,30
 2025-09-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),85,503,16.899,3758,26.377,30
-2025-09-01,hf_papers,techniques,safety_security,AI safety and security,74,503,14.712,1478,10.374,30
 2025-09-01,hf_papers,infrastructure,inference_serving,Inference and serving,67,503,13.32,2675,18.776,30
 2025-09-01,hf_papers,labs,qwen,Qwen,45,503,8.946,1653,11.602,30
 2025-09-01,hf_papers,applications,robotics,Robotics and embodied AI,39,503,7.753,965,6.773,30
@@ -1524,6 +1523,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-09-01,hf_papers,techniques,synthetic_data,Synthetic data,20,503,3.976,601,4.218,30
 2025-09-01,hf_papers,techniques,hallucination,Hallucination,20,503,3.976,659,4.626,30
 2025-09-01,hf_papers,techniques,prompt_context_engineering,Prompt and context engineering,20,503,3.976,246,1.727,30
+2025-09-01,hf_papers,techniques,safety_security,AI safety and security,19,503,3.777,515,3.615,30
 2025-09-01,hf_papers,techniques,interpretability,Interpretability,19,503,3.777,250,1.755,30
 2025-09-01,hf_papers,labs,meta_llama,Meta Llama,18,503,3.579,342,2.401,30
 2025-09-01,hf_papers,techniques,long_context,Long context,18,503,3.579,607,4.261,30
@@ -1650,11 +1650,11 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-10-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,187,94696,0.197,2959,5.181,31
 2025-10-01,hf_models,applications,coding_assistants,AI coding tools,177,94696,0.187,161,0.282,31
 2025-10-01,hf_models,market,jobs_work,Jobs and work,139,94696,0.147,6,0.011,31
-2025-10-01,hf_models,techniques,safety_security,AI safety and security,127,94696,0.134,121,0.212,31
 2025-10-01,hf_models,applications,rag,Retrieval-augmented generation,122,94696,0.129,58,0.102,31
 2025-10-01,hf_models,words,term_assistant,Word: assistant,93,94696,0.098,25,0.044,31
 2025-10-01,hf_models,applications,ai_for_science,AI for science,83,94696,0.088,229,0.401,31
 2025-10-01,hf_models,techniques,interpretability,Interpretability,77,94696,0.081,18,0.032,31
+2025-10-01,hf_models,techniques,safety_security,AI safety and security,72,94696,0.076,112,0.196,31
 2025-10-01,hf_models,infrastructure,ai_chips,AI chips and accelerators,69,94696,0.073,559,0.979,31
 2025-10-01,hf_models,words,term_open_source_ai,Word: open source (AI context),63,94696,0.067,178,0.312,31
 2025-10-01,hf_models,techniques,ssm_linear_attention,State-space and linear attention,46,94696,0.049,30,0.053,31
@@ -1687,7 +1687,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-10-01,hf_papers,applications,agents,AI agents,210,923,22.752,5031,23.69,31
 2025-10-01,hf_papers,techniques,fine_tuning,Fine-tuning and LoRA,181,923,19.61,4704,22.15,31
 2025-10-01,hf_papers,infrastructure,inference_serving,Inference and serving,173,923,18.743,4699,22.126,31
-2025-10-01,hf_papers,techniques,safety_security,AI safety and security,129,923,13.976,2658,12.516,31
 2025-10-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),91,923,9.859,2797,13.17,31
 2025-10-01,hf_papers,market,copyright_licensing,Copyright and data rights,75,923,8.126,2564,12.073,31
 2025-10-01,hf_papers,labs,qwen,Qwen,71,923,7.692,1729,8.141,31
@@ -1699,6 +1698,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-10-01,hf_papers,techniques,distillation,Distillation,55,923,5.959,1464,6.894,31
 2025-10-01,hf_papers,techniques,interpretability,Interpretability,53,923,5.742,1208,5.688,31
 2025-10-01,hf_papers,applications,video_generation,Video generation,51,923,5.525,1337,6.296,31
+2025-10-01,hf_papers,techniques,safety_security,AI safety and security,49,923,5.309,967,4.553,31
 2025-10-01,hf_papers,techniques,long_context,Long context,46,923,4.984,1588,7.478,31
 2025-10-01,hf_papers,applications,medical_ai,Medical AI,45,923,4.875,484,2.279,31
 2025-10-01,hf_papers,applications,voice_audio,Voice speech and audio,41,923,4.442,1374,6.47,31
@@ -1764,8 +1764,8 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-10-01,hn,market,copyright_licensing,Copyright and data rights,44,26262,0.168,797,0.149,31
 2025-10-01,hn,words,term_assistant,Word: assistant,42,26262,0.16,1158,0.216,31
 2025-10-01,hn,techniques,evals_benchmarks,Evals and benchmarks,39,26262,0.149,93,0.017,31
-2025-10-01,hn,techniques,safety_security,AI safety and security,34,26262,0.129,331,0.062,31
 2025-10-01,hn,applications,voice_audio,Voice speech and audio,33,26262,0.126,175,0.033,31
+2025-10-01,hn,techniques,safety_security,AI safety and security,31,26262,0.118,204,0.038,31
 2025-10-01,hn,infrastructure,inference_serving,Inference and serving,30,26262,0.114,606,0.113,31
 2025-10-01,hn,labs,deepseek,DeepSeek,30,26262,0.114,1966,0.367,31
 2025-10-01,hn,techniques,fine_tuning,Fine-tuning and LoRA,27,26262,0.103,238,0.044,31
@@ -1825,18 +1825,18 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-11-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,324,95390,0.34,3055,5.501,30
 2025-11-01,hf_models,infrastructure,fp4,FP4 low precision,240,95390,0.252,612,1.102,30
 2025-11-01,hf_models,infrastructure,gpus_nvidia,GPUs and Nvidia,239,95390,0.251,1913,3.445,30
-2025-11-01,hf_models,techniques,safety_security,AI safety and security,214,95390,0.224,222,0.4,30
 2025-11-01,hf_models,techniques,evals_benchmarks,Evals and benchmarks,206,95390,0.216,10005,18.016,30
 2025-11-01,hf_models,applications,chatbots,Chatbots and assistants,203,95390,0.213,93,0.167,30
 2025-11-01,hf_models,market,jobs_work,Jobs and work,173,95390,0.181,9,0.016,30
 2025-11-01,hf_models,applications,ai_for_science,AI for science,165,95390,0.173,33,0.059,30
+2025-11-01,hf_models,techniques,safety_security,AI safety and security,126,95390,0.132,202,0.364,30
 2025-11-01,hf_models,applications,rag,Retrieval-augmented generation,122,95390,0.128,41,0.074,30
 2025-11-01,hf_models,words,term_assistant,Word: assistant,113,95390,0.118,28,0.05,30
 2025-11-01,hf_models,applications,video_generation,Video generation,99,95390,0.104,1824,3.285,30
 2025-11-01,hf_models,infrastructure,ai_chips,AI chips and accelerators,81,95390,0.085,345,0.621,30
 2025-11-01,hf_models,words,term_open_source_ai,Word: open source (AI context),77,95390,0.081,445,0.801,30
-2025-11-01,hf_models,applications,coding_assistants,AI coding tools,75,95390,0.079,277,0.499,30
 2025-11-01,hf_models,techniques,interpretability,Interpretability,75,95390,0.079,7,0.013,30
+2025-11-01,hf_models,applications,coding_assistants,AI coding tools,75,95390,0.079,277,0.499,30
 2025-11-01,hf_models,labs,anthropic_claude,Anthropic and Claude,62,95390,0.065,212,0.382,30
 2025-11-01,hf_models,infrastructure,speculative_decoding,Speculative decoding,40,95390,0.042,18,0.032,30
 2025-11-01,hf_models,applications,ai_search,AI search and answer engines,38,95390,0.04,337,0.607,30
@@ -1845,10 +1845,10 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-11-01,hf_models,techniques,synthetic_data,Synthetic data,30,95390,0.031,191,0.344,30
 2025-11-01,hf_models,techniques,hallucination,Hallucination,28,95390,0.029,10,0.018,30
 2025-11-01,hf_models,applications,world_models,World models,24,95390,0.025,4,0.007,30
-2025-11-01,hf_models,techniques,ssm_linear_attention,State-space and linear attention,23,95390,0.024,34,0.061,30
 2025-11-01,hf_models,applications,computer_use,Computer and browser use,23,95390,0.024,329,0.592,30
-2025-11-01,hf_models,market,copyright_licensing,Copyright and data rights,22,95390,0.023,91,0.164,30
+2025-11-01,hf_models,techniques,ssm_linear_attention,State-space and linear attention,23,95390,0.024,34,0.061,30
 2025-11-01,hf_models,market,regulation_policy,Regulation and policy,22,95390,0.023,1,0.002,30
+2025-11-01,hf_models,market,copyright_licensing,Copyright and data rights,22,95390,0.023,91,0.164,30
 2025-11-01,hf_models,infrastructure,kv_cache,KV cache and prompt caching,17,95390,0.018,9,0.016,30
 2025-11-01,hf_models,market,funding_bubble,Funding valuations and bubble talk,16,95390,0.017,3,0.005,30
 2025-11-01,hf_models,applications,mcp,Model Context Protocol,11,95390,0.012,2,0.004,30
@@ -1866,7 +1866,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-11-01,hf_papers,techniques,fine_tuning,Fine-tuning and LoRA,102,412,24.757,3205,28.783,30
 2025-11-01,hf_papers,applications,agents,AI agents,98,412,23.786,3343,30.022,30
 2025-11-01,hf_papers,techniques,rl_post_training,RL and preference tuning,91,412,22.087,3239,29.088,30
-2025-11-01,hf_papers,techniques,safety_security,AI safety and security,69,412,16.748,1386,12.447,30
 2025-11-01,hf_papers,infrastructure,inference_serving,Inference and serving,63,412,15.291,1636,14.692,30
 2025-11-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),60,412,14.563,2451,22.012,30
 2025-11-01,hf_papers,applications,robotics,Robotics and embodied AI,43,412,10.437,916,8.226,30
@@ -1879,6 +1878,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-11-01,hf_papers,labs,openai,OpenAI,25,412,6.068,953,8.559,30
 2025-11-01,hf_papers,market,funding_bubble,Funding valuations and bubble talk,23,412,5.583,480,4.311,30
 2025-11-01,hf_papers,market,copyright_licensing,Copyright and data rights,22,412,5.34,608,5.46,30
+2025-11-01,hf_papers,techniques,safety_security,AI safety and security,21,412,5.097,320,2.874,30
 2025-11-01,hf_papers,applications,world_models,World models,21,412,5.097,471,4.23,30
 2025-11-01,hf_papers,techniques,distillation,Distillation,21,412,5.097,648,5.819,30
 2025-11-01,hf_papers,techniques,hallucination,Hallucination,19,412,4.612,434,3.898,30
@@ -1890,12 +1890,12 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-11-01,hf_papers,applications,voice_audio,Voice speech and audio,13,412,3.155,372,3.341,30
 2025-11-01,hf_papers,applications,ai_for_science,AI for science,11,412,2.67,205,1.841,30
 2025-11-01,hf_papers,labs,meta_llama,Meta Llama,10,412,2.427,102,0.916,30
-2025-11-01,hf_papers,applications,coding_assistants,AI coding tools,9,412,2.184,282,2.533,30
 2025-11-01,hf_papers,applications,computer_use,Computer and browser use,9,412,2.184,288,2.586,30
 2025-11-01,hf_papers,techniques,moe,Mixture of experts,9,412,2.184,382,3.431,30
+2025-11-01,hf_papers,applications,coding_assistants,AI coding tools,9,412,2.184,282,2.533,30
 2025-11-01,hf_papers,applications,rag,Retrieval-augmented generation,8,412,1.942,102,0.916,30
-2025-11-01,hf_papers,labs,anthropic_claude,Anthropic and Claude,7,412,1.699,332,2.982,30
 2025-11-01,hf_papers,techniques,ssm_linear_attention,State-space and linear attention,7,412,1.699,102,0.916,30
+2025-11-01,hf_papers,labs,anthropic_claude,Anthropic and Claude,7,412,1.699,332,2.982,30
 2025-11-01,hf_papers,words,term_assistant,Word: assistant,7,412,1.699,161,1.446,30
 2025-11-01,hf_papers,words,term_open_weights,Word: open weights,7,412,1.699,160,1.437,30
 2025-11-01,hf_papers,infrastructure,local_on_device,Local and on-device AI,6,412,1.456,92,0.826,30
@@ -1948,10 +1948,10 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-11-01,hn,techniques,rl_post_training,RL and preference tuning,29,24913,0.116,433,0.087,30
 2025-11-01,hn,market,regulation_policy,Regulation and policy,28,24913,0.112,333,0.067,30
 2025-11-01,hn,labs,xai_grok,xAI and Grok,28,24913,0.112,517,0.104,30
-2025-11-01,hn,techniques,safety_security,AI safety and security,26,24913,0.104,455,0.092,30
 2025-11-01,hn,applications,video_generation,Video generation,26,24913,0.104,57,0.011,30
 2025-11-01,hn,techniques,prompt_context_engineering,Prompt and context engineering,24,24913,0.096,297,0.06,30
 2025-11-01,hn,infrastructure,inference_serving,Inference and serving,24,24913,0.096,130,0.026,30
+2025-11-01,hn,techniques,safety_security,AI safety and security,24,24913,0.096,449,0.09,30
 2025-11-01,hn,applications,world_models,World models,21,24913,0.084,1354,0.272,30
 2025-11-01,hn,labs,deepseek,DeepSeek,21,24913,0.084,355,0.071,30
 2025-11-01,hn,techniques,reasoning,Reasoning and test-time compute,19,24913,0.076,670,0.135,30
@@ -2005,7 +2005,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-12-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,343,96142,0.357,7085,10.089,31
 2025-12-01,hf_models,infrastructure,gpus_nvidia,GPUs and Nvidia,338,96142,0.352,8037,11.444,31
 2025-12-01,hf_models,infrastructure,fp4,FP4 low precision,251,96142,0.261,853,1.215,31
-2025-12-01,hf_models,techniques,safety_security,AI safety and security,235,96142,0.244,114,0.162,31
 2025-12-01,hf_models,market,jobs_work,Jobs and work,221,96142,0.23,12,0.017,31
 2025-12-01,hf_models,techniques,evals_benchmarks,Evals and benchmarks,201,96142,0.209,10651,15.167,31
 2025-12-01,hf_models,applications,rag,Retrieval-augmented generation,170,96142,0.177,534,0.76,31
@@ -2013,6 +2012,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-12-01,hf_models,applications,coding_assistants,AI coding tools,136,96142,0.141,214,0.305,31
 2025-12-01,hf_models,words,term_assistant,Word: assistant,135,96142,0.14,49,0.07,31
 2025-12-01,hf_models,applications,ai_for_science,AI for science,120,96142,0.125,142,0.202,31
+2025-12-01,hf_models,techniques,safety_security,AI safety and security,116,96142,0.121,83,0.118,31
 2025-12-01,hf_models,techniques,interpretability,Interpretability,112,96142,0.116,24,0.034,31
 2025-12-01,hf_models,labs,anthropic_claude,Anthropic and Claude,106,96142,0.11,674,0.96,31
 2025-12-01,hf_models,applications,video_generation,Video generation,95,96142,0.099,2020,2.876,31
@@ -2048,7 +2048,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-12-01,hf_papers,techniques,fine_tuning,Fine-tuning and LoRA,119,633,18.799,3619,24.211,31
 2025-12-01,hf_papers,applications,agents,AI agents,108,633,17.062,4102,27.442,31
 2025-12-01,hf_papers,applications,video_generation,Video generation,104,633,16.43,3031,20.277,31
-2025-12-01,hf_papers,techniques,safety_security,AI safety and security,93,633,14.692,1806,12.082,31
 2025-12-01,hf_papers,applications,image_generation,Image generation,66,633,10.427,1697,11.353,31
 2025-12-01,hf_papers,labs,qwen,Qwen,62,633,9.795,2268,15.173,31
 2025-12-01,hf_papers,applications,robotics,Robotics and embodied AI,59,633,9.321,1038,6.944,31
@@ -2065,27 +2064,28 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-12-01,hf_papers,infrastructure,gpus_nvidia,GPUs and Nvidia,28,633,4.423,1046,6.998,31
 2025-12-01,hf_papers,applications,world_models,World models,27,633,4.265,699,4.676,31
 2025-12-01,hf_papers,applications,voice_audio,Voice speech and audio,26,633,4.107,418,2.796,31
+2025-12-01,hf_papers,techniques,safety_security,AI safety and security,25,633,3.949,341,2.281,31
 2025-12-01,hf_papers,applications,coding_assistants,AI coding tools,21,633,3.318,869,5.813,31
 2025-12-01,hf_papers,techniques,moe,Mixture of experts,21,633,3.318,769,5.145,31
 2025-12-01,hf_papers,techniques,prompt_context_engineering,Prompt and context engineering,19,633,3.002,796,5.325,31
 2025-12-01,hf_papers,labs,deepseek,DeepSeek,17,633,2.686,956,6.396,31
-2025-12-01,hf_papers,infrastructure,quantization,Quantization,16,633,2.528,252,1.686,31
 2025-12-01,hf_papers,techniques,diffusion_lms,Diffusion language models,16,633,2.528,476,3.184,31
+2025-12-01,hf_papers,infrastructure,quantization,Quantization,16,633,2.528,252,1.686,31
 2025-12-01,hf_papers,techniques,hallucination,Hallucination,14,633,2.212,400,2.676,31
 2025-12-01,hf_papers,techniques,synthetic_data,Synthetic data,14,633,2.212,395,2.642,31
 2025-12-01,hf_papers,infrastructure,kv_cache,KV cache and prompt caching,13,633,2.054,395,2.642,31
 2025-12-01,hf_papers,labs,anthropic_claude,Anthropic and Claude,13,633,2.054,466,3.117,31
 2025-12-01,hf_papers,labs,meta_llama,Meta Llama,12,633,1.896,509,3.405,31
-2025-12-01,hf_papers,applications,rag,Retrieval-augmented generation,11,633,1.738,834,5.579,31
-2025-12-01,hf_papers,infrastructure,local_on_device,Local and on-device AI,11,633,1.738,348,2.328,31
-2025-12-01,hf_papers,techniques,ssm_linear_attention,State-space and linear attention,11,633,1.738,382,2.556,31
 2025-12-01,hf_papers,words,term_serving,Word: serving,11,633,1.738,280,1.873,31
-2025-12-01,hf_papers,applications,computer_use,Computer and browser use,8,633,1.264,234,1.565,31
-2025-12-01,hf_papers,applications,ai_search,AI search and answer engines,8,633,1.264,400,2.676,31
+2025-12-01,hf_papers,applications,rag,Retrieval-augmented generation,11,633,1.738,834,5.579,31
+2025-12-01,hf_papers,techniques,ssm_linear_attention,State-space and linear attention,11,633,1.738,382,2.556,31
+2025-12-01,hf_papers,infrastructure,local_on_device,Local and on-device AI,11,633,1.738,348,2.328,31
 2025-12-01,hf_papers,words,term_assistant,Word: assistant,8,633,1.264,159,1.064,31
 2025-12-01,hf_papers,applications,autonomous_driving,Autonomous driving,8,633,1.264,126,0.843,31
-2025-12-01,hf_papers,market,regulation_policy,Regulation and policy,6,633,0.948,151,1.01,31
+2025-12-01,hf_papers,applications,computer_use,Computer and browser use,8,633,1.264,234,1.565,31
+2025-12-01,hf_papers,applications,ai_search,AI search and answer engines,8,633,1.264,400,2.676,31
 2025-12-01,hf_papers,market,agi,AGI and superintelligence,6,633,0.948,272,1.82,31
+2025-12-01,hf_papers,market,regulation_policy,Regulation and policy,6,633,0.948,151,1.01,31
 2025-12-01,hf_papers,words,term_open_weights,Word: open weights,5,633,0.79,217,1.452,31
 2025-12-01,hf_papers,applications,ai_for_science,AI for science,4,633,0.632,186,1.244,31
 2025-12-01,hf_papers,applications,mcp,Model Context Protocol,4,633,0.632,251,1.679,31
@@ -2123,9 +2123,9 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2025-12-01,hn,infrastructure,semiconductors,Semiconductors and fabs,39,27001,0.144,491,0.093,31
 2025-12-01,hn,labs,deepseek,DeepSeek,39,27001,0.144,1797,0.34,31
 2025-12-01,hn,market,copyright_licensing,Copyright and data rights,38,27001,0.141,204,0.039,31
-2025-12-01,hn,techniques,safety_security,AI safety and security,37,27001,0.137,196,0.037,31
 2025-12-01,hn,labs,xai_grok,xAI and Grok,35,27001,0.13,403,0.076,31
 2025-12-01,hn,applications,voice_audio,Voice speech and audio,34,27001,0.126,271,0.051,31
+2025-12-01,hn,techniques,safety_security,AI safety and security,34,27001,0.126,193,0.036,31
 2025-12-01,hn,applications,image_generation,Image generation,32,27001,0.119,214,0.04,31
 2025-12-01,hn,techniques,rl_post_training,RL and preference tuning,31,27001,0.115,196,0.037,31
 2025-12-01,hn,applications,ai_search,AI search and answer engines,29,27001,0.107,95,0.018,31
@@ -2184,11 +2184,11 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-01-01,hf_models,labs,openai,OpenAI,625,122355,0.511,595,0.715,31
 2026-01-01,hf_models,labs,deepseek,DeepSeek,568,122355,0.464,1565,1.881,31
 2026-01-01,hf_models,infrastructure,fp4,FP4 low precision,309,122355,0.253,944,1.134,31
-2026-01-01,hf_models,techniques,safety_security,AI safety and security,306,122355,0.25,176,0.212,31
 2026-01-01,hf_models,techniques,evals_benchmarks,Evals and benchmarks,274,122355,0.224,16625,19.98,31
 2026-01-01,hf_models,infrastructure,gpus_nvidia,GPUs and Nvidia,218,122355,0.178,3530,4.242,31
 2026-01-01,hf_models,techniques,interpretability,Interpretability,196,122355,0.16,20,0.024,31
 2026-01-01,hf_models,labs,anthropic_claude,Anthropic and Claude,166,122355,0.136,1395,1.676,31
+2026-01-01,hf_models,techniques,safety_security,AI safety and security,155,122355,0.127,146,0.175,31
 2026-01-01,hf_models,words,term_assistant,Word: assistant,155,122355,0.127,167,0.201,31
 2026-01-01,hf_models,applications,video_generation,Video generation,153,122355,0.125,4671,5.614,31
 2026-01-01,hf_models,applications,chatbots,Chatbots and assistants,151,122355,0.123,105,0.126,31
@@ -2226,7 +2226,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-01-01,hf_papers,techniques,rl_post_training,RL and preference tuning,143,573,24.956,4892,33.525,31
 2026-01-01,hf_papers,techniques,multimodal,Multimodal and vision-language,138,573,24.084,4039,27.68,31
 2026-01-01,hf_papers,techniques,fine_tuning,Fine-tuning and LoRA,110,573,19.197,2670,18.298,31
-2026-01-01,hf_papers,techniques,safety_security,AI safety and security,94,573,16.405,1975,13.535,31
 2026-01-01,hf_papers,infrastructure,inference_serving,Inference and serving,89,573,15.532,2497,17.112,31
 2026-01-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),70,573,12.216,2597,17.797,31
 2026-01-01,hf_papers,applications,video_generation,Video generation,51,573,8.901,1589,10.89,31
@@ -2241,6 +2240,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-01-01,hf_papers,techniques,long_context,Long context,37,573,6.457,1387,9.505,31
 2026-01-01,hf_papers,market,funding_bubble,Funding valuations and bubble talk,36,573,6.283,1120,7.675,31
 2026-01-01,hf_papers,labs,google_gemini,Google Gemini and Gemma,31,573,5.41,1076,7.374,31
+2026-01-01,hf_papers,techniques,safety_security,AI safety and security,31,573,5.41,481,3.296,31
 2026-01-01,hf_papers,applications,image_generation,Image generation,31,573,5.41,703,4.818,31
 2026-01-01,hf_papers,applications,voice_audio,Voice speech and audio,27,573,4.712,805,5.517,31
 2026-01-01,hf_papers,techniques,prompt_context_engineering,Prompt and context engineering,26,573,4.538,472,3.235,31
@@ -2305,8 +2305,8 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-01-01,hn,market,regulation_policy,Regulation and policy,47,30891,0.152,2146,0.378,31
 2026-01-01,hn,market,agi,AGI and superintelligence,45,30891,0.146,199,0.035,31
 2026-01-01,hn,applications,voice_audio,Voice speech and audio,44,30891,0.142,957,0.168,31
-2026-01-01,hn,techniques,safety_security,AI safety and security,41,30891,0.133,76,0.013,31
 2026-01-01,hn,infrastructure,inference_serving,Inference and serving,39,30891,0.126,472,0.083,31
+2026-01-01,hn,techniques,safety_security,AI safety and security,38,30891,0.123,72,0.013,31
 2026-01-01,hn,labs,deepseek,DeepSeek,36,30891,0.117,653,0.115,31
 2026-01-01,hn,labs,other_china_labs,Kimi GLM and MiniMax,34,30891,0.11,1351,0.238,31
 2026-01-01,hn,applications,medical_ai,Medical AI,33,30891,0.107,616,0.108,31
@@ -2354,7 +2354,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-02-01,hf_models,applications,voice_audio,Voice speech and audio,2064,84585,2.44,3999,6.591,28
 2026-02-01,hf_models,techniques,multimodal,Multimodal and vision-language,1619,84585,1.914,23886,39.369,28
 2026-02-01,hf_models,applications,image_generation,Image generation,1520,84585,1.797,3115,5.134,28
-2026-02-01,hf_models,techniques,safety_security,AI safety and security,1442,84585,1.705,351,0.579,28
 2026-02-01,hf_models,techniques,reasoning,Reasoning and test-time compute,1433,84585,1.694,4651,7.666,28
 2026-02-01,hf_models,labs,mistral,Mistral,1109,84585,1.311,903,1.488,28
 2026-02-01,hf_models,techniques,moe,Mixture of experts,1103,84585,1.304,12843,21.168,28
@@ -2363,6 +2362,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-02-01,hf_models,applications,medical_ai,Medical AI,865,84585,1.023,362,0.597,28
 2026-02-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,722,84585,0.854,5668,9.342,28
 2026-02-01,hf_models,techniques,distillation,Distillation,635,84585,0.751,4811,7.93,28
+2026-02-01,hf_models,techniques,safety_security,AI safety and security,624,84585,0.738,300,0.494,28
 2026-02-01,hf_models,labs,deepseek,DeepSeek,469,84585,0.554,137,0.226,28
 2026-02-01,hf_models,infrastructure,gpus_nvidia,GPUs and Nvidia,396,84585,0.468,1412,2.327,28
 2026-02-01,hf_models,infrastructure,fp4,FP4 low precision,339,84585,0.401,1176,1.938,28
@@ -2407,13 +2407,13 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-02-01,hf_papers,techniques,multimodal,Multimodal and vision-language,166,741,22.402,4812,31.226,28
 2026-02-01,hf_papers,infrastructure,inference_serving,Inference and serving,141,741,19.028,3445,22.356,28
 2026-02-01,hf_papers,techniques,fine_tuning,Fine-tuning and LoRA,130,741,17.544,2631,17.073,28
-2026-02-01,hf_papers,techniques,safety_security,AI safety and security,121,741,16.329,2404,15.6,28
 2026-02-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),75,741,10.121,1800,11.681,28
 2026-02-01,hf_papers,labs,qwen,Qwen,70,741,9.447,1903,12.349,28
 2026-02-01,hf_papers,applications,robotics,Robotics and embodied AI,65,741,8.772,1408,9.137,28
 2026-02-01,hf_papers,techniques,distillation,Distillation,61,741,8.232,1238,8.034,28
 2026-02-01,hf_papers,applications,medical_ai,Medical AI,58,741,7.827,815,5.289,28
 2026-02-01,hf_papers,techniques,embeddings_vector_search,Embeddings and vector search,50,741,6.748,781,5.068,28
+2026-02-01,hf_papers,techniques,safety_security,AI safety and security,47,741,6.343,1021,6.626,28
 2026-02-01,hf_papers,techniques,long_context,Long context,43,741,5.803,1121,7.274,28
 2026-02-01,hf_papers,applications,video_generation,Video generation,43,741,5.803,1350,8.761,28
 2026-02-01,hf_papers,techniques,interpretability,Interpretability,43,741,5.803,686,4.452,28
@@ -2477,8 +2477,8 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-02-01,hn,infrastructure,data_centers,Data centers and power,87,31724,0.274,1790,0.332,28
 2026-02-01,hn,labs,xai_grok,xAI and Grok,75,31724,0.236,2237,0.416,28
 2026-02-01,hn,applications,rag,Retrieval-augmented generation,68,31724,0.214,274,0.051,28
-2026-02-01,hn,techniques,safety_security,AI safety and security,64,31724,0.202,514,0.095,28
 2026-02-01,hn,market,agi,AGI and superintelligence,62,31724,0.195,422,0.078,28
+2026-02-01,hn,techniques,safety_security,AI safety and security,59,31724,0.186,499,0.093,28
 2026-02-01,hn,applications,autonomous_driving,Autonomous driving,55,31724,0.173,2953,0.549,28
 2026-02-01,hn,infrastructure,inference_serving,Inference and serving,53,31724,0.167,693,0.129,28
 2026-02-01,hn,labs,other_china_labs,Kimi GLM and MiniMax,49,31724,0.154,1098,0.204,28
@@ -2541,11 +2541,11 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-03-01,hf_models,applications,medical_ai,Medical AI,1112,84624,1.314,578,0.676,31
 2026-03-01,hf_models,labs,deepseek,DeepSeek,943,84624,1.114,347,0.406,31
 2026-03-01,hf_models,labs,openai,OpenAI,910,84624,1.075,924,1.08,31
-2026-03-01,hf_models,techniques,safety_security,AI safety and security,659,84624,0.779,493,0.576,31
 2026-03-01,hf_models,labs,anthropic_claude,Anthropic and Claude,622,84624,0.735,6262,7.32,31
 2026-03-01,hf_models,infrastructure,gpus_nvidia,GPUs and Nvidia,586,84624,0.692,9573,11.19,31
 2026-03-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,557,84624,0.658,377,0.441,31
 2026-03-01,hf_models,infrastructure,fp4,FP4 low precision,502,84624,0.593,1964,2.296,31
+2026-03-01,hf_models,techniques,safety_security,AI safety and security,419,84624,0.495,242,0.283,31
 2026-03-01,hf_models,techniques,evals_benchmarks,Evals and benchmarks,367,84624,0.434,17881,20.902,31
 2026-03-01,hf_models,applications,video_generation,Video generation,350,84624,0.414,6802,7.951,31
 2026-03-01,hf_models,infrastructure,ai_chips,AI chips and accelerators,248,84624,0.293,95,0.111,31
@@ -2587,7 +2587,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-03-01,hf_papers,techniques,rl_post_training,RL and preference tuning,157,743,21.131,4286,27.007,31
 2026-03-01,hf_papers,infrastructure,inference_serving,Inference and serving,151,743,20.323,3469,21.859,31
 2026-03-01,hf_papers,techniques,fine_tuning,Fine-tuning and LoRA,125,743,16.824,3006,18.941,31
-2026-03-01,hf_papers,techniques,safety_security,AI safety and security,120,743,16.151,2637,16.616,31
 2026-03-01,hf_papers,techniques,distillation,Distillation,72,743,9.69,1963,12.369,31
 2026-03-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),67,743,9.017,2203,13.882,31
 2026-03-01,hf_papers,applications,video_generation,Video generation,66,743,8.883,1975,12.445,31
@@ -2605,6 +2604,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-03-01,hf_papers,labs,openai,OpenAI,32,743,4.307,880,5.545,31
 2026-03-01,hf_papers,market,funding_bubble,Funding valuations and bubble talk,32,743,4.307,345,2.174,31
 2026-03-01,hf_papers,labs,google_gemini,Google Gemini and Gemma,31,743,4.172,1062,6.692,31
+2026-03-01,hf_papers,techniques,safety_security,AI safety and security,30,743,4.038,947,5.967,31
 2026-03-01,hf_papers,techniques,long_context,Long context,29,743,3.903,693,4.367,31
 2026-03-01,hf_papers,applications,voice_audio,Voice speech and audio,29,743,3.903,482,3.037,31
 2026-03-01,hf_papers,techniques,hallucination,Hallucination,28,743,3.769,546,3.44,31
@@ -2656,9 +2656,9 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-03-01,hn,market,funding_bubble,Funding valuations and bubble talk,78,33730,0.231,2656,0.439,31
 2026-03-01,hn,market,copyright_licensing,Copyright and data rights,71,33730,0.21,1442,0.238,31
 2026-03-01,hn,words,term_assistant,Word: assistant,70,33730,0.208,560,0.093,31
-2026-03-01,hn,techniques,safety_security,AI safety and security,66,33730,0.196,822,0.136,31
 2026-03-01,hn,applications,rag,Retrieval-augmented generation,64,33730,0.19,711,0.118,31
 2026-03-01,hn,market,agi,AGI and superintelligence,61,33730,0.181,1859,0.307,31
+2026-03-01,hn,techniques,safety_security,AI safety and security,61,33730,0.181,810,0.134,31
 2026-03-01,hn,applications,autonomous_driving,Autonomous driving,57,33730,0.169,1047,0.173,31
 2026-03-01,hn,market,regulation_policy,Regulation and policy,53,33730,0.157,517,0.086,31
 2026-03-01,hn,applications,video_generation,Video generation,52,33730,0.154,588,0.097,31
@@ -2721,7 +2721,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-04-01,hf_models,labs,mistral,Mistral,1071,90759,1.18,644,0.561,30
 2026-04-01,hf_models,labs,openai,OpenAI,1057,90759,1.165,2607,2.271,30
 2026-04-01,hf_models,infrastructure,gpus_nvidia,GPUs and Nvidia,836,90759,0.921,5373,4.681,30
-2026-04-01,hf_models,techniques,safety_security,AI safety and security,765,90759,0.843,652,0.568,30
 2026-04-01,hf_models,techniques,evals_benchmarks,Evals and benchmarks,748,90759,0.824,24951,21.738,30
 2026-04-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,709,90759,0.781,7569,6.594,30
 2026-04-01,hf_models,labs,deepseek,DeepSeek,648,90759,0.714,10288,8.963,30
@@ -2729,6 +2728,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-04-01,hf_models,infrastructure,fp4,FP4 low precision,567,90759,0.625,3850,3.354,30
 2026-04-01,hf_models,techniques,interpretability,Interpretability,559,90759,0.616,322,0.281,30
 2026-04-01,hf_models,applications,coding_assistants,AI coding tools,456,90759,0.502,2054,1.79,30
+2026-04-01,hf_models,techniques,safety_security,AI safety and security,349,90759,0.385,237,0.206,30
 2026-04-01,hf_models,applications,video_generation,Video generation,333,90759,0.367,2113,1.841,30
 2026-04-01,hf_models,applications,rag,Retrieval-augmented generation,329,90759,0.362,642,0.559,30
 2026-04-01,hf_models,applications,ai_for_science,AI for science,327,90759,0.36,189,0.165,30
@@ -2767,7 +2767,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-04-01,hf_papers,infrastructure,inference_serving,Inference and serving,140,707,19.802,3302,21.367,30
 2026-04-01,hf_papers,techniques,rl_post_training,RL and preference tuning,121,707,17.115,3403,22.02,30
 2026-04-01,hf_papers,techniques,fine_tuning,Fine-tuning and LoRA,109,707,15.417,2171,14.048,30
-2026-04-01,hf_papers,techniques,safety_security,AI safety and security,109,707,15.417,1899,12.288,30
 2026-04-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),63,707,8.911,1859,12.029,30
 2026-04-01,hf_papers,techniques,distillation,Distillation,61,707,8.628,1581,10.23,30
 2026-04-01,hf_papers,applications,video_generation,Video generation,56,707,7.921,1611,10.424,30
@@ -2783,6 +2782,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-04-01,hf_papers,labs,openai,OpenAI,35,707,4.95,501,3.242,30
 2026-04-01,hf_papers,labs,google_gemini,Google Gemini and Gemma,35,707,4.95,885,5.727,30
 2026-04-01,hf_papers,techniques,long_context,Long context,33,707,4.668,600,3.882,30
+2026-04-01,hf_papers,techniques,safety_security,AI safety and security,31,707,4.385,481,3.112,30
 2026-04-01,hf_papers,applications,world_models,World models,30,707,4.243,1457,9.428,30
 2026-04-01,hf_papers,techniques,prompt_context_engineering,Prompt and context engineering,28,707,3.96,413,2.672,30
 2026-04-01,hf_papers,techniques,hallucination,Hallucination,27,707,3.819,381,2.465,30
@@ -2839,17 +2839,17 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-04-01,hn,applications,autonomous_driving,Autonomous driving,52,29249,0.178,1502,0.255,30
 2026-04-01,hn,applications,rag,Retrieval-augmented generation,52,29249,0.178,524,0.089,30
 2026-04-01,hn,market,copyright_licensing,Copyright and data rights,51,29249,0.174,574,0.098,30
-2026-04-01,hn,market,regulation_policy,Regulation and policy,51,29249,0.174,1103,0.188,30
 2026-04-01,hn,infrastructure,ai_chips,AI chips and accelerators,51,29249,0.174,1732,0.295,30
+2026-04-01,hn,market,regulation_policy,Regulation and policy,51,29249,0.174,1103,0.188,30
 2026-04-01,hn,labs,qwen,Qwen,50,29249,0.171,3886,0.661,30
 2026-04-01,hn,infrastructure,inference_serving,Inference and serving,49,29249,0.168,817,0.139,30
 2026-04-01,hn,market,agi,AGI and superintelligence,44,29249,0.15,738,0.126,30
 2026-04-01,hn,labs,xai_grok,xAI and Grok,41,29249,0.14,400,0.068,30
-2026-04-01,hn,techniques,safety_security,AI safety and security,41,29249,0.14,293,0.05,30
 2026-04-01,hn,labs,deepseek,DeepSeek,39,29249,0.133,2519,0.428,30
 2026-04-01,hn,techniques,hallucination,Hallucination,38,29249,0.13,314,0.053,30
-2026-04-01,hn,techniques,rl_post_training,RL and preference tuning,37,29249,0.127,165,0.028,30
 2026-04-01,hn,techniques,fine_tuning,Fine-tuning and LoRA,37,29249,0.127,575,0.098,30
+2026-04-01,hn,techniques,rl_post_training,RL and preference tuning,37,29249,0.127,165,0.028,30
+2026-04-01,hn,techniques,safety_security,AI safety and security,36,29249,0.123,83,0.014,30
 2026-04-01,hn,infrastructure,semiconductors,Semiconductors and fabs,35,29249,0.12,603,0.103,30
 2026-04-01,hn,labs,other_china_labs,Kimi GLM and MiniMax,32,29249,0.109,1916,0.326,30
 2026-04-01,hn,techniques,reasoning,Reasoning and test-time compute,30,29249,0.103,86,0.015,30
@@ -2903,10 +2903,10 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-05-01,hf_models,techniques,distillation,Distillation,1042,97490,1.069,1419,2.105,31
 2026-05-01,hf_models,applications,video_generation,Video generation,844,97490,0.866,6085,9.025,31
 2026-05-01,hf_models,infrastructure,gpus_nvidia,GPUs and Nvidia,778,97490,0.798,4615,6.845,31
-2026-05-01,hf_models,techniques,safety_security,AI safety and security,709,97490,0.727,1408,2.088,31
 2026-05-01,hf_models,techniques,evals_benchmarks,Evals and benchmarks,541,97490,0.555,8500,12.607,31
 2026-05-01,hf_models,applications,ai_for_science,AI for science,494,97490,0.507,389,0.577,31
 2026-05-01,hf_models,infrastructure,fp4,FP4 low precision,487,97490,0.5,2167,3.214,31
+2026-05-01,hf_models,techniques,safety_security,AI safety and security,440,97490,0.451,455,0.675,31
 2026-05-01,hf_models,techniques,interpretability,Interpretability,436,97490,0.447,127,0.188,31
 2026-05-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,343,97490,0.352,535,0.793,31
 2026-05-01,hf_models,labs,anthropic_claude,Anthropic and Claude,325,97490,0.333,1884,2.794,31
@@ -2947,7 +2947,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-05-01,hf_papers,techniques,multimodal,Multimodal and vision-language,191,856,22.313,5095,27.098,31
 2026-05-01,hf_papers,techniques,fine_tuning,Fine-tuning and LoRA,157,856,18.341,4151,22.077,31
 2026-05-01,hf_papers,infrastructure,inference_serving,Inference and serving,154,856,17.991,4099,21.801,31
-2026-05-01,hf_papers,techniques,safety_security,AI safety and security,128,856,14.953,3007,15.993,31
 2026-05-01,hf_papers,applications,medical_ai,Medical AI,91,856,10.631,1639,8.717,31
 2026-05-01,hf_papers,techniques,distillation,Distillation,87,856,10.164,2882,15.328,31
 2026-05-01,hf_papers,labs,qwen,Qwen,78,856,9.112,2106,11.201,31
@@ -2955,6 +2954,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-05-01,hf_papers,applications,video_generation,Video generation,68,856,7.944,2088,11.105,31
 2026-05-01,hf_papers,applications,robotics,Robotics and embodied AI,62,856,7.243,2236,11.892,31
 2026-05-01,hf_papers,applications,image_generation,Image generation,50,856,5.841,1035,5.505,31
+2026-05-01,hf_papers,techniques,safety_security,AI safety and security,50,856,5.841,1170,6.223,31
 2026-05-01,hf_papers,techniques,embeddings_vector_search,Embeddings and vector search,48,856,5.607,925,4.92,31
 2026-05-01,hf_papers,market,copyright_licensing,Copyright and data rights,47,856,5.491,1432,7.616,31
 2026-05-01,hf_papers,techniques,long_context,Long context,44,856,5.14,1170,6.223,31
@@ -3021,11 +3021,11 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-05-01,hn,market,regulation_policy,Regulation and policy,54,28278,0.191,561,0.098,31
 2026-05-01,hn,market,copyright_licensing,Copyright and data rights,53,28278,0.187,1977,0.346,31
 2026-05-01,hn,applications,autonomous_driving,Autonomous driving,48,28278,0.17,1750,0.306,31
-2026-05-01,hn,techniques,safety_security,AI safety and security,43,28278,0.152,417,0.073,31
 2026-05-01,hn,applications,ai_search,AI search and answer engines,42,28278,0.149,123,0.022,31
 2026-05-01,hn,techniques,hallucination,Hallucination,42,28278,0.149,1758,0.307,31
 2026-05-01,hn,techniques,rl_post_training,RL and preference tuning,41,28278,0.145,114,0.02,31
 2026-05-01,hn,applications,rag,Retrieval-augmented generation,39,28278,0.138,99,0.017,31
+2026-05-01,hn,techniques,safety_security,AI safety and security,39,28278,0.138,332,0.058,31
 2026-05-01,hn,infrastructure,ai_chips,AI chips and accelerators,39,28278,0.138,582,0.102,31
 2026-05-01,hn,infrastructure,semiconductors,Semiconductors and fabs,36,28278,0.127,609,0.106,31
 2026-05-01,hn,market,agi,AGI and superintelligence,33,28278,0.117,98,0.017,31
@@ -3085,9 +3085,9 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-06-01,hf_models,techniques,evals_benchmarks,Evals and benchmarks,824,84275,0.978,31008,29.673,30
 2026-06-01,hf_models,labs,deepseek,DeepSeek,782,84275,0.928,1716,1.642,30
 2026-06-01,hf_models,infrastructure,fp4,FP4 low precision,734,84275,0.871,3430,3.282,30
-2026-06-01,hf_models,techniques,safety_security,AI safety and security,584,84275,0.693,1148,1.099,30
 2026-06-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,549,84275,0.651,23424,22.416,30
 2026-06-01,hf_models,applications,video_generation,Video generation,545,84275,0.647,2377,2.275,30
+2026-06-01,hf_models,techniques,safety_security,AI safety and security,472,84275,0.56,1047,1.002,30
 2026-06-01,hf_models,infrastructure,speculative_decoding,Speculative decoding,404,84275,0.479,1722,1.648,30
 2026-06-01,hf_models,labs,anthropic_claude,Anthropic and Claude,399,84275,0.473,5544,5.305,30
 2026-06-01,hf_models,applications,coding_assistants,AI coding tools,392,84275,0.465,3122,2.988,30
@@ -3128,7 +3128,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-06-01,hf_papers,techniques,rl_post_training,RL and preference tuning,171,892,19.17,3636,20.07,30
 2026-06-01,hf_papers,techniques,fine_tuning,Fine-tuning and LoRA,145,892,16.256,3330,18.381,30
 2026-06-01,hf_papers,techniques,distillation,Distillation,124,892,13.901,3214,17.74,30
-2026-06-01,hf_papers,techniques,safety_security,AI safety and security,119,892,13.341,2033,11.222,30
 2026-06-01,hf_papers,applications,robotics,Robotics and embodied AI,98,892,10.987,2052,11.326,30
 2026-06-01,hf_papers,applications,medical_ai,Medical AI,90,892,10.09,1561,8.616,30
 2026-06-01,hf_papers,labs,qwen,Qwen,84,892,9.417,1860,10.267,30
@@ -3141,6 +3140,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-06-01,hf_papers,techniques,interpretability,Interpretability,48,892,5.381,734,4.051,30
 2026-06-01,hf_papers,infrastructure,gpus_nvidia,GPUs and Nvidia,42,892,4.709,948,5.233,30
 2026-06-01,hf_papers,applications,image_generation,Image generation,41,892,4.596,999,5.514,30
+2026-06-01,hf_papers,techniques,safety_security,AI safety and security,41,892,4.596,427,2.357,30
 2026-06-01,hf_papers,techniques,long_context,Long context,41,892,4.596,1083,5.978,30
 2026-06-01,hf_papers,market,funding_bubble,Funding valuations and bubble talk,40,892,4.484,867,4.786,30
 2026-06-01,hf_papers,labs,openai,OpenAI,40,892,4.484,808,4.46,30
@@ -3266,9 +3266,9 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-07-01,hf_models,labs,deepseek,DeepSeek,788,88584,0.89,6243,7.023,31
 2026-07-01,hf_models,infrastructure,fp4,FP4 low precision,782,88584,0.883,2908,3.271,31
 2026-07-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,717,88584,0.809,11616,13.067,31
-2026-07-01,hf_models,techniques,safety_security,AI safety and security,551,88584,0.622,246,0.277,31
 2026-07-01,hf_models,infrastructure,speculative_decoding,Speculative decoding,419,88584,0.473,1763,1.983,31
 2026-07-01,hf_models,techniques,interpretability,Interpretability,403,88584,0.455,154,0.173,31
+2026-07-01,hf_models,techniques,safety_security,AI safety and security,398,88584,0.449,234,0.263,31
 2026-07-01,hf_models,applications,video_generation,Video generation,386,88584,0.436,16988,19.11,31
 2026-07-01,hf_models,applications,coding_assistants,AI coding tools,349,88584,0.394,558,0.628,31
 2026-07-01,hf_models,applications,ai_for_science,AI for science,348,88584,0.393,96,0.108,31
@@ -3308,7 +3308,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-07-01,hf_papers,techniques,rl_post_training,RL and preference tuning,110,602,18.272,3613,22.376,31
 2026-07-01,hf_papers,techniques,fine_tuning,Fine-tuning and LoRA,87,602,14.452,2160,13.377,31
 2026-07-01,hf_papers,techniques,distillation,Distillation,76,602,12.625,2328,14.418,31
-2026-07-01,hf_papers,techniques,safety_security,AI safety and security,73,602,12.126,1318,8.163,31
 2026-07-01,hf_papers,applications,robotics,Robotics and embodied AI,71,602,11.794,2572,15.929,31
 2026-07-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),70,602,11.628,2343,14.51,31
 2026-07-01,hf_papers,labs,qwen,Qwen,63,602,10.465,2375,14.709,31
@@ -3326,35 +3325,36 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-07-01,hf_papers,labs,openai,OpenAI,21,602,3.488,1572,9.736,31
 2026-07-01,hf_papers,applications,voice_audio,Voice speech and audio,19,602,3.156,194,1.201,31
 2026-07-01,hf_papers,techniques,moe,Mixture of experts,19,602,3.156,1226,7.593,31
+2026-07-01,hf_papers,techniques,safety_security,AI safety and security,18,602,2.99,401,2.483,31
 2026-07-01,hf_papers,words,term_open_weights,Word: open weights,18,602,2.99,366,2.267,31
 2026-07-01,hf_papers,labs,anthropic_claude,Anthropic and Claude,18,602,2.99,934,5.784,31
 2026-07-01,hf_papers,labs,google_gemini,Google Gemini and Gemma,17,602,2.824,411,2.545,31
-2026-07-01,hf_papers,words,term_serving,Word: serving,15,602,2.492,418,2.589,31
 2026-07-01,hf_papers,applications,ai_for_science,AI for science,15,602,2.492,231,1.431,31
+2026-07-01,hf_papers,words,term_serving,Word: serving,15,602,2.492,418,2.589,31
 2026-07-01,hf_papers,infrastructure,local_on_device,Local and on-device AI,13,602,2.159,108,0.669,31
 2026-07-01,hf_papers,techniques,prompt_context_engineering,Prompt and context engineering,13,602,2.159,430,2.663,31
+2026-07-01,hf_papers,techniques,hallucination,Hallucination,12,602,1.993,124,0.768,31
+2026-07-01,hf_papers,applications,rag,Retrieval-augmented generation,12,602,1.993,311,1.926,31
 2026-07-01,hf_papers,labs,other_china_labs,Kimi GLM and MiniMax,12,602,1.993,1029,6.373,31
 2026-07-01,hf_papers,words,term_assistant,Word: assistant,12,602,1.993,222,1.375,31
-2026-07-01,hf_papers,applications,rag,Retrieval-augmented generation,12,602,1.993,311,1.926,31
-2026-07-01,hf_papers,techniques,hallucination,Hallucination,12,602,1.993,124,0.768,31
 2026-07-01,hf_papers,infrastructure,quantization,Quantization,10,602,1.661,153,0.948,31
-2026-07-01,hf_papers,techniques,diffusion_lms,Diffusion language models,9,602,1.495,158,0.979,31
 2026-07-01,hf_papers,applications,computer_use,Computer and browser use,9,602,1.495,446,2.762,31
-2026-07-01,hf_papers,infrastructure,kv_cache,KV cache and prompt caching,8,602,1.329,85,0.526,31
+2026-07-01,hf_papers,techniques,diffusion_lms,Diffusion language models,9,602,1.495,158,0.979,31
 2026-07-01,hf_papers,applications,ai_search,AI search and answer engines,8,602,1.329,192,1.189,31
+2026-07-01,hf_papers,infrastructure,kv_cache,KV cache and prompt caching,8,602,1.329,85,0.526,31
 2026-07-01,hf_papers,techniques,synthetic_data,Synthetic data,7,602,1.163,60,0.372,31
-2026-07-01,hf_papers,labs,meta_llama,Meta Llama,6,602,0.997,107,0.663,31
 2026-07-01,hf_papers,techniques,ssm_linear_attention,State-space and linear attention,6,602,0.997,147,0.91,31
-2026-07-01,hf_papers,labs,deepseek,DeepSeek,5,602,0.831,161,0.997,31
-2026-07-01,hf_papers,infrastructure,speculative_decoding,Speculative decoding,5,602,0.831,134,0.83,31
+2026-07-01,hf_papers,labs,meta_llama,Meta Llama,6,602,0.997,107,0.663,31
 2026-07-01,hf_papers,applications,autonomous_driving,Autonomous driving,5,602,0.831,24,0.149,31
+2026-07-01,hf_papers,infrastructure,speculative_decoding,Speculative decoding,5,602,0.831,134,0.83,31
 2026-07-01,hf_papers,applications,chatbots,Chatbots and assistants,5,602,0.831,65,0.403,31
+2026-07-01,hf_papers,labs,deepseek,DeepSeek,5,602,0.831,161,0.997,31
 2026-07-01,hf_papers,market,regulation_policy,Regulation and policy,4,602,0.664,79,0.489,31
 2026-07-01,hf_papers,infrastructure,ai_chips,AI chips and accelerators,4,602,0.664,101,0.626,31
-2026-07-01,hf_papers,labs,mistral,Mistral,3,602,0.498,15,0.093,31
-2026-07-01,hf_papers,infrastructure,data_centers,Data centers and power,3,602,0.498,18,0.111,31
 2026-07-01,hf_papers,market,jobs_work,Jobs and work,3,602,0.498,56,0.347,31
+2026-07-01,hf_papers,labs,mistral,Mistral,3,602,0.498,15,0.093,31
 2026-07-01,hf_papers,applications,mcp,Model Context Protocol,3,602,0.498,420,2.601,31
+2026-07-01,hf_papers,infrastructure,data_centers,Data centers and power,3,602,0.498,18,0.111,31
 2026-07-01,hf_papers,labs,xai_grok,xAI and Grok,1,602,0.166,4,0.025,31
 2026-07-01,hf_papers,market,agi,AGI and superintelligence,1,602,0.166,36,0.223,31
 2026-07-01,hf_papers,infrastructure,semiconductors,Semiconductors and fabs,0,602,0.0,0,0.0,31
@@ -3383,7 +3383,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-07-01,hn,infrastructure,semiconductors,Semiconductors and fabs,61,30866,0.198,893,0.151,31
 2026-07-01,hn,applications,autonomous_driving,Autonomous driving,60,30866,0.194,458,0.078,31
 2026-07-01,hn,words,term_assistant,Word: assistant,56,30866,0.181,186,0.032,31
-2026-07-01,hn,techniques,safety_security,AI safety and security,53,30866,0.172,235,0.04,31
+2026-07-01,hn,techniques,safety_security,AI safety and security,50,30866,0.162,222,0.038,31
 2026-07-01,hn,market,agi,AGI and superintelligence,50,30866,0.162,460,0.078,31
 2026-07-01,hn,labs,deepseek,DeepSeek,48,30866,0.156,2037,0.345,31
 2026-07-01,hn,techniques,rl_post_training,RL and preference tuning,43,30866,0.139,1079,0.183,31
@@ -3446,9 +3446,9 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-08-01,hf_models,labs,deepseek,DeepSeek,872,91805,0.95,3761,2.533,31
 2026-08-01,hf_models,techniques,interpretability,Interpretability,834,91805,0.908,98,0.066,31
 2026-08-01,hf_models,techniques,evals_benchmarks,Evals and benchmarks,814,91805,0.887,40099,27.003,31
-2026-08-01,hf_models,techniques,safety_security,AI safety and security,782,91805,0.852,10566,7.115,31
 2026-08-01,hf_models,applications,video_generation,Video generation,751,91805,0.818,12585,8.475,31
 2026-08-01,hf_models,labs,mistral,Mistral,616,91805,0.671,200,0.135,31
+2026-08-01,hf_models,techniques,safety_security,AI safety and security,557,91805,0.607,10524,7.087,31
 2026-08-01,hf_models,techniques,long_context,Long context,385,91805,0.419,2917,1.964,31
 2026-08-01,hf_models,applications,coding_assistants,AI coding tools,333,91805,0.363,1504,1.013,31
 2026-08-01,hf_models,techniques,ssm_linear_attention,State-space and linear attention,328,91805,0.357,2450,1.65,31
@@ -3489,7 +3489,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-08-01,hf_papers,techniques,fine_tuning,Fine-tuning and LoRA,92,645,14.264,2886,15.373,31
 2026-08-01,hf_papers,techniques,distillation,Distillation,79,645,12.248,2688,14.318,31
 2026-08-01,hf_papers,applications,medical_ai,Medical AI,74,645,11.473,1566,8.342,31
-2026-08-01,hf_papers,techniques,safety_security,AI safety and security,72,645,11.163,2048,10.909,31
 2026-08-01,hf_papers,labs,qwen,Qwen,59,645,9.147,2312,12.316,31
 2026-08-01,hf_papers,applications,robotics,Robotics and embodied AI,57,645,8.837,1467,7.814,31
 2026-08-01,hf_papers,applications,coding_assistants,AI coding tools,45,645,6.977,1564,8.331,31
@@ -3502,6 +3501,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-08-01,hf_papers,infrastructure,gpus_nvidia,GPUs and Nvidia,31,645,4.806,1129,6.014,31
 2026-08-01,hf_papers,words,term_open_weights,Word: open weights,28,645,4.341,597,3.18,31
 2026-08-01,hf_papers,techniques,interpretability,Interpretability,28,645,4.341,421,2.243,31
+2026-08-01,hf_papers,techniques,safety_security,AI safety and security,27,645,4.186,819,4.363,31
 2026-08-01,hf_papers,techniques,long_context,Long context,26,645,4.031,675,3.596,31
 2026-08-01,hf_papers,labs,anthropic_claude,Anthropic and Claude,26,645,4.031,1021,5.439,31
 2026-08-01,hf_papers,applications,image_generation,Image generation,24,645,3.721,594,3.164,31
@@ -3561,8 +3561,8 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-08-01,hn,infrastructure,ai_chips,AI chips and accelerators,60,29617,0.203,1555,0.275,31
 2026-08-01,hn,market,agi,AGI and superintelligence,51,29617,0.172,396,0.07,31
 2026-08-01,hn,market,regulation_policy,Regulation and policy,49,29617,0.165,1060,0.187,31
-2026-08-01,hn,techniques,safety_security,AI safety and security,49,29617,0.165,252,0.045,31
 2026-08-01,hn,infrastructure,inference_serving,Inference and serving,47,29617,0.159,807,0.143,31
+2026-08-01,hn,techniques,safety_security,AI safety and security,46,29617,0.155,246,0.044,31
 2026-08-01,hn,applications,autonomous_driving,Autonomous driving,45,29617,0.152,604,0.107,31
 2026-08-01,hn,applications,ai_search,AI search and answer engines,43,29617,0.145,310,0.055,31
 2026-08-01,hn,market,copyright_licensing,Copyright and data rights,42,29617,0.142,964,0.17,31
@@ -3622,11 +3622,11 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-09-01,hf_models,labs,openai,OpenAI,1330,94660,1.405,562,0.405,30
 2026-09-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,1107,94660,1.169,8448,6.093,30
 2026-09-01,hf_models,techniques,evals_benchmarks,Evals and benchmarks,1098,94660,1.16,20911,15.083,30
-2026-09-01,hf_models,techniques,safety_security,AI safety and security,1074,94660,1.135,6919,4.991,30
 2026-09-01,hf_models,applications,medical_ai,Medical AI,973,94660,1.028,434,0.313,30
 2026-09-01,hf_models,infrastructure,fp4,FP4 low precision,912,94660,0.963,7447,5.371,30
 2026-09-01,hf_models,infrastructure,speculative_decoding,Speculative decoding,828,94660,0.875,3041,2.193,30
 2026-09-01,hf_models,labs,deepseek,DeepSeek,820,94660,0.866,6886,4.967,30
+2026-09-01,hf_models,techniques,safety_security,AI safety and security,773,94660,0.817,6805,4.908,30
 2026-09-01,hf_models,techniques,interpretability,Interpretability,718,94660,0.759,50,0.036,30
 2026-09-01,hf_models,labs,mistral,Mistral,677,94660,0.715,73,0.053,30
 2026-09-01,hf_models,applications,video_generation,Video generation,582,94660,0.615,4944,3.566,30
@@ -3670,7 +3670,6 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-09-01,hf_papers,techniques,distillation,Distillation,90,684,13.158,5919,17.355,30
 2026-09-01,hf_papers,labs,qwen,Qwen,84,684,12.281,4597,13.479,30
 2026-09-01,hf_papers,applications,robotics,Robotics and embodied AI,84,684,12.281,3737,10.957,30
-2026-09-01,hf_papers,techniques,safety_security,AI safety and security,79,684,11.55,2162,6.339,30
 2026-09-01,hf_papers,applications,medical_ai,Medical AI,59,684,8.626,2556,7.494,30
 2026-09-01,hf_papers,techniques,embeddings_vector_search,Embeddings and vector search,47,684,6.871,1169,3.428,30
 2026-09-01,hf_papers,applications,video_generation,Video generation,46,684,6.725,3159,9.262,30
@@ -3682,6 +3681,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-09-01,hf_papers,infrastructure,gpus_nvidia,GPUs and Nvidia,35,684,5.117,1516,4.445,30
 2026-09-01,hf_papers,labs,openai,OpenAI,33,684,4.825,2427,7.116,30
 2026-09-01,hf_papers,techniques,long_context,Long context,30,684,4.386,1811,5.31,30
+2026-09-01,hf_papers,techniques,safety_security,AI safety and security,27,684,3.947,651,1.909,30
 2026-09-01,hf_papers,market,funding_bubble,Funding valuations and bubble talk,25,684,3.655,780,2.287,30
 2026-09-01,hf_papers,infrastructure,quantization,Quantization,24,684,3.509,1308,3.835,30
 2026-09-01,hf_papers,techniques,interpretability,Interpretability,22,684,3.216,617,1.809,30
@@ -3729,7 +3729,7 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-09-01,hn,infrastructure,local_on_device,Local and on-device AI,184,29963,0.614,2683,0.481,30
 2026-09-01,hn,infrastructure,data_centers,Data centers and power,160,29963,0.534,2501,0.448,30
 2026-09-01,hn,words,term_open_source_ai,Word: open source (AI context),124,29963,0.414,1112,0.199,30
-2026-09-01,hn,techniques,safety_security,AI safety and security,124,29963,0.414,2561,0.459,30
+2026-09-01,hn,techniques,safety_security,AI safety and security,117,29963,0.39,2546,0.456,30
 2026-09-01,hn,labs,google_gemini,Google Gemini and Gemma,105,29963,0.35,3671,0.658,30
 2026-09-01,hn,market,funding_bubble,Funding valuations and bubble talk,104,29963,0.347,711,0.127,30
 2026-09-01,hn,applications,chatbots,Chatbots and assistants,100,29963,0.334,1384,0.248,30
@@ -3802,11 +3802,11 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-10-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,669,66942,0.999,2415,5.658,18
 2026-10-01,hf_models,infrastructure,fp4,FP4 low precision,633,66942,0.946,2874,6.733,18
 2026-10-01,hf_models,labs,deepseek,DeepSeek,580,66942,0.866,2237,5.241,18
-2026-10-01,hf_models,techniques,safety_security,AI safety and security,572,66942,0.854,1028,2.408,18
 2026-10-01,hf_models,labs,openai,OpenAI,552,66942,0.825,604,1.415,18
 2026-10-01,hf_models,applications,medical_ai,Medical AI,463,66942,0.692,174,0.408,18
 2026-10-01,hf_models,infrastructure,speculative_decoding,Speculative decoding,456,66942,0.681,1861,4.36,18
 2026-10-01,hf_models,labs,mistral,Mistral,451,66942,0.674,461,1.08,18
+2026-10-01,hf_models,techniques,safety_security,AI safety and security,446,66942,0.666,988,2.315,18
 2026-10-01,hf_models,applications,video_generation,Video generation,361,66942,0.539,623,1.46,18
 2026-10-01,hf_models,applications,coding_assistants,AI coding tools,304,66942,0.454,307,0.719,18
 2026-10-01,hf_models,techniques,long_context,Long context,279,66942,0.417,1128,2.643,18
@@ -3851,28 +3851,28 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-10-01,hf_papers,techniques,distillation,Distillation,94,576,16.319,5221,17.119,18
 2026-10-01,hf_papers,applications,robotics,Robotics and embodied AI,75,576,13.021,3499,11.473,18
 2026-10-01,hf_papers,applications,medical_ai,Medical AI,64,576,11.111,3426,11.233,18
-2026-10-01,hf_papers,techniques,safety_security,AI safety and security,61,576,10.59,2947,9.663,18
 2026-10-01,hf_papers,applications,video_generation,Video generation,45,576,7.813,3344,10.964,18
 2026-10-01,hf_papers,applications,world_models,World models,43,576,7.465,2011,6.594,18
 2026-10-01,hf_papers,applications,coding_assistants,AI coding tools,35,576,6.076,1951,6.397,18
 2026-10-01,hf_papers,market,copyright_licensing,Copyright and data rights,35,576,6.076,1308,4.289,18
 2026-10-01,hf_papers,applications,image_generation,Image generation,34,576,5.903,1618,5.305,18
 2026-10-01,hf_papers,market,funding_bubble,Funding valuations and bubble talk,32,576,5.556,1315,4.312,18
-2026-10-01,hf_papers,techniques,long_context,Long context,30,576,5.208,969,3.177,18
 2026-10-01,hf_papers,infrastructure,gpus_nvidia,GPUs and Nvidia,30,576,5.208,2049,6.718,18
+2026-10-01,hf_papers,techniques,long_context,Long context,30,576,5.208,969,3.177,18
 2026-10-01,hf_papers,techniques,embeddings_vector_search,Embeddings and vector search,26,576,4.514,736,2.413,18
 2026-10-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),25,576,4.34,1492,4.892,18
 2026-10-01,hf_papers,labs,openai,OpenAI,23,576,3.993,1354,4.439,18
-2026-10-01,hf_papers,applications,computer_use,Computer and browser use,21,576,3.646,1452,4.761,18
 2026-10-01,hf_papers,techniques,interpretability,Interpretability,21,576,3.646,654,2.144,18
+2026-10-01,hf_papers,applications,computer_use,Computer and browser use,21,576,3.646,1452,4.761,18
 2026-10-01,hf_papers,infrastructure,kv_cache,KV cache and prompt caching,19,576,3.299,711,2.331,18
 2026-10-01,hf_papers,techniques,moe,Mixture of experts,18,576,3.125,654,2.144,18
+2026-10-01,hf_papers,techniques,safety_security,AI safety and security,17,576,2.951,466,1.528,18
 2026-10-01,hf_papers,labs,anthropic_claude,Anthropic and Claude,17,576,2.951,1157,3.794,18
 2026-10-01,hf_papers,techniques,prompt_context_engineering,Prompt and context engineering,15,576,2.604,718,2.354,18
-2026-10-01,hf_papers,labs,google_gemini,Google Gemini and Gemma,14,576,2.431,670,2.197,18
 2026-10-01,hf_papers,applications,voice_audio,Voice speech and audio,14,576,2.431,516,1.692,18
-2026-10-01,hf_papers,words,term_open_weights,Word: open weights,13,576,2.257,302,0.99,18
+2026-10-01,hf_papers,labs,google_gemini,Google Gemini and Gemma,14,576,2.431,670,2.197,18
 2026-10-01,hf_papers,infrastructure,quantization,Quantization,13,576,2.257,782,2.564,18
+2026-10-01,hf_papers,words,term_open_weights,Word: open weights,13,576,2.257,302,0.99,18
 2026-10-01,hf_papers,applications,ai_search,AI search and answer engines,11,576,1.91,432,1.416,18
 2026-10-01,hf_papers,labs,other_china_labs,Kimi GLM and MiniMax,10,576,1.736,776,2.544,18
 2026-10-01,hf_papers,techniques,ssm_linear_attention,State-space and linear attention,10,576,1.736,335,1.098,18

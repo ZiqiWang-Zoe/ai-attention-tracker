@@ -25,7 +25,7 @@ multimodal,techniques,Multimodal and vision-language,yes,multi[- ]?modal|vision[
 diffusion_lms,techniques,Diffusion language models,no,diffusion (language models?|llms?)|discrete diffusion|masked diffusion|\bdllms?\b,
 ssm_linear_attention,techniques,State-space and linear attention,no,\bmamba\b|state[- ]space models?|(?-i:\bSSMs?\b)|linear attention|\brwkv|hybrid attention,
 synthetic_data,techniques,Synthetic data,yes,synthetic data,
-safety_security,techniques,AI safety and security,yes,alignment|ai safety|jailbreak|red[- ]team|prompt injection|guardrails?|\bmisalign,
+safety_security,techniques,AI safety and security,yes,(ai|model|value|human|llm|preference|deceptive|safety) alignment|alignment (research|faking|tax|problem|team)|superalignment|ai safety|jailbreak|red[- ]team|prompt injection|guardrails?|\bmisalign,forced alignment|speech alignment|audio[- ]text alignment
 interpretability,techniques,Interpretability,yes,interpretab|explainab|mechanistic|sparse autoencoders?|(?-i:\bSAEs?\b|\bXAI\b)|circuit tracing,
 hallucination,techniques,Hallucination,no,hallucinat,
 evals_benchmarks,techniques,Evals and benchmarks,yes,benchmark|\bevals?\b|leaderboard|\barena\b|(?-i:\bMMLU|ARC[- ]AGI)|last exam,
