@@ -3,3 +3,6 @@ __pycache__/
 data/raw/
 *.duckdb
 .DS_Store
+_site/
+_review/
+logs/

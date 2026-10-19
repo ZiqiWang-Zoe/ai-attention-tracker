@@ -1,0 +1,398 @@
+{
+ "as_of": "2026-10-03",
+ "recent_days": 30,
+ "baseline_days": 90,
+ "sources": {
+  "hn": {
+   "recent_total": 29264,
+   "baseline_total": 88090,
+   "ai_share_recent": 22.024,
+   "ai_share_baseline": 21.09,
+   "rising": [
+    {
+     "topic": "safety_security",
+     "recent": 130,
+     "baseline": 154,
+     "recent_share": 0.4442,
+     "baseline_share": 0.1748,
+     "lift": 2.541
+    },
+    {
+     "topic": "computer_use",
+     "recent": 34,
+     "baseline": 45,
+     "recent_share": 0.1162,
+     "baseline_share": 0.0511,
+     "lift": 2.274
+    },
+    {
+     "topic": "kv_cache",
+     "recent": 21,
+     "baseline": 44,
+     "recent_share": 0.0718,
+     "baseline_share": 0.0499,
+     "lift": 1.437
+    },
+    {
+     "topic": "openai",
+     "recent": 656,
+     "baseline": 1435,
+     "recent_share": 2.2417,
+     "baseline_share": 1.629,
+     "lift": 1.376
+    },
+    {
+     "topic": "agi",
+     "recent": 64,
+     "baseline": 146,
+     "recent_share": 0.2187,
+     "baseline_share": 0.1657,
+     "lift": 1.32
+    },
+    {
+     "topic": "chatbots",
+     "recent": 93,
+     "baseline": 221,
+     "recent_share": 0.3178,
+     "baseline_share": 0.2509,
+     "lift": 1.267
+    },
+    {
+     "topic": "regulation_policy",
+     "recent": 75,
+     "baseline": 182,
+     "recent_share": 0.2563,
+     "baseline_share": 0.2066,
+     "lift": 1.24
+    },
+    {
+     "topic": "robotics",
+     "recent": 35,
+     "baseline": 85,
+     "recent_share": 0.1196,
+     "baseline_share": 0.0965,
+     "lift": 1.239
+    },
+    {
+     "topic": "fine_tuning",
+     "recent": 25,
+     "baseline": 63,
+     "recent_share": 0.0854,
+     "baseline_share": 0.0715,
+     "lift": 1.195
+    },
+    {
+     "topic": "rl_post_training",
+     "recent": 40,
+     "baseline": 106,
+     "recent_share": 0.1367,
+     "baseline_share": 0.1203,
+     "lift": 1.136
+    }
+   ],
+   "falling": [
+    {
+     "topic": "other_china_labs",
+     "recent": 39,
+     "baseline": 352,
+     "recent_share": 0.1333,
+     "baseline_share": 0.3996,
+     "lift": 0.334
+    },
+    {
+     "topic": "jobs_work",
+     "recent": 83,
+     "baseline": 406,
+     "recent_share": 0.2836,
+     "baseline_share": 0.4609,
+     "lift": 0.615
+    },
+    {
+     "topic": "xai_grok",
+     "recent": 45,
+     "baseline": 200,
+     "recent_share": 0.1538,
+     "baseline_share": 0.227,
+     "lift": 0.677
+    },
+    {
+     "topic": "data_centers",
+     "recent": 153,
+     "baseline": 643,
+     "recent_share": 0.5228,
+     "baseline_share": 0.7299,
+     "lift": 0.716
+    },
+    {
+     "topic": "hallucination",
+     "recent": 22,
+     "baseline": 90,
+     "recent_share": 0.0752,
+     "baseline_share": 0.1022,
+     "lift": 0.736
+    }
+   ]
+  },
+  "hf_papers": {
+   "recent_total": 680,
+   "baseline_total": 2001,
+   "ai_share_recent": 58.529,
+   "ai_share_baseline": 60.12,
+   "rising": [
+    {
+     "topic": "meta_llama",
+     "recent": 20,
+     "baseline": 26,
+     "recent_share": 2.9412,
+     "baseline_share": 1.2994,
+     "lift": 2.264
+    },
+    {
+     "topic": "quantization",
+     "recent": 23,
+     "baseline": 37,
+     "recent_share": 3.3824,
+     "baseline_share": 1.8491,
+     "lift": 1.829
+    },
+    {
+     "topic": "voice_audio",
+     "recent": 38,
+     "baseline": 62,
+     "recent_share": 5.5882,
+     "baseline_share": 3.0985,
+     "lift": 1.804
+    },
+    {
+     "topic": "qwen",
+     "recent": 90,
+     "baseline": 201,
+     "recent_share": 13.2353,
+     "baseline_share": 10.045,
+     "lift": 1.318
+    },
+    {
+     "topic": "robotics",
+     "recent": 86,
+     "baseline": 211,
+     "recent_share": 12.6471,
+     "baseline_share": 10.5447,
+     "lift": 1.199
+    },
+    {
+     "topic": "fine_tuning",
+     "recent": 121,
+     "baseline": 314,
+     "recent_share": 17.7941,
+     "baseline_share": 15.6922,
+     "lift": 1.134
+    },
+    {
+     "topic": "google_gemini",
+     "recent": 23,
+     "baseline": 62,
+     "recent_share": 3.3824,
+     "baseline_share": 3.0985,
+     "lift": 1.092
+    },
+    {
+     "topic": "distillation",
+     "recent": 96,
+     "baseline": 260,
+     "recent_share": 14.1176,
+     "baseline_share": 12.9935,
+     "lift": 1.087
+    },
+    {
+     "topic": "rl_post_training",
+     "recent": 130,
+     "baseline": 360,
+     "recent_share": 19.1176,
+     "baseline_share": 17.991,
+     "lift": 1.063
+    },
+    {
+     "topic": "agents",
+     "recent": 240,
+     "baseline": 684,
+     "recent_share": 35.2941,
+     "baseline_share": 34.1829,
+     "lift": 1.033
+    }
+   ],
+   "falling": [
+    {
+     "topic": "funding_bubble",
+     "recent": 20,
+     "baseline": 87,
+     "recent_share": 2.9412,
+     "baseline_share": 4.3478,
+     "lift": 0.676
+    },
+    {
+     "topic": "interpretability",
+     "recent": 23,
+     "baseline": 99,
+     "recent_share": 3.3824,
+     "baseline_share": 4.9475,
+     "lift": 0.684
+    },
+    {
+     "topic": "multimodal",
+     "recent": 128,
+     "baseline": 465,
+     "recent_share": 18.8235,
+     "baseline_share": 23.2384,
+     "lift": 0.81
+    },
+    {
+     "topic": "world_models",
+     "recent": 38,
+     "baseline": 137,
+     "recent_share": 5.5882,
+     "baseline_share": 6.8466,
+     "lift": 0.816
+    },
+    {
+     "topic": "embeddings_vector_search",
+     "recent": 39,
+     "baseline": 140,
+     "recent_share": 5.7353,
+     "baseline_share": 6.9965,
+     "lift": 0.82
+    }
+   ]
+  },
+  "hf_models": {
+   "recent_total": 44485,
+   "baseline_total": 118522,
+   "ai_share_recent": 34.436,
+   "ai_share_baseline": 35.554,
+   "rising": [
+    {
+     "topic": "computer_use",
+     "recent": 122,
+     "baseline": 162,
+     "recent_share": 0.2742,
+     "baseline_share": 0.1367,
+     "lift": 2.006
+    },
+    {
+     "topic": "synthetic_data",
+     "recent": 125,
+     "baseline": 187,
+     "recent_share": 0.281,
+     "baseline_share": 0.1578,
+     "lift": 1.781
+    },
+    {
+     "topic": "long_context",
+     "recent": 385,
+     "baseline": 707,
+     "recent_share": 0.8655,
+     "baseline_share": 0.5965,
+     "lift": 1.451
+    },
+    {
+     "topic": "safety_security",
+     "recent": 486,
+     "baseline": 921,
+     "recent_share": 1.0925,
+     "baseline_share": 0.7771,
+     "lift": 1.406
+    },
+    {
+     "topic": "ssm_linear_attention",
+     "recent": 252,
+     "baseline": 486,
+     "recent_share": 0.5665,
+     "baseline_share": 0.4101,
+     "lift": 1.381
+    },
+    {
+     "topic": "ai_chips",
+     "recent": 135,
+     "baseline": 265,
+     "recent_share": 0.3035,
+     "baseline_share": 0.2236,
+     "lift": 1.357
+    },
+    {
+     "topic": "speculative_decoding",
+     "recent": 598,
+     "baseline": 1258,
+     "recent_share": 1.3443,
+     "baseline_share": 1.0614,
+     "lift": 1.267
+    },
+    {
+     "topic": "agents",
+     "recent": 1442,
+     "baseline": 3174,
+     "recent_share": 3.2415,
+     "baseline_share": 2.678,
+     "lift": 1.21
+    },
+    {
+     "topic": "distillation",
+     "recent": 909,
+     "baseline": 2013,
+     "recent_share": 2.0434,
+     "baseline_share": 1.6984,
+     "lift": 1.203
+    },
+    {
+     "topic": "world_models",
+     "recent": 164,
+     "baseline": 367,
+     "recent_share": 0.3687,
+     "baseline_share": 0.3096,
+     "lift": 1.191
+    }
+   ],
+   "falling": [
+    {
+     "topic": "chatbots",
+     "recent": 78,
+     "baseline": 462,
+     "recent_share": 0.1753,
+     "baseline_share": 0.3898,
+     "lift": 0.45
+    },
+    {
+     "topic": "anthropic_claude",
+     "recent": 108,
+     "baseline": 635,
+     "recent_share": 0.2428,
+     "baseline_share": 0.5358,
+     "lift": 0.453
+    },
+    {
+     "topic": "mistral",
+     "recent": 336,
+     "baseline": 1459,
+     "recent_share": 0.7553,
+     "baseline_share": 1.231,
+     "lift": 0.614
+    },
+    {
+     "topic": "google_gemini",
+     "recent": 1517,
+     "baseline": 6014,
+     "recent_share": 3.4101,
+     "baseline_share": 5.0742,
+     "lift": 0.672
+    },
+    {
+     "topic": "meta_llama",
+     "recent": 1777,
+     "baseline": 5887,
+     "recent_share": 3.9946,
+     "baseline_share": 4.967,
+     "lift": 0.804
+    }
+   ]
+  }
+ },
+ "everywhere": []
+}

@@ -3,9 +3,9 @@ ai_any,overall,Any AI mention,no,(?-i:\bAI\b|\bLLMs?\b|\bGPT)|artificial intelli
 agents,applications,AI agents,yes,\bagents?\b|\bagentic\b|multi[- ]agent,user[- ]agent|secret agent|\bfbi\b|\bcia\b|\bice agents?|federal agents?|border agents?|real estate agent|travel agent|free agent|agent orange|agent smith
 coding_assistants,applications,AI coding tools,no,coding (agents?|assistants?|tools?|models?)|ai cod(ing|er|e)\b|vibe[- ]?cod|code generation|\bcopilot\b|cursor (ai|ide|editor|agent)|claude code|\bcodex\b|windsurf|\baider\b|swe[- ]?bench|code (llm|model)s?,
 mcp,applications,Model Context Protocol,no,(?-i:\bMCP\b)|model context protocol,
-computer_use,applications,Computer and browser use,no,computer[- ]use|browser (agents?|use|automation)|gui agents?|web agents?|computer[- ]using,
+computer_use,applications,Computer and browser use,no,computer[- ]use|browser (agents?|use)|gui agents?|web agents?|computer[- ]using|ai browser automation|browser automation (agents?|with (ai|llms?)),
 rag,applications,Retrieval-augmented generation,no,(?-i:\bRAG\b|GraphRAG)|retrieval[- ]augmented|graph ?rag,
-ai_search,applications,AI search and answer engines,no,ai search|answer engines?|perplexity|search ?gpt|deep research|ai overviews?|generative engine optimi|(?-i:\bAEO\b),
+ai_search,applications,AI search and answer engines,no,ai search|answer engines?|perplexity|search ?gpt|deep research|ai overviews?|generative engine optimi|(?-i:\bAEO\b),^(?=.*\bperplexity\b)(?=.*\b(evaluation|eval|metric|score)s?\b)
 chatbots,applications,Chatbots and assistants,no,chat ?bots?|ai (assistants?|companions?)|conversational ai,
 voice_audio,applications,Voice speech and audio,yes,voice (ai|agents?|assistants?|clon\w*|models?|mode)|speech|text[- ]to[- ](speech|audio|music)|(?-i:\bTTS\b|\bASR\b)|\bwhisper\b|music generat|audio generat|\bsuno\b|\budio\b,
 video_generation,applications,Video generation,no,video generat|text[- ]to[- ]video|image[- ]to[- ]video|video diffusion|\bsora\b|\bveo ?\d?\b|\bkling\b|video (gen )?models?,
@@ -30,7 +30,7 @@ interpretability,techniques,Interpretability,yes,interpretab|explainab|mechanist
 hallucination,techniques,Hallucination,no,hallucinat,
 evals_benchmarks,techniques,Evals and benchmarks,yes,benchmark|\bevals?\b|leaderboard|\barena\b|(?-i:\bMMLU|ARC[- ]AGI)|last exam,
 embeddings_vector_search,techniques,Embeddings and vector search,yes,embeddings?|vector (databases?|search|dbs?|stores?)|sentence[- ]similarity|semantic search|rerank,
-prompt_context_engineering,techniques,Prompt and context engineering,yes,prompt engineering|context engineering|system prompts?|prompting,
+prompt_context_engineering,techniques,Prompt and context engineering,yes,prompt engineering|context engineering|system prompts?|prompting,zero[- ]system[- ]prompt|\bnotes\b
 inference_serving,infrastructure,Inference and serving,yes,\binference\b|\bvllm\b|\bsglang\b|tensorrt|model serving|llm serving,statistical inference|causal inference|bayesian inference|type inference
 speculative_decoding,infrastructure,Speculative decoding,no,speculative decoding|draft models?|\bmedusa\b|\beagle[- ]?\d\b|multi[- ]token prediction|lookahead decoding,
 kv_cache,infrastructure,KV cache and prompt caching,no,kv[- ]?cache|paged ?attention|prefix cach|prompt cach,
@@ -49,7 +49,7 @@ agi,market,AGI and superintelligence,no,(?-i:\bAGI\b|\bASI\b)|superintelligen,
 openai,labs,OpenAI,no,openai|chatgpt|(?-i:\bGPT[- ]?(3\.5|4|4o|4\.1|4\.5|5)|GPT[- ]?oss)|\bgpt[- ]?(4o|oss)\b|\bsora\b,
 anthropic_claude,labs,Anthropic and Claude,no,anthropic|\bclaude\b,
 google_gemini,labs,Google Gemini and Gemma,no,gemini|\bgemma|deepmind,
-meta_llama,labs,Meta Llama,no,\bllama\b|\bllama[- ]?\d|meta ai\b,
+meta_llama,labs,Meta Llama,no,\bllama\b|\bllama[- ]?\d|meta ai\b,llama ?\.? ?cpp
 deepseek,labs,DeepSeek,no,deepseek,
 qwen,labs,Qwen,no,\bqwen|\bqwq\b,
 mistral,labs,Mistral,no,mistral|mixtral|magistral|devstral|codestral,

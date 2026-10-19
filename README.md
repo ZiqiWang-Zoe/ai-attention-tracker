@@ -56,6 +56,27 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 
 A full backfill takes about 25 minutes, mostly Hugging Face's limit of 500 requests per 5 minutes.
 
+## Daily update and live page
+
+Live page: https://ziqiwang-zoe.github.io/ai-attention-tracker/
+
+Every morning `daily.sh` runs on Ziqi's Mac (launchd job in `launchd/`):
+
+1. Re-fetch the last 7 days from all three sources and update the CSVs.
+2. Save today's snapshot to `snapshots/YYYY-MM-DD.json`. Past snapshots are never rewritten, so the page can show how the list moved.
+3. Codex checks the new numbers, read-only, using the local ChatGPT login (`review/prompt.md`, evidence built by `review/prepare.py`). Its report goes to `reviews/YYYY-MM-DD.md` with a verdict of PASS, WARN or FAIL.
+4. On PASS or WARN, commit and push. On FAIL, only the review is pushed and the previous numbers stay live.
+5. The push triggers `.github/workflows/pages.yml`, which rebuilds the page from the committed data. No secrets or API keys are used anywhere.
+
+Install the schedule once:
+
+```bash
+sed "s|__REPO__|$PWD|g" launchd/io.github.ziqiwang-zoe.attention-tracker.plist > ~/Library/LaunchAgents/io.github.ziqiwang-zoe.attention-tracker.plist
+launchctl load ~/Library/LaunchAgents/io.github.ziqiwang-zoe.attention-tracker.plist
+```
+
+On the page, models are counted as uploader-days (distinct uploaders per day, summed), so one account posting hundreds of models counts once a day.
+
 ## Limits
 
 - **Keyword matching is blunt.** It misses items that discuss a topic without its keywords and catches some that use a keyword in another sense ("Claude de France", a job listing that mentions an LLM). Spot checks on HN titles look mostly clean, but nobody has hand-labeled a sample yet, so treat precision as unknown.
