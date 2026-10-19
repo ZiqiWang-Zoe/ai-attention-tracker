@@ -33,7 +33,7 @@ OUT = ROOT / "_site"
 SOURCES = {
     "hn": {"label": "Hacker News", "unit": "stories", "metric": "items", "min_recent": 20},
     "hf_papers": {"label": "Hugging Face papers", "unit": "papers", "metric": "items", "min_recent": 20},
-    "hf_models": {"label": "Hugging Face models", "unit": "uploader-days", "metric": "authors", "min_recent": 50},
+    "hf_models": {"label": "Hugging Face models", "unit": "uploaders", "metric": "authors", "min_recent": 50},
 }
 # Groups left out of rankings: the umbrella topic, the word-choice comparisons, and
 # market topics on models (model tags don't talk about jobs or funding).
@@ -237,6 +237,8 @@ def build(as_of, backfill=0):
         "monthly": monthly(c),
         "ai_daily": daily_ai_share(c, as_of),
         "review": latest_review(),
+        "totals": dict(zip(["items", "first_day", "topics"], c.execute(
+            "SELECT sum(items), min(date)::VARCHAR, (SELECT count(*) - 1 FROM tp) FROM sd").fetchone())),
     }
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -245,6 +247,8 @@ def build(as_of, backfill=0):
         if (ROOT / "data" / f).exists():
             shutil.copy(ROOT / "data" / f, OUT / "data" / f)
     shutil.copy(ROOT / "topics.csv", OUT / "data" / "topics.csv")
+    if (ROOT / "site" / "og.png").exists():
+        shutil.copy(ROOT / "site" / "og.png", OUT / "og.png")
     html = (ROOT / "site" / "template.html").read_text()
     blob = json.dumps(payload, separators=(",", ":")).replace("</", "<\\/")
     (OUT / "index.html").write_text(html.replace("/*__DATA__*/null", blob))

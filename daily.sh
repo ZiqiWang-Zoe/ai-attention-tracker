@@ -55,6 +55,8 @@ echo "codex verdict: ${VERDICT:-none}"
 if [[ -z "$VERDICT" ]]; then notify "Codex check did not run for $DAY. Data published without a new review."; fi
 
 $PY site/build.py                      # rebuild so the page shows the review
+$PY site/og.py || true                 # refresh the link-preview image
+$PY site/build.py >/dev/null           # copy the new preview into _site
 
 if [[ "$VERDICT" == "FAIL" ]]; then
   # Keep yesterday's page live; commit only the review so the problem is on record.
@@ -67,7 +69,7 @@ if [[ "$VERDICT" == "FAIL" ]]; then
   exit 0
 fi
 
-git add data snapshots reviews
+git add data snapshots reviews site/og.png
 git commit -q -m "Daily update $DAY" || { echo "nothing to commit"; exit 0; }
 git push -q
 echo "=== $(date -u '+%F %T UTC') published $DAY"

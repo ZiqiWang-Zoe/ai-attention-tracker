@@ -4,7 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AI Attention Tracker | Ziqi Wang</title>
-<meta name="description" content="Which AI topics are gaining share of attention on Hacker News and Hugging Face. Updated daily from public data.">
+<meta name="description" content="Which AI topics are gaining ground on Hacker News and Hugging Face. A daily dashboard by Ziqi Wang, built with Python and SQL on public data.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AI Attention Tracker | Ziqi Wang">
+<meta property="og:description" content="Which AI topics are gaining ground in what developers post, researchers publish and model builders release. Updated daily.">
+<meta property="og:url" content="https://ziqiwang-zoe.github.io/ai-attention-tracker/">
+<meta property="og:image" content="https://ziqiwang-zoe.github.io/ai-attention-tracker/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://ziqiwang-zoe.github.io/ai-attention-tracker/">
 <link rel="icon" href="https://ziqiwang-zoe.github.io/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,6 +47,9 @@ nav.top .links { display: flex; gap: 24px; }
 header.hero { padding: 40px 0 32px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 32px; align-items: end; border-bottom: 1px solid var(--line); }
 header.hero h1 { font-size: clamp(32px, 5vw, 48px); letter-spacing: -0.025em; font-weight: 500; }
 header.hero p.sub { margin-top: 12px; font-size: 17px; color: var(--muted); max-width: 52ch; }
+.headline { margin-top: 22px; padding-left: 14px; border-left: 3px solid var(--accent); font-size: 16px; max-width: 62ch; }
+.headline b { font-weight: 600; }
+.legend .hint { margin-left: auto; color: var(--faint); }
 .meta { font-size: 13px; color: var(--muted); text-align: right; line-height: 1.8; white-space: nowrap; }
 .status { display: inline-flex; align-items: center; gap: 6px; }
 .status svg { width: 14px; height: 14px; }
@@ -47,9 +59,10 @@ section:last-of-type { border-bottom: 0; }
 section h2 { font-size: 24px; letter-spacing: -0.015em; }
 section .lede { margin-top: 8px; color: var(--muted); max-width: 65ch; }
 
-.kpis { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; margin-top: 32px; }
+.kpis { display: grid; grid-template-columns: 1.25fr 1.35fr 1fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; margin-top: 32px; }
 .kpi { background: var(--card); padding: 20px 22px; min-width: 0; }
 .kpi .k-label { font-size: 13px; color: var(--muted); }
+.kpi .k-value.k-text { font-size: 19px; line-height: 1.3; margin-top: 8px; }
 .kpi .k-value { font-size: 30px; font-weight: 600; letter-spacing: -0.02em; margin-top: 4px; }
 .kpi .k-delta { font-size: 13px; color: var(--muted); margin-top: 2px; }
 .kpi .k-delta b { color: var(--fg); font-weight: 500; }
@@ -171,16 +184,19 @@ footer { padding: 40px 0 64px; font-size: 13px; color: var(--muted); }
   <header class="hero">
     <div>
       <h1>AI Attention Tracker</h1>
-      <p class="sub">Which AI topics are gaining share of attention among developers and researchers, updated every day from public data.</p>
+      <p class="sub">Which AI topics are gaining ground in what developers post, researchers publish and model builders release. Updated daily.</p>
+      <p class="headline" id="headline"></p>
     </div>
     <div class="meta">
+      <div>By <a class="link" href="https://ziqiwang-zoe.github.io/">Ziqi Wang</a></div>
       <div>Data through <span id="asof"></span></div>
+      <div><a class="link" href="https://ziqiwang-zoe.github.io/work/ai-attention-tracker/">How I built it</a></div>
     </div>
   </header>
 
   <section id="last30" aria-labelledby="h-last30">
     <h2 id="h-last30">The last 30 days</h2>
-    <p class="lede">Share of each source's total, compared with the 90 days before. Shares, not counts, because every source grows over time. The scale is logarithmic, so a longer line means a bigger rise.</p>
+    <p class="lede">Each topic's share of everything posted on that source, compared with the 90 days before. Shares, not counts, because every source grows over time. The axis is logarithmic, so a longer line always means a bigger rise.</p>
     <div class="kpis" id="kpis"></div>
 
     <div class="controls" role="group" aria-label="Source">
@@ -190,6 +206,7 @@ footer { padding: 40px 0 64px; font-size: 13px; color: var(--muted); }
       <div class="legend" aria-hidden="true">
         <span><i class="dot" style="background:var(--context)"></i>Prior 90 days</span>
         <span><i class="dot" style="background:var(--accent)"></i>Last 30 days</span>
+        <span class="hint">Click a topic to see the stories behind it</span>
       </div>
       <div class="chart" id="dumbbell"></div>
       <div class="evidence" id="evidence" aria-live="polite"></div>
@@ -200,7 +217,7 @@ footer { padding: 40px 0 64px; font-size: 13px; color: var(--muted); }
 
   <section aria-labelledby="h-take">
     <h2 id="h-take">What a marketer could do with this</h2>
-    <p class="lede">Written from the numbers above each time the page rebuilds.</p>
+    <p class="lede">Written from the numbers above each time the page rebuilds. Treat them as leads to check, not conclusions.</p>
     <div class="takeaways" id="takeaways"></div>
   </section>
 
@@ -252,11 +269,11 @@ footer { padding: 40px 0 64px; font-size: 13px; color: var(--muted); }
     <div class="method">
       <div>
         <ul>
-          <li>Every Hacker News story, every paper featured on Hugging Face, and every public model created on the Hugging Face Hub, each day since January 1, 2025.</li>
+          <li>Every Hacker News story, every paper on Hugging Face's curated daily papers page (a selection, not all AI research), and every public model created on the Hugging Face Hub, each day since January 1, 2025.</li>
           <li>Each item is matched to 59 topics using keyword rules (titles for HN, title and abstract for papers, model name and tags for models). One item can count toward several topics.</li>
           <li>On Hacker News, generic topics such as "medical" only count when the title also mentions AI.</li>
-          <li>Models are counted as uploader-days (distinct uploaders per day), so one account posting hundreds of models counts once.</li>
-          <li>Rising = share in the last 30 days divided by share in the 90 days before. A topic needs at least 20 items (50 uploader-days for models) in the last 30 days to be ranked.</li>
+          <li>Models are counted by uploader: each account counts once per day, however many models it posts.</li>
+          <li>Rising = share in the last 30 days divided by share in the 90 days before. A topic needs at least 20 items (50 uploaders for models) in the last 30 days to be ranked.</li>
         </ul>
       </div>
       <div>
@@ -277,7 +294,7 @@ footer { padding: 40px 0 64px; font-size: 13px; color: var(--muted); }
   </section>
 
   <footer>
-    Built by <a class="link" href="https://ziqiwang-zoe.github.io/">Ziqi Wang</a> with Python, DuckDB and public APIs from Hacker News (Algolia) and Hugging Face. <span id="built"></span>
+    Built by <a class="link" href="https://ziqiwang-zoe.github.io/">Ziqi Wang</a> with Python, DuckDB and public APIs from Hacker News (Algolia) and Hugging Face. Read <a class="link" href="https://ziqiwang-zoe.github.io/work/ai-attention-tracker/">how I built it</a>. <span id="built"></span>
   </footer>
 </div>
 
@@ -327,14 +344,29 @@ document.getElementById('built').textContent = 'Last built ' + D.built_at + '.';
   svg.append(el('path', { d: path(cut, pts.length), fill: 'none', stroke: 'var(--accent)', 'stroke-width': 2, 'vector-effect': 'non-scaling-stroke', 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }));
   t1.append(svg);
   box.append(t1);
-  for (const s of SRC) {
-    const src = latest.sources[s], cfg = D.sources[s];
+  const tile = (lab, val, sub, text) => {
     const t = el('div', { class: 'kpi' });
-    t.append(el('div', { class: 'k-label' }, cfg.label));
-    t.append(el('div', { class: 'k-value' }, fmtInt(src.recent_total)));
-    t.append(el('div', { class: 'k-delta' }, cfg.unit + ' in the last 30 days'));
+    t.append(el('div', { class: 'k-label' }, lab), el('div', { class: 'k-value' + (text ? ' k-text' : '') }, val), el('div', { class: 'k-delta' }, sub));
     box.append(t);
+  };
+  const ev = latest.everywhere;
+  if (ev.length) {
+    const lifts = SRC.map(s => (latest.sources[s].rising.find(r => r.topic === ev[0]) || {}).lift).filter(Boolean);
+    tile('Rising on all three sources', ev.map(label).join(', '),
+      lifts.length === 3 ? `Up ${lifts.map(v => v.toFixed(1) + 'x').join(', ')} on HN, papers and models` : 'Share up on every source');
+  } else {
+    const top = latest.sources.hn.rising[0];
+    tile('Biggest rise on Hacker News', label(top.topic), top.lift.toFixed(1) + 'x vs the prior 90 days', true);
   }
+  if (ev.length) box.lastChild.querySelector('.k-value').classList.add('k-text');
+  tile('Items analyzed', fmtInt(D.totals.items), 'stories, papers and models since ' + fmtMonth(D.totals.first_day.slice(0, 7)));
+  tile('Topics tracked', String(D.totals.topics), 'across 3 public sources, refreshed daily');
+  // hero headline: the one sentence a skimmer should leave with
+  const hl = document.getElementById('headline');
+  hl.append(document.createTextNode('Last 30 days: '));
+  if (ev.length === 1) { hl.append(el('b', {}, label(ev[0]))); hl.append(document.createTextNode(' is the only topic gaining share on all three sources.')); }
+  else if (ev.length > 1) { hl.append(el('b', {}, ev.map(label).join(', '))); hl.append(document.createTextNode(' are gaining share on all three sources.')); }
+  else { const top = latest.sources.hn.rising[0]; hl.append(el('b', {}, label(top.topic))); hl.append(document.createTextNode(` had the biggest rise on Hacker News (${top.lift.toFixed(1)}x).`)); }
 })();
 
 /* ---------- dumbbell: rising topics ---------- */
@@ -462,10 +494,10 @@ function trimPct(v, step) { if (v < 1e-9) return '0%'; const d = step >= 1 ? 0 :
   const hnSet = new Set(latest.sources.hn.rising.map(r => r.topic));
   const gap = latest.sources.hf_papers.rising.find(r => !hnSet.has(r.topic));
   const items = [];
-  if (ev.length) items.push(['Lead with what every audience wants', `${label(ev[0])} is gaining share with developers, researchers and model builders at once. A product that fits it can use the same story for all three audiences right now.`]);
+  if (ev.length) items.push(['If you sell into this space, lead with it', `${label(ev[0])} is gaining share with developers, researchers and model builders at once. If your product fits it, one message can work for all three audiences.`]);
   else items.push(['Message each audience separately', 'No single topic is rising everywhere this month, so one campaign message is less likely to land with developers and researchers alike.']);
-  if (hnTop) items.push(['Join the developer conversation', `${label(hnTop.topic)} rose ${hnTop.lift.toFixed(1)}x on Hacker News (${fmtInt(hnTop.recent)} stories in 30 days). Launch posts, demos and Show HN threads on this topic meet a crowd that is already paying attention.`]);
-  if (gap) items.push(['Get ahead of the next wave', `${label(gap.topic)} rose ${gap.lift.toFixed(1)}x in research papers but is not among the top risers on Hacker News yet. Explaining it early, in plain language, is a chance to own the topic before developers arrive.`]);
+  if (hnTop) items.push(['Time launches to developer interest', `${label(hnTop.topic)} rose ${hnTop.lift.toFixed(1)}x on Hacker News (${fmtInt(hnTop.recent)} stories in 30 days). If you have news on this topic, developers are already reading about it.`]);
+  if (gap) items.push(['Explain what research is picking up', `${label(gap.topic)} rose ${gap.lift.toFixed(1)}x in research papers but is not yet a top riser on Hacker News. Plain-language explainers could reach developers early. Check search and customer interest first.`]);
   else if (papTop) items.push(['Watch research for early signals', `${label(papTop.topic)} leads the rise in research papers (${papTop.lift.toFixed(1)}x).`]);
   items.forEach(([h, p]) => { const d = el('div'); d.append(el('h3', {}, h), el('p', {}, p)); tk.append(d); });
 })();
