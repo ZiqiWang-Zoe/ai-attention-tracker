@@ -1,0 +1,400 @@
+{
+ "as_of": "2026-10-18",
+ "recent_days": 30,
+ "baseline_days": 90,
+ "sources": {
+  "hn": {
+   "recent_total": 29031,
+   "baseline_total": 88468,
+   "ai_share_recent": 21.456,
+   "ai_share_baseline": 21.174,
+   "rising": [
+    {
+     "topic": "mistral",
+     "recent": 28,
+     "baseline": 32,
+     "recent_share": 0.0964,
+     "baseline_share": 0.0362,
+     "lift": 2.666
+    },
+    {
+     "topic": "safety_security",
+     "recent": 95,
+     "baseline": 185,
+     "recent_share": 0.3272,
+     "baseline_share": 0.2091,
+     "lift": 1.565
+    },
+    {
+     "topic": "fine_tuning",
+     "recent": 30,
+     "baseline": 61,
+     "recent_share": 0.1033,
+     "baseline_share": 0.069,
+     "lift": 1.499
+    },
+    {
+     "topic": "computer_use",
+     "recent": 29,
+     "baseline": 59,
+     "recent_share": 0.0999,
+     "baseline_share": 0.0667,
+     "lift": 1.498
+    },
+    {
+     "topic": "chatbots",
+     "recent": 101,
+     "baseline": 219,
+     "recent_share": 0.3479,
+     "baseline_share": 0.2475,
+     "lift": 1.405
+    },
+    {
+     "topic": "rl_post_training",
+     "recent": 44,
+     "baseline": 108,
+     "recent_share": 0.1516,
+     "baseline_share": 0.1221,
+     "lift": 1.242
+    },
+    {
+     "topic": "robotics",
+     "recent": 33,
+     "baseline": 85,
+     "recent_share": 0.1137,
+     "baseline_share": 0.0961,
+     "lift": 1.183
+    },
+    {
+     "topic": "openai",
+     "recent": 593,
+     "baseline": 1592,
+     "recent_share": 2.0426,
+     "baseline_share": 1.7995,
+     "lift": 1.135
+    },
+    {
+     "topic": "gpus_nvidia",
+     "recent": 302,
+     "baseline": 820,
+     "recent_share": 1.0403,
+     "baseline_share": 0.9269,
+     "lift": 1.122
+    },
+    {
+     "topic": "google_gemini",
+     "recent": 110,
+     "baseline": 301,
+     "recent_share": 0.3789,
+     "baseline_share": 0.3402,
+     "lift": 1.114
+    }
+   ],
+   "falling": [
+    {
+     "topic": "other_china_labs",
+     "recent": 26,
+     "baseline": 333,
+     "recent_share": 0.0896,
+     "baseline_share": 0.3764,
+     "lift": 0.238
+    },
+    {
+     "topic": "deepseek",
+     "recent": 45,
+     "baseline": 242,
+     "recent_share": 0.155,
+     "baseline_share": 0.2735,
+     "lift": 0.567
+    },
+    {
+     "topic": "autonomous_driving",
+     "recent": 32,
+     "baseline": 163,
+     "recent_share": 0.1102,
+     "baseline_share": 0.1842,
+     "lift": 0.598
+    },
+    {
+     "topic": "ai_search",
+     "recent": 25,
+     "baseline": 126,
+     "recent_share": 0.0861,
+     "baseline_share": 0.1424,
+     "lift": 0.605
+    },
+    {
+     "topic": "jobs_work",
+     "recent": 90,
+     "baseline": 382,
+     "recent_share": 0.31,
+     "baseline_share": 0.4318,
+     "lift": 0.718
+    }
+   ]
+  },
+  "hf_papers": {
+   "recent_total": 849,
+   "baseline_total": 1886,
+   "ai_share_recent": 57.126,
+   "ai_share_baseline": 59.703,
+   "rising": [
+    {
+     "topic": "computer_use",
+     "recent": 25,
+     "baseline": 33,
+     "recent_share": 2.9446,
+     "baseline_share": 1.7497,
+     "lift": 1.683
+    },
+    {
+     "topic": "kv_cache",
+     "recent": 25,
+     "baseline": 36,
+     "recent_share": 2.9446,
+     "baseline_share": 1.9088,
+     "lift": 1.543
+    },
+    {
+     "topic": "image_generation",
+     "recent": 47,
+     "baseline": 74,
+     "recent_share": 5.5359,
+     "baseline_share": 3.9236,
+     "lift": 1.411
+    },
+    {
+     "topic": "qwen",
+     "recent": 120,
+     "baseline": 202,
+     "recent_share": 14.1343,
+     "baseline_share": 10.7105,
+     "lift": 1.32
+    },
+    {
+     "topic": "robotics",
+     "recent": 115,
+     "baseline": 196,
+     "recent_share": 13.5453,
+     "baseline_share": 10.3924,
+     "lift": 1.303
+    },
+    {
+     "topic": "distillation",
+     "recent": 129,
+     "baseline": 238,
+     "recent_share": 15.1943,
+     "baseline_share": 12.6193,
+     "lift": 1.204
+    },
+    {
+     "topic": "rl_post_training",
+     "recent": 175,
+     "baseline": 333,
+     "recent_share": 20.6125,
+     "baseline_share": 17.6564,
+     "lift": 1.167
+    },
+    {
+     "topic": "video_generation",
+     "recent": 68,
+     "baseline": 131,
+     "recent_share": 8.0094,
+     "baseline_share": 6.9459,
+     "lift": 1.153
+    },
+    {
+     "topic": "fine_tuning",
+     "recent": 153,
+     "baseline": 297,
+     "recent_share": 18.0212,
+     "baseline_share": 15.7476,
+     "lift": 1.144
+    },
+    {
+     "topic": "agents",
+     "recent": 326,
+     "baseline": 645,
+     "recent_share": 38.3981,
+     "baseline_share": 34.1994,
+     "lift": 1.123
+    }
+   ],
+   "falling": [
+    {
+     "topic": "embeddings_vector_search",
+     "recent": 38,
+     "baseline": 137,
+     "recent_share": 4.4759,
+     "baseline_share": 7.2641,
+     "lift": 0.616
+    },
+    {
+     "topic": "safety_security",
+     "recent": 86,
+     "baseline": 229,
+     "recent_share": 10.1296,
+     "baseline_share": 12.1421,
+     "lift": 0.834
+    },
+    {
+     "topic": "interpretability",
+     "recent": 32,
+     "baseline": 84,
+     "recent_share": 3.7691,
+     "baseline_share": 4.4539,
+     "lift": 0.846
+    },
+    {
+     "topic": "anthropic_claude",
+     "recent": 22,
+     "baseline": 57,
+     "recent_share": 2.5913,
+     "baseline_share": 3.0223,
+     "lift": 0.857
+    },
+    {
+     "topic": "multimodal",
+     "recent": 169,
+     "baseline": 436,
+     "recent_share": 19.9058,
+     "baseline_share": 23.1177,
+     "lift": 0.861
+    }
+   ]
+  },
+  "hf_models": {
+   "recent_total": 49494,
+   "baseline_total": 120578,
+   "ai_share_recent": 33.487,
+   "ai_share_baseline": 35.419,
+   "rising": [
+    {
+     "topic": "computer_use",
+     "recent": 146,
+     "baseline": 176,
+     "recent_share": 0.295,
+     "baseline_share": 0.146,
+     "lift": 2.021
+    },
+    {
+     "topic": "synthetic_data",
+     "recent": 169,
+     "baseline": 223,
+     "recent_share": 0.3415,
+     "baseline_share": 0.1849,
+     "lift": 1.846
+    },
+    {
+     "topic": "ai_chips",
+     "recent": 171,
+     "baseline": 292,
+     "recent_share": 0.3455,
+     "baseline_share": 0.2422,
+     "lift": 1.427
+    },
+    {
+     "topic": "safety_security",
+     "recent": 559,
+     "baseline": 993,
+     "recent_share": 1.1294,
+     "baseline_share": 0.8235,
+     "lift": 1.371
+    },
+    {
+     "topic": "image_generation",
+     "recent": 1762,
+     "baseline": 3334,
+     "recent_share": 3.56,
+     "baseline_share": 2.765,
+     "lift": 1.288
+    },
+    {
+     "topic": "kv_cache",
+     "recent": 52,
+     "baseline": 101,
+     "recent_share": 0.1051,
+     "baseline_share": 0.0838,
+     "lift": 1.254
+    },
+    {
+     "topic": "distillation",
+     "recent": 1065,
+     "baseline": 2104,
+     "recent_share": 2.1518,
+     "baseline_share": 1.7449,
+     "lift": 1.233
+    },
+    {
+     "topic": "gpus_nvidia",
+     "recent": 1057,
+     "baseline": 2140,
+     "recent_share": 2.1356,
+     "baseline_share": 1.7748,
+     "lift": 1.203
+    },
+    {
+     "topic": "ssm_linear_attention",
+     "recent": 264,
+     "baseline": 548,
+     "recent_share": 0.5334,
+     "baseline_share": 0.4545,
+     "lift": 1.174
+    },
+    {
+     "topic": "agents",
+     "recent": 1560,
+     "baseline": 3269,
+     "recent_share": 3.1519,
+     "baseline_share": 2.7111,
+     "lift": 1.163
+    }
+   ],
+   "falling": [
+    {
+     "topic": "anthropic_claude",
+     "recent": 123,
+     "baseline": 588,
+     "recent_share": 0.2485,
+     "baseline_share": 0.4877,
+     "lift": 0.51
+    },
+    {
+     "topic": "chatbots",
+     "recent": 89,
+     "baseline": 422,
+     "recent_share": 0.1798,
+     "baseline_share": 0.35,
+     "lift": 0.514
+    },
+    {
+     "topic": "meta_llama",
+     "recent": 1625,
+     "baseline": 5760,
+     "recent_share": 3.2832,
+     "baseline_share": 4.777,
+     "lift": 0.687
+    },
+    {
+     "topic": "mistral",
+     "recent": 394,
+     "baseline": 1286,
+     "recent_share": 0.7961,
+     "baseline_share": 1.0665,
+     "lift": 0.746
+    },
+    {
+     "topic": "moe",
+     "recent": 1931,
+     "baseline": 6073,
+     "recent_share": 3.9015,
+     "baseline_share": 5.0366,
+     "lift": 0.775
+    }
+   ]
+  }
+ },
+ "everywhere": [
+  "computer_use"
+ ]
+}
