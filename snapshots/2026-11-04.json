@@ -1,0 +1,998 @@
+{
+ "as_of": "2026-11-04",
+ "recent_days": 30,
+ "baseline_days": 90,
+ "sources": {
+  "hn": {
+   "recent_total": 30345,
+   "baseline_total": 88533,
+   "ai_share_recent": 20.224,
+   "ai_share_baseline": 21.347,
+   "rising": [
+    {
+     "topic": "mistral",
+     "recent": 33,
+     "baseline": 34,
+     "recent_share": 0.1087,
+     "baseline_share": 0.0384,
+     "lift": 2.832,
+     "examples": [
+      {
+       "title": "Mistral Large 4",
+       "url": "https://news.ycombinator.com/item?id=49977979",
+       "score": 2042,
+       "date": "2026-10-06"
+      },
+      {
+       "title": "We're releasing the weights of Mistral Large 4",
+       "url": "https://news.ycombinator.com/item?id=50289418",
+       "score": 1732,
+       "date": "2026-10-29"
+      },
+      {
+       "title": "Timestral: Mistral's time-series foundation models",
+       "url": "https://news.ycombinator.com/item?id=50150434",
+       "score": 621,
+       "date": "2026-10-19"
+      }
+     ]
+    },
+    {
+     "topic": "funding_bubble",
+     "recent": 141,
+     "baseline": 311,
+     "recent_share": 0.4647,
+     "baseline_share": 0.3513,
+     "lift": 1.323,
+     "examples": [
+      {
+       "title": "Typesafe AI raises $870M at $7.5B",
+       "url": "https://news.ycombinator.com/item?id=50023450",
+       "score": 445,
+       "date": "2026-10-09"
+      },
+      {
+       "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+       "url": "https://news.ycombinator.com/item?id=50344919",
+       "score": 405,
+       "date": "2026-11-02"
+      },
+      {
+       "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+       "url": "https://news.ycombinator.com/item?id=50307219",
+       "score": 326,
+       "date": "2026-10-30"
+      }
+     ]
+    },
+    {
+     "topic": "world_models",
+     "recent": 26,
+     "baseline": 58,
+     "recent_share": 0.0857,
+     "baseline_share": 0.0655,
+     "lift": 1.308,
+     "examples": [
+      {
+       "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+       "url": "https://news.ycombinator.com/item?id=50295450",
+       "score": 272,
+       "date": "2026-10-29"
+      },
+      {
+       "title": "Towards Company World Models",
+       "url": "https://news.ycombinator.com/item?id=50156332",
+       "score": 25,
+       "date": "2026-10-19"
+      },
+      {
+       "title": "Hy-Nomas, Tencent's new open-source world model you can steer with text",
+       "url": "https://news.ycombinator.com/item?id=50260747",
+       "score": 14,
+       "date": "2026-10-27"
+      }
+     ]
+    },
+    {
+     "topic": "ai_chips",
+     "recent": 63,
+     "baseline": 141,
+     "recent_share": 0.2076,
+     "baseline_share": 0.1593,
+     "lift": 1.304,
+     "examples": [
+      {
+       "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+       "url": "https://news.ycombinator.com/item?id=50169053",
+       "score": 379,
+       "date": "2026-10-20"
+      },
+      {
+       "title": "Cerebras Deploys Trillion-Parameter AI Models",
+       "url": "https://news.ycombinator.com/item?id=50227356",
+       "score": 368,
+       "date": "2026-10-25"
+      },
+      {
+       "title": "OpenTPU \u2013 An open-source AI accelerator, developed by AI",
+       "url": "https://news.ycombinator.com/item?id=49980715",
+       "score": 348,
+       "date": "2026-10-06"
+      }
+     ]
+    },
+    {
+     "topic": "medical_ai",
+     "recent": 24,
+     "baseline": 56,
+     "recent_share": 0.0791,
+     "baseline_share": 0.0633,
+     "lift": 1.25,
+     "examples": [
+      {
+       "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+       "url": "https://news.ycombinator.com/item?id=50233779",
+       "score": 670,
+       "date": "2026-10-25"
+      },
+      {
+       "title": "New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
+       "url": "https://news.ycombinator.com/item?id=50214185",
+       "score": 67,
+       "date": "2026-10-23"
+      },
+      {
+       "title": "AI gets more diagnoses right than generalist doctors in medical challenge",
+       "url": "https://news.ycombinator.com/item?id=50220694",
+       "score": 7,
+       "date": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "topic": "fine_tuning",
+     "recent": 28,
+     "baseline": 68,
+     "recent_share": 0.0923,
+     "baseline_share": 0.0768,
+     "lift": 1.201,
+     "examples": [
+      {
+       "title": "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals",
+       "url": "https://news.ycombinator.com/item?id=50353468",
+       "score": 41,
+       "date": "2026-11-03"
+      },
+      {
+       "title": "Fine-tuned Qwen on my 16gb GPU to respond without the letter e",
+       "url": "https://news.ycombinator.com/item?id=50234183",
+       "score": 31,
+       "date": "2026-10-25"
+      },
+      {
+       "title": "We fine-tuned a 235B model on 4 GPUs. Then we didn't need it",
+       "url": "https://news.ycombinator.com/item?id=50151638",
+       "score": 14,
+       "date": "2026-10-19"
+      }
+     ]
+    },
+    {
+     "topic": "inference_serving",
+     "recent": 61,
+     "baseline": 150,
+     "recent_share": 0.201,
+     "baseline_share": 0.1694,
+     "lift": 1.186,
+     "examples": [
+      {
+       "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+       "url": "https://news.ycombinator.com/item?id=50163277",
+       "score": 2351,
+       "date": "2026-10-20"
+      },
+      {
+       "title": "There are now 5 inference providers for abliterated DeepSeek",
+       "url": "https://news.ycombinator.com/item?id=50254836",
+       "score": 100,
+       "date": "2026-10-27"
+      },
+      {
+       "title": "Anthropic: Progress on provable inference for large language models",
+       "url": "https://news.ycombinator.com/item?id=50362579",
+       "score": 11,
+       "date": "2026-11-04"
+      }
+     ]
+    },
+    {
+     "topic": "anthropic_claude",
+     "recent": 890,
+     "baseline": 2276,
+     "recent_share": 2.9329,
+     "baseline_share": 2.5708,
+     "lift": 1.141,
+     "examples": [
+      {
+       "title": "Claude reveals ECDSA curve origins",
+       "url": "https://news.ycombinator.com/item?id=50122800",
+       "score": 1065,
+       "date": "2026-10-16"
+      },
+      {
+       "title": "Claude Haiku 5.5",
+       "url": "https://news.ycombinator.com/item?id=49996437",
+       "score": 1049,
+       "date": "2026-10-07"
+      },
+      {
+       "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+       "url": "https://news.ycombinator.com/item?id=50300683",
+       "score": 1011,
+       "date": "2026-10-30"
+      }
+     ]
+    },
+    {
+     "topic": "mcp",
+     "recent": 256,
+     "baseline": 658,
+     "recent_share": 0.8436,
+     "baseline_share": 0.7432,
+     "lift": 1.135,
+     "examples": [
+      {
+       "title": "PaperPilot \u2013 Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+       "url": "https://news.ycombinator.com/item?id=50238739",
+       "score": 236,
+       "date": "2026-10-26"
+      },
+      {
+       "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+       "url": "https://news.ycombinator.com/item?id=50145715",
+       "score": 157,
+       "date": "2026-10-18"
+      },
+      {
+       "title": "Show HN: SolidCraft \u2013 Open-Source Parametric CAD in Rust (With MCP Support)",
+       "url": "https://news.ycombinator.com/item?id=50064840",
+       "score": 145,
+       "date": "2026-10-13"
+      }
+     ]
+    },
+    {
+     "topic": "gpus_nvidia",
+     "recent": 336,
+     "baseline": 865,
+     "recent_share": 1.1073,
+     "baseline_share": 0.977,
+     "lift": 1.133,
+     "examples": [
+      {
+       "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+       "url": "https://news.ycombinator.com/item?id=50362905",
+       "score": 607,
+       "date": "2026-11-04"
+      },
+      {
+       "title": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
+       "url": "https://news.ycombinator.com/item?id=50293047",
+       "score": 360,
+       "date": "2026-10-29"
+      },
+      {
+       "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+       "url": "https://news.ycombinator.com/item?id=50219700",
+       "score": 351,
+       "date": "2026-10-24"
+      }
+     ]
+    }
+   ],
+   "falling": [
+    {
+     "topic": "other_china_labs",
+     "recent": 41,
+     "baseline": 307,
+     "recent_share": 0.1351,
+     "baseline_share": 0.3468,
+     "lift": 0.39
+    },
+    {
+     "topic": "autonomous_driving",
+     "recent": 33,
+     "baseline": 159,
+     "recent_share": 0.1087,
+     "baseline_share": 0.1796,
+     "lift": 0.606
+    },
+    {
+     "topic": "copyright_licensing",
+     "recent": 40,
+     "baseline": 189,
+     "recent_share": 0.1318,
+     "baseline_share": 0.2135,
+     "lift": 0.617
+    },
+    {
+     "topic": "xai_grok",
+     "recent": 48,
+     "baseline": 207,
+     "recent_share": 0.1582,
+     "baseline_share": 0.2338,
+     "lift": 0.677
+    },
+    {
+     "topic": "safety_security",
+     "recent": 53,
+     "baseline": 221,
+     "recent_share": 0.1747,
+     "baseline_share": 0.2496,
+     "lift": 0.7
+    }
+   ]
+  },
+  "hf_papers": {
+   "recent_total": 1009,
+   "baseline_total": 1930,
+   "ai_share_recent": 56.789,
+   "ai_share_baseline": 59.689,
+   "rising": [
+    {
+     "topic": "computer_use",
+     "recent": 36,
+     "baseline": 28,
+     "recent_share": 3.5679,
+     "baseline_share": 1.4508,
+     "lift": 2.459,
+     "examples": [
+      {
+       "title": "Player-1: Learning to Play from Synthetic Experience",
+       "url": "https://huggingface.co/papers/2610.20584",
+       "score": 348,
+       "date": "2026-10-15"
+      },
+      {
+       "title": "Focused Omni-Modal GUI Agents",
+       "url": "https://huggingface.co/papers/2610.26203",
+       "score": 230,
+       "date": "2026-10-21"
+      },
+      {
+       "title": "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
+       "url": "https://huggingface.co/papers/2610.11942",
+       "score": 189,
+       "date": "2026-10-22"
+      }
+     ]
+    },
+    {
+     "topic": "anthropic_claude",
+     "recent": 46,
+     "baseline": 51,
+     "recent_share": 4.559,
+     "baseline_share": 2.6425,
+     "lift": 1.725,
+     "examples": [
+      {
+       "title": "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
+       "url": "https://huggingface.co/papers/2610.20424",
+       "score": 496,
+       "date": "2026-10-19"
+      },
+      {
+       "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+       "url": "https://huggingface.co/papers/2610.26659",
+       "score": 170,
+       "date": "2026-10-22"
+      },
+      {
+       "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
+       "url": "https://huggingface.co/papers/2610.18860",
+       "score": 137,
+       "date": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "topic": "diffusion_lms",
+     "recent": 20,
+     "baseline": 24,
+     "recent_share": 1.9822,
+     "baseline_share": 1.2435,
+     "lift": 1.594,
+     "examples": [
+      {
+       "title": "ALoDLM: Adaptively Looped Diffusion Language Models",
+       "url": "https://huggingface.co/papers/2610.04198",
+       "score": 80,
+       "date": "2026-10-06"
+      },
+      {
+       "title": "Intern Lumina U2: A Multi-Codebook Diffusion Large Language Model for Omni-Visual Understanding and Image Generation",
+       "url": "https://huggingface.co/papers/2610.20818",
+       "score": 51,
+       "date": "2026-10-16"
+      },
+      {
+       "title": "SoloQ: Calibration-Free Quantization for Diffusion Language Models",
+       "url": "https://huggingface.co/papers/2610.07121",
+       "score": 39,
+       "date": "2026-10-12"
+      }
+     ]
+    },
+    {
+     "topic": "funding_bubble",
+     "recent": 60,
+     "baseline": 74,
+     "recent_share": 5.9465,
+     "baseline_share": 3.8342,
+     "lift": 1.551,
+     "examples": [
+      {
+       "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+       "url": "https://huggingface.co/papers/2610.21601",
+       "score": 219,
+       "date": "2026-10-16"
+      },
+      {
+       "title": "SALD: Self-Referenced Advantage Learning for Diffusion Models",
+       "url": "https://huggingface.co/papers/2610.01496",
+       "score": 107,
+       "date": "2026-10-14"
+      },
+      {
+       "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+       "url": "https://huggingface.co/papers/2610.28698",
+       "score": 86,
+       "date": "2026-10-22"
+      }
+     ]
+    },
+    {
+     "topic": "ai_search",
+     "recent": 23,
+     "baseline": 30,
+     "recent_share": 2.2795,
+     "baseline_share": 1.5544,
+     "lift": 1.466,
+     "examples": [
+      {
+       "title": "DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
+       "url": "https://huggingface.co/papers/2610.28522",
+       "score": 74,
+       "date": "2026-10-21"
+      },
+      {
+       "title": "Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning",
+       "url": "https://huggingface.co/papers/2610.23181",
+       "score": 57,
+       "date": "2026-10-19"
+      },
+      {
+       "title": "Towards Looped Models Done Right, Part II: Rethinking at Fixed Points",
+       "url": "https://huggingface.co/papers/2610.06833",
+       "score": 35,
+       "date": "2026-10-06"
+      }
+     ]
+    },
+    {
+     "topic": "copyright_licensing",
+     "recent": 77,
+     "baseline": 101,
+     "recent_share": 7.6313,
+     "baseline_share": 5.2332,
+     "lift": 1.458,
+     "examples": [
+      {
+       "title": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+       "url": "https://huggingface.co/papers/2610.05608",
+       "score": 174,
+       "date": "2026-10-06"
+      },
+      {
+       "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+       "url": "https://huggingface.co/papers/2610.26855",
+       "score": 151,
+       "date": "2026-10-21"
+      },
+      {
+       "title": "MemT-1.0: Towards Memory-Native Evolution",
+       "url": "https://huggingface.co/papers/2610.26825",
+       "score": 146,
+       "date": "2026-10-20"
+      }
+     ]
+    },
+    {
+     "topic": "image_generation",
+     "recent": 49,
+     "baseline": 68,
+     "recent_share": 4.8563,
+     "baseline_share": 3.5233,
+     "lift": 1.378,
+     "examples": [
+      {
+       "title": "UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation",
+       "url": "https://huggingface.co/papers/2610.09823",
+       "score": 196,
+       "date": "2026-10-08"
+      },
+      {
+       "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
+       "url": "https://huggingface.co/papers/2610.18860",
+       "score": 137,
+       "date": "2026-10-14"
+      },
+      {
+       "title": "MOSS-Image Technical Report",
+       "url": "https://huggingface.co/papers/2610.23374",
+       "score": 104,
+       "date": "2026-10-19"
+      }
+     ]
+    },
+    {
+     "topic": "qwen",
+     "recent": 151,
+     "baseline": 216,
+     "recent_share": 14.9653,
+     "baseline_share": 11.1917,
+     "lift": 1.337,
+     "examples": [
+      {
+       "title": "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
+       "url": "https://huggingface.co/papers/2610.20424",
+       "score": 496,
+       "date": "2026-10-19"
+      },
+      {
+       "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+       "url": "https://huggingface.co/papers/2610.22276",
+       "score": 414,
+       "date": "2026-10-16"
+      },
+      {
+       "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+       "url": "https://huggingface.co/papers/2610.26802",
+       "score": 247,
+       "date": "2026-10-20"
+      }
+     ]
+    },
+    {
+     "topic": "ai_for_science",
+     "recent": 22,
+     "baseline": 32,
+     "recent_share": 2.1804,
+     "baseline_share": 1.658,
+     "lift": 1.315,
+     "examples": [
+      {
+       "title": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+       "url": "https://huggingface.co/papers/2610.28578",
+       "score": 74,
+       "date": "2026-10-21"
+      },
+      {
+       "title": "Building AI Research Teams for Autonomous Discovery of Linear Attention Architectures",
+       "url": "https://huggingface.co/papers/2610.28887",
+       "score": 45,
+       "date": "2026-10-22"
+      },
+      {
+       "title": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
+       "url": "https://huggingface.co/papers/2610.28763",
+       "score": 30,
+       "date": "2026-10-22"
+      }
+     ]
+    },
+    {
+     "topic": "agents",
+     "recent": 430,
+     "baseline": 664,
+     "recent_share": 42.6165,
+     "baseline_share": 34.4041,
+     "lift": 1.239,
+     "examples": [
+      {
+       "title": "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
+       "url": "https://huggingface.co/papers/2610.20424",
+       "score": 496,
+       "date": "2026-10-19"
+      },
+      {
+       "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+       "url": "https://huggingface.co/papers/2610.22471",
+       "score": 481,
+       "date": "2026-10-19"
+      },
+      {
+       "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+       "url": "https://huggingface.co/papers/2610.22276",
+       "score": 414,
+       "date": "2026-10-16"
+      }
+     ]
+    }
+   ],
+   "falling": [
+    {
+     "topic": "openai",
+     "recent": 29,
+     "baseline": 97,
+     "recent_share": 2.8741,
+     "baseline_share": 5.0259,
+     "lift": 0.572
+    },
+    {
+     "topic": "voice_audio",
+     "recent": 23,
+     "baseline": 76,
+     "recent_share": 2.2795,
+     "baseline_share": 3.9378,
+     "lift": 0.579
+    },
+    {
+     "topic": "interpretability",
+     "recent": 27,
+     "baseline": 78,
+     "recent_share": 2.6759,
+     "baseline_share": 4.0415,
+     "lift": 0.662
+    },
+    {
+     "topic": "safety_security",
+     "recent": 25,
+     "baseline": 71,
+     "recent_share": 2.4777,
+     "baseline_share": 3.6788,
+     "lift": 0.674
+    },
+    {
+     "topic": "embeddings_vector_search",
+     "recent": 53,
+     "baseline": 125,
+     "recent_share": 5.2527,
+     "baseline_share": 6.4767,
+     "lift": 0.811
+    }
+   ]
+  },
+  "hf_models": {
+   "recent_total": 49695,
+   "baseline_total": 125702,
+   "ai_share_recent": 34.162,
+   "ai_share_baseline": 35.314,
+   "rising": [
+    {
+     "topic": "ai_search",
+     "recent": 64,
+     "baseline": 77,
+     "recent_share": 0.1288,
+     "baseline_share": 0.0613,
+     "lift": 2.102,
+     "examples": [
+      {
+       "title": "perplexity-ai/pplx-decider-v1.2",
+       "url": "https://huggingface.co/perplexity-ai/pplx-decider-v1.2",
+       "score": 43,
+       "date": "2026-10-15"
+      },
+      {
+       "title": "turintech/pplx-decider-27B-Artemis-GGUF",
+       "url": "https://huggingface.co/turintech/pplx-decider-27B-Artemis-GGUF",
+       "score": 9,
+       "date": "2026-10-12"
+      },
+      {
+       "title": "mohommed/LFM3-1.7B-Frontier-SmartAgent",
+       "url": "https://huggingface.co/mohommed/LFM3-1.7B-Frontier-SmartAgent",
+       "score": 7,
+       "date": "2026-10-28"
+      }
+     ]
+    },
+    {
+     "topic": "synthetic_data",
+     "recent": 201,
+     "baseline": 280,
+     "recent_share": 0.4045,
+     "baseline_share": 0.2227,
+     "lift": 1.816,
+     "examples": [
+      {
+       "title": "raincandy-u/MacroStories",
+       "url": "https://huggingface.co/raincandy-u/MacroStories",
+       "score": 29,
+       "date": "2026-10-07"
+      },
+      {
+       "title": "AL-mozahem/HRP-Stage04-Hotel-Review-Sentiment",
+       "url": "https://huggingface.co/AL-mozahem/HRP-Stage04-Hotel-Review-Sentiment",
+       "score": 2,
+       "date": "2026-10-27"
+      },
+      {
+       "title": "mgetech/qwen3-4b-tax-booking",
+       "url": "https://huggingface.co/mgetech/qwen3-4b-tax-booking",
+       "score": 2,
+       "date": "2026-10-23"
+      }
+     ]
+    },
+    {
+     "topic": "ai_chips",
+     "recent": 208,
+     "baseline": 344,
+     "recent_share": 0.4186,
+     "baseline_share": 0.2737,
+     "lift": 1.529,
+     "examples": [
+      {
+       "title": "FINAL-Bench/VKORE-325M-NPU-Base",
+       "url": "https://huggingface.co/FINAL-Bench/VKORE-325M-NPU-Base",
+       "score": 39,
+       "date": "2026-10-26"
+      },
+      {
+       "title": "divagr1925/QwenPU",
+       "url": "https://huggingface.co/divagr1925/QwenPU",
+       "score": 10,
+       "date": "2026-10-31"
+      },
+      {
+       "title": "amd/Qwen3.6-35B-A3B_rai_1.9.0_m_1.0.1_npu",
+       "url": "https://huggingface.co/amd/Qwen3.6-35B-A3B_rai_1.9.0_m_1.0.1_npu",
+       "score": 3,
+       "date": "2026-10-30"
+      }
+     ]
+    },
+    {
+     "topic": "deepseek",
+     "recent": 777,
+     "baseline": 1463,
+     "recent_share": 1.5635,
+     "baseline_share": 1.1639,
+     "lift": 1.343,
+     "examples": [
+      {
+       "title": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+       "score": 2699,
+       "date": "2026-10-17"
+      },
+      {
+       "title": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+       "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+       "score": 496,
+       "date": "2026-10-23"
+      },
+      {
+       "title": "dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+       "url": "https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8",
+       "score": 360,
+       "date": "2026-10-18"
+      }
+     ]
+    },
+    {
+     "topic": "kv_cache",
+     "recent": 60,
+     "baseline": 114,
+     "recent_share": 0.1207,
+     "baseline_share": 0.0907,
+     "lift": 1.331,
+     "examples": [
+      {
+       "title": "sabicap/sabi-noema-mla",
+       "url": "https://huggingface.co/sabicap/sabi-noema-mla",
+       "score": 14,
+       "date": "2026-10-13"
+      },
+      {
+       "title": "p1atdev/MOSS-Image-SFT-KV-Cache-LoRA",
+       "url": "https://huggingface.co/p1atdev/MOSS-Image-SFT-KV-Cache-LoRA",
+       "score": 5,
+       "date": "2026-10-19"
+      },
+      {
+       "title": "cbert33/Flint-40B-A2.5B-Abliterated-FP8-Calibrated",
+       "url": "https://huggingface.co/cbert33/Flint-40B-A2.5B-Abliterated-FP8-Calibrated",
+       "score": 4,
+       "date": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "topic": "gpus_nvidia",
+     "recent": 1206,
+     "baseline": 2325,
+     "recent_share": 2.4268,
+     "baseline_share": 1.8496,
+     "lift": 1.312,
+     "examples": [
+      {
+       "title": "autotrust/GLM5.3-Flash-E224-DGX-Spark",
+       "url": "https://huggingface.co/autotrust/GLM5.3-Flash-E224-DGX-Spark",
+       "score": 563,
+       "date": "2026-10-06"
+      },
+      {
+       "title": "nvidia/Qwen3.8-Flash-Next-FP4-Local",
+       "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local",
+       "score": 213,
+       "date": "2026-10-08"
+      },
+      {
+       "title": "unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+       "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3.5-Bolt-E4B-GGUF",
+       "score": 153,
+       "date": "2026-10-23"
+      }
+     ]
+    },
+    {
+     "topic": "computer_use",
+     "recent": 127,
+     "baseline": 245,
+     "recent_share": 0.2556,
+     "baseline_share": 0.1949,
+     "lift": 1.311,
+     "examples": [
+      {
+       "title": "microsoft/Mage-VL-Cowork",
+       "url": "https://huggingface.co/microsoft/Mage-VL-Cowork",
+       "score": 184,
+       "date": "2026-10-30"
+      },
+      {
+       "title": "Hobbylm/hobbylm-1B-computer-use",
+       "url": "https://huggingface.co/Hobbylm/hobbylm-1B-computer-use",
+       "score": 35,
+       "date": "2026-10-23"
+      },
+      {
+       "title": "webbrain-one/lfm3-vld-2b-multipass",
+       "url": "https://huggingface.co/webbrain-one/lfm3-vld-2b-multipass",
+       "score": 18,
+       "date": "2026-10-28"
+      }
+     ]
+    },
+    {
+     "topic": "image_generation",
+     "recent": 1837,
+     "baseline": 3610,
+     "recent_share": 3.6965,
+     "baseline_share": 2.8719,
+     "lift": 1.287,
+     "examples": [
+      {
+       "title": "black-forest-labs/flux-3-image-klein-comfy",
+       "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+       "score": 1145,
+       "date": "2026-10-14"
+      },
+      {
+       "title": "Qwen/Qwen-Image-2.1-Turbo",
+       "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+       "score": 985,
+       "date": "2026-10-09"
+      },
+      {
+       "title": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+       "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+       "score": 556,
+       "date": "2026-10-09"
+      }
+     ]
+    },
+    {
+     "topic": "autonomous_driving",
+     "recent": 66,
+     "baseline": 130,
+     "recent_share": 0.1328,
+     "baseline_share": 0.1034,
+     "lift": 1.284,
+     "examples": [
+      {
+       "title": "yuki-hahaha/AUGUstus",
+       "url": "https://huggingface.co/yuki-hahaha/AUGUstus",
+       "score": 12,
+       "date": "2026-10-12"
+      },
+      {
+       "title": "jordykieto/carla-imitation-learning",
+       "url": "https://huggingface.co/jordykieto/carla-imitation-learning",
+       "score": 4,
+       "date": "2026-11-01"
+      },
+      {
+       "title": "OpenDriveLab-org/SimVTA",
+       "url": "https://huggingface.co/OpenDriveLab-org/SimVTA",
+       "score": 3,
+       "date": "2026-10-23"
+      }
+     ]
+    },
+    {
+     "topic": "rag",
+     "recent": 320,
+     "baseline": 634,
+     "recent_share": 0.6439,
+     "baseline_share": 0.5044,
+     "lift": 1.277,
+     "examples": [
+      {
+       "title": "nvidia/Nemotron-3.5-Rerank-8B-BF16",
+       "url": "https://huggingface.co/nvidia/Nemotron-3.5-Rerank-8B-BF16",
+       "score": 26,
+       "date": "2026-10-15"
+      },
+      {
+       "title": "ThakiCloud/ECP-Q7-27B-Research",
+       "url": "https://huggingface.co/ThakiCloud/ECP-Q7-27B-Research",
+       "score": 3,
+       "date": "2026-10-12"
+      },
+      {
+       "title": "tablinum/Moon-Beam-16B-A3B-GGUF",
+       "url": "https://huggingface.co/tablinum/Moon-Beam-16B-A3B-GGUF",
+       "score": 2,
+       "date": "2026-10-31"
+      }
+     ]
+    }
+   ],
+   "falling": [
+    {
+     "topic": "chatbots",
+     "recent": 71,
+     "baseline": 379,
+     "recent_share": 0.1429,
+     "baseline_share": 0.3015,
+     "lift": 0.474
+    },
+    {
+     "topic": "anthropic_claude",
+     "recent": 132,
+     "baseline": 457,
+     "recent_share": 0.2656,
+     "baseline_share": 0.3636,
+     "lift": 0.731
+    },
+    {
+     "topic": "meta_llama",
+     "recent": 1635,
+     "baseline": 5618,
+     "recent_share": 3.2901,
+     "baseline_share": 4.4693,
+     "lift": 0.736
+    },
+    {
+     "topic": "diffusion_lms",
+     "recent": 51,
+     "baseline": 168,
+     "recent_share": 0.1026,
+     "baseline_share": 0.1336,
+     "lift": 0.768
+    },
+    {
+     "topic": "moe",
+     "recent": 2052,
+     "baseline": 6182,
+     "recent_share": 4.1292,
+     "baseline_share": 4.918,
+     "lift": 0.84
+    }
+   ]
+  }
+ },
+ "everywhere": []
+}
