@@ -80,4 +80,5 @@ _SKIP_TAGS = {"endpoints_compatible", "text-generation-inference", "autotrain_co
 def model_text(model_id, tags):
     """Turn an HF model id and its tags into matchable text: 'Qwen/Qwen3-8B-GGUF' -> 'Qwen Qwen3 8B GGUF'."""
     kept = [t for t in tags if t not in _SKIP_TAGS and not t.startswith(_SKIP_PREFIXES)]
-    return _SEP.sub(" ", " ".join([model_id, *kept]))
+    # " | " between tags so a phrase rule can't match across two neighbouring tags.
+    return " | ".join(_SEP.sub(" ", t) for t in [model_id, *kept])

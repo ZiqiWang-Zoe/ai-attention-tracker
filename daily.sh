@@ -24,6 +24,11 @@ LOCK=logs/.daily.lock
 if ! mkdir "$LOCK" 2>/dev/null; then echo "another run is in progress, exiting"; exit 0; fi
 trap 'rmdir "$LOCK" 2>/dev/null || true' EXIT
 
+# Git talks to GitHub through gh's credential helper, which uses whichever gh
+# account is active on this Mac. Pin this run to Ziqi's account so a switch
+# made elsewhere can't break the push.
+export GH_TOKEN="$(gh auth token --user ZiqiWang-Zoe)"
+
 git pull --rebase --autostash --quiet
 
 PY=.venv/bin/python
@@ -60,10 +65,11 @@ $PY site/build.py >/dev/null           # copy the new preview into _site
 
 if [[ "$VERDICT" == "FAIL" ]]; then
   # Keep yesterday's page live; commit only the review so the problem is on record.
+  # Drop the held-back numbers first, so a failed push can't leave them behind.
+  git checkout -q -- data snapshots site/og.png && git clean -fdq snapshots
   git add "reviews/$DAY.md"
   git commit -q -m "Daily review $DAY, update held back" || true
   git push -q
-  git checkout -q -- data snapshots && git clean -fdq snapshots   # drop the held-back numbers
   notify "Codex flagged $DAY data. Page not updated. See reviews/$DAY.md"
   echo "held back"
   exit 0

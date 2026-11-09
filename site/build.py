@@ -39,6 +39,9 @@ SOURCES = {
 # market topics on models (model tags don't talk about jobs or funding).
 SKIP_GROUPS = {"overall", "words"}
 SKIP_FOR_MODELS = {"market"}
+# Business-news topics (funding, jobs, rights, policy) are ranked only on Hacker News:
+# research abstracts use those words in other senses.
+SKIP_FOR_PAPERS = {"market"}
 RECENT, BASELINE = 30, 90
 
 
@@ -73,7 +76,7 @@ def snapshot(c, as_of, meta):
         topics = []
         for topic, r, b in rows:
             g = meta.get(topic, {}).get("group")
-            if g in SKIP_GROUPS or (s == "hf_models" and g in SKIP_FOR_MODELS):
+            if g in SKIP_GROUPS or (s == "hf_models" and g in SKIP_FOR_MODELS) or (s == "hf_papers" and g in SKIP_FOR_PAPERS):
                 continue
             r, b = r or 0, b or 0
             rs, bs = r / rt, b / bt
