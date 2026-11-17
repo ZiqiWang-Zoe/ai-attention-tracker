@@ -3959,183 +3959,183 @@ month,source,topic_group,topic,label,items,total_items,share_pct,points,points_s
 2026-10-01,hn,techniques,diffusion_lms,Diffusion language models,3,30840,0.01,7,0.001,31
 2026-10-01,hn,techniques,long_context,Long context,2,30840,0.006,2,0.0,31
 2026-10-01,hn,techniques,synthetic_data,Synthetic data,0,30840,0.0,0,0.0,31
-2026-11-01,hf_models,overall,ai_any,Any AI mention,18796,51647,36.393,10118,49.27,15
-2026-11-01,hf_models,techniques,fine_tuning,Fine-tuning (incl. LoRA),15233,51647,29.494,7043,34.296,15
-2026-11-01,hf_models,labs,qwen,Qwen,11586,51647,22.433,5662,27.571,15
-2026-11-01,hf_models,infrastructure,quantization,Quantization,10273,51647,19.891,10632,51.772,15
-2026-11-01,hf_models,infrastructure,local_on_device,Local and on-device AI,7324,51647,14.181,8047,39.185,15
-2026-11-01,hf_models,techniques,multimodal,Multimodal and vision-language,3678,51647,7.121,4867,23.7,15
-2026-11-01,hf_models,applications,voice_audio,Voice speech and audio,2946,51647,5.704,2649,12.899,15
-2026-11-01,hf_models,applications,robotics,Robotics and embodied AI,2826,51647,5.472,245,1.193,15
-2026-11-01,hf_models,techniques,rl_post_training,Reinforcement learning and preference tuning,2758,51647,5.34,416,2.026,15
-2026-11-01,hf_models,labs,meta_llama,Meta Llama,2050,51647,3.969,206,1.003,15
-2026-11-01,hf_models,techniques,moe,Mixture-of-experts models,1634,51647,3.164,3187,15.519,15
-2026-11-01,hf_models,infrastructure,inference_serving,Inference and serving,1528,51647,2.959,1406,6.847,15
-2026-11-01,hf_models,applications,image_generation,Image generation,1511,51647,2.926,2497,12.159,15
-2026-11-01,hf_models,labs,google_gemini,Google Gemini and Gemma,1462,51647,2.831,722,3.516,15
-2026-11-01,hf_models,applications,agents,AI agents,1367,51647,2.647,1789,8.712,15
-2026-11-01,hf_models,techniques,reasoning,Reasoning and test-time compute,1309,51647,2.535,1521,7.407,15
-2026-11-01,hf_models,techniques,distillation,Distillation,1058,51647,2.049,847,4.124,15
-2026-11-01,hf_models,infrastructure,gpus_nvidia,GPUs and Nvidia,994,51647,1.925,899,4.378,15
-2026-11-01,hf_models,techniques,embeddings_vector_search,Embeddings and vector search,933,51647,1.806,209,1.018,15
-2026-11-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,692,51647,1.34,5324,25.925,15
-2026-11-01,hf_models,techniques,evals_benchmarks,Evals and benchmarks,660,51647,1.278,1868,9.096,15
-2026-11-01,hf_models,infrastructure,speculative_decoding,Speculative decoding (faster inference),598,51647,1.158,583,2.839,15
-2026-11-01,hf_models,infrastructure,fp4,FP4 low-precision compute,551,51647,1.067,921,4.485,15
-2026-11-01,hf_models,labs,deepseek,DeepSeek,514,51647,0.995,699,3.404,15
-2026-11-01,hf_models,applications,medical_ai,Medical AI,491,51647,0.951,124,0.604,15
-2026-11-01,hf_models,labs,openai,OpenAI,459,51647,0.889,45,0.219,15
-2026-11-01,hf_models,techniques,safety_security,AI safety and security,446,51647,0.864,822,4.003,15
-2026-11-01,hf_models,infrastructure,ai_chips,AI chips and accelerators,392,51647,0.759,29,0.141,15
-2026-11-01,hf_models,applications,video_generation,Video generation,391,51647,0.757,514,2.503,15
-2026-11-01,hf_models,applications,rag,Retrieval-augmented generation (RAG),352,51647,0.682,36,0.175,15
-2026-11-01,hf_models,techniques,interpretability,Interpretability,310,51647,0.6,62,0.302,15
-2026-11-01,hf_models,labs,mistral,Mistral,304,51647,0.589,72,0.351,15
-2026-11-01,hf_models,applications,coding_assistants,AI coding tools,233,51647,0.451,144,0.701,15
-2026-11-01,hf_models,applications,ai_for_science,AI for science,230,51647,0.445,36,0.175,15
-2026-11-01,hf_models,techniques,ssm_linear_attention,"Alternatives to transformers (Mamba, linear attention)",223,51647,0.432,105,0.511,15
-2026-11-01,hf_models,applications,world_models,World models,208,51647,0.403,117,0.57,15
-2026-11-01,hf_models,techniques,long_context,Long context,202,51647,0.391,186,0.906,15
-2026-11-01,hf_models,words,term_assistant,Word: assistant,133,51647,0.258,59,0.287,15
-2026-11-01,hf_models,labs,anthropic_claude,Anthropic and Claude,131,51647,0.254,83,0.404,15
-2026-11-01,hf_models,techniques,synthetic_data,Synthetic data,110,51647,0.213,12,0.058,15
-2026-11-01,hf_models,applications,mcp,Model Context Protocol (MCP),91,51647,0.176,8,0.039,15
-2026-11-01,hf_models,applications,computer_use,Computer and browser use,88,51647,0.17,60,0.292,15
-2026-11-01,hf_models,techniques,hallucination,Hallucination,61,51647,0.118,17,0.083,15
-2026-11-01,hf_models,market,regulation_policy,Regulation and policy,56,51647,0.108,3,0.015,15
-2026-11-01,hf_models,infrastructure,kv_cache,Prompt caching (KV cache),52,51647,0.101,14,0.068,15
-2026-11-01,hf_models,market,jobs_work,Jobs and work,48,51647,0.093,4,0.019,15
-2026-11-01,hf_models,market,agi,AGI and superintelligence,40,51647,0.077,295,1.437,15
-2026-11-01,hf_models,applications,chatbots,Chatbots and assistants,37,51647,0.072,54,0.263,15
-2026-11-01,hf_models,applications,autonomous_driving,Autonomous driving,32,51647,0.062,11,0.054,15
-2026-11-01,hf_models,techniques,diffusion_lms,Diffusion language models,14,51647,0.027,43,0.209,15
-2026-11-01,hf_models,labs,xai_grok,xAI and Grok,14,51647,0.027,3,0.015,15
-2026-11-01,hf_models,words,term_open_weights,Word: open weights,11,51647,0.021,14,0.068,15
-2026-11-01,hf_models,infrastructure,semiconductors,Semiconductors and fabs,11,51647,0.021,0,0.0,15
-2026-11-01,hf_models,market,funding_bubble,Funding valuations and bubble talk,11,51647,0.021,1,0.005,15
-2026-11-01,hf_models,applications,ai_search,AI search and answer engines,7,51647,0.014,80,0.39,15
-2026-11-01,hf_models,words,term_serving,Word: serving,6,51647,0.012,3,0.015,15
-2026-11-01,hf_models,techniques,prompt_context_engineering,Prompt and context engineering,4,51647,0.008,4,0.019,15
-2026-11-01,hf_models,words,term_open_source_ai,Word: open source (AI context),4,51647,0.008,1,0.005,15
-2026-11-01,hf_models,infrastructure,data_centers,Data centers and power,0,51647,0.0,0,0.0,15
-2026-11-01,hf_models,market,copyright_licensing,Copyright and data rights,0,51647,0.0,0,0.0,15
-2026-11-01,hf_papers,overall,ai_any,Any AI mention,217,371,58.491,4072,56.697,15
-2026-11-01,hf_papers,techniques,evals_benchmarks,Evals and benchmarks,168,371,45.283,3200,44.556,15
-2026-11-01,hf_papers,applications,agents,AI agents,142,371,38.275,3346,46.589,15
-2026-11-01,hf_papers,techniques,reasoning,Reasoning and test-time compute,75,371,20.216,1573,21.902,15
-2026-11-01,hf_papers,techniques,multimodal,Multimodal and vision-language,64,371,17.251,1358,18.908,15
-2026-11-01,hf_papers,infrastructure,inference_serving,Inference and serving,59,371,15.903,1060,14.759,15
-2026-11-01,hf_papers,labs,qwen,Qwen,53,371,14.286,934,13.005,15
-2026-11-01,hf_papers,techniques,fine_tuning,Fine-tuning (incl. LoRA),52,371,14.016,877,12.211,15
-2026-11-01,hf_papers,applications,robotics,Robotics and embodied AI,50,371,13.477,1392,19.382,15
-2026-11-01,hf_papers,techniques,rl_post_training,Reinforcement learning and preference tuning,46,371,12.399,1038,14.453,15
-2026-11-01,hf_papers,techniques,distillation,Distillation,43,371,11.59,1104,15.372,15
-2026-11-01,hf_papers,infrastructure,gpus_nvidia,GPUs and Nvidia,31,371,8.356,718,9.997,15
-2026-11-01,hf_papers,applications,coding_assistants,AI coding tools,27,371,7.278,585,8.145,15
-2026-11-01,hf_papers,techniques,embeddings_vector_search,Embeddings and vector search,24,371,6.469,348,4.845,15
-2026-11-01,hf_papers,applications,video_generation,Video generation,24,371,6.469,861,11.988,15
-2026-11-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),22,371,5.93,556,7.742,15
-2026-11-01,hf_papers,applications,world_models,World models,19,371,5.121,531,7.393,15
-2026-11-01,hf_papers,words,term_open_weights,Word: open weights,19,371,5.121,253,3.523,15
-2026-11-01,hf_papers,techniques,long_context,Long context,18,371,4.852,328,4.567,15
-2026-11-01,hf_papers,infrastructure,quantization,Quantization,17,371,4.582,255,3.551,15
-2026-11-01,hf_papers,labs,google_gemini,Google Gemini and Gemma,16,371,4.313,144,2.005,15
-2026-11-01,hf_papers,applications,voice_audio,Voice speech and audio,14,371,3.774,263,3.662,15
-2026-11-01,hf_papers,labs,anthropic_claude,Anthropic and Claude,14,371,3.774,268,3.732,15
-2026-11-01,hf_papers,techniques,moe,Mixture-of-experts models,14,371,3.774,186,2.59,15
-2026-11-01,hf_papers,applications,image_generation,Image generation,13,371,3.504,336,4.678,15
-2026-11-01,hf_papers,words,term_serving,Word: serving,11,371,2.965,251,3.495,15
-2026-11-01,hf_papers,techniques,interpretability,Interpretability,11,371,2.965,169,2.353,15
-2026-11-01,hf_papers,infrastructure,kv_cache,Prompt caching (KV cache),10,371,2.695,182,2.534,15
-2026-11-01,hf_papers,applications,rag,Retrieval-augmented generation (RAG),9,371,2.426,77,1.072,15
-2026-11-01,hf_papers,applications,ai_for_science,AI for science,9,371,2.426,118,1.643,15
-2026-11-01,hf_papers,applications,medical_ai,Medical AI,8,371,2.156,119,1.657,15
-2026-11-01,hf_papers,labs,openai,OpenAI,8,371,2.156,79,1.1,15
-2026-11-01,hf_papers,applications,computer_use,Computer and browser use,8,371,2.156,197,2.743,15
-2026-11-01,hf_papers,labs,meta_llama,Meta Llama,7,371,1.887,106,1.476,15
-2026-11-01,hf_papers,techniques,safety_security,AI safety and security,7,371,1.887,99,1.378,15
-2026-11-01,hf_papers,techniques,ssm_linear_attention,"Alternatives to transformers (Mamba, linear attention)",7,371,1.887,79,1.1,15
-2026-11-01,hf_papers,infrastructure,local_on_device,Local and on-device AI,7,371,1.887,72,1.003,15
-2026-11-01,hf_papers,infrastructure,speculative_decoding,Speculative decoding (faster inference),6,371,1.617,81,1.128,15
-2026-11-01,hf_papers,techniques,prompt_context_engineering,Prompt and context engineering,6,371,1.617,45,0.627,15
-2026-11-01,hf_papers,labs,deepseek,DeepSeek,6,371,1.617,136,1.894,15
-2026-11-01,hf_papers,labs,other_china_labs,Kimi GLM and MiniMax,6,371,1.617,190,2.646,15
-2026-11-01,hf_papers,words,term_assistant,Word: assistant,5,371,1.348,104,1.448,15
-2026-11-01,hf_papers,market,jobs_work,Jobs and work,4,371,1.078,138,1.921,15
-2026-11-01,hf_papers,market,agi,AGI and superintelligence,4,371,1.078,177,2.464,15
-2026-11-01,hf_papers,applications,ai_search,AI search and answer engines,3,371,0.809,38,0.529,15
-2026-11-01,hf_papers,infrastructure,fp4,FP4 low-precision compute,3,371,0.809,63,0.877,15
-2026-11-01,hf_papers,applications,autonomous_driving,Autonomous driving,3,371,0.809,130,1.81,15
-2026-11-01,hf_papers,techniques,hallucination,Hallucination,3,371,0.809,16,0.223,15
-2026-11-01,hf_papers,market,funding_bubble,Funding valuations and bubble talk,2,371,0.539,6,0.084,15
-2026-11-01,hf_papers,techniques,diffusion_lms,Diffusion language models,2,371,0.539,19,0.265,15
-2026-11-01,hf_papers,applications,mcp,Model Context Protocol (MCP),2,371,0.539,49,0.682,15
-2026-11-01,hf_papers,infrastructure,data_centers,Data centers and power,2,371,0.539,52,0.724,15
-2026-11-01,hf_papers,market,regulation_policy,Regulation and policy,2,371,0.539,64,0.891,15
-2026-11-01,hf_papers,techniques,synthetic_data,Synthetic data,2,371,0.539,18,0.251,15
-2026-11-01,hf_papers,labs,mistral,Mistral,2,371,0.539,15,0.209,15
-2026-11-01,hf_papers,infrastructure,ai_chips,AI chips and accelerators,2,371,0.539,12,0.167,15
-2026-11-01,hf_papers,labs,xai_grok,xAI and Grok,1,371,0.27,5,0.07,15
-2026-11-01,hf_papers,market,copyright_licensing,Copyright and data rights,1,371,0.27,5,0.07,15
-2026-11-01,hf_papers,infrastructure,semiconductors,Semiconductors and fabs,1,371,0.27,10,0.139,15
-2026-11-01,hf_papers,applications,chatbots,Chatbots and assistants,0,371,0.0,0,0.0,15
-2026-11-01,hn,overall,ai_any,Any AI mention,2906,14702,19.766,56100,19.709,15
-2026-11-01,hn,labs,anthropic_claude,Anthropic and Claude,472,14702,3.21,12500,4.391,15
-2026-11-01,hn,applications,agents,AI agents,372,14702,2.53,3429,1.205,15
-2026-11-01,hn,applications,coding_assistants,AI coding tools,368,14702,2.503,6974,2.45,15
-2026-11-01,hn,infrastructure,gpus_nvidia,GPUs and Nvidia,303,14702,2.061,12437,4.369,15
-2026-11-01,hn,labs,openai,OpenAI,150,14702,1.02,2395,0.841,15
-2026-11-01,hn,infrastructure,data_centers,Data centers and power,128,14702,0.871,2304,0.809,15
-2026-11-01,hn,applications,mcp,Model Context Protocol (MCP),115,14702,0.782,711,0.25,15
-2026-11-01,hn,market,funding_bubble,Funding valuations and bubble talk,78,14702,0.531,3681,1.293,15
-2026-11-01,hn,infrastructure,local_on_device,Local and on-device AI,75,14702,0.51,882,0.31,15
-2026-11-01,hn,words,term_open_source_ai,Word: open source (AI context),65,14702,0.442,1471,0.517,15
-2026-11-01,hn,labs,google_gemini,Google Gemini and Gemma,64,14702,0.435,4019,1.412,15
-2026-11-01,hn,market,jobs_work,Jobs and work,57,14702,0.388,485,0.17,15
-2026-11-01,hn,labs,deepseek,DeepSeek,42,14702,0.286,965,0.339,15
-2026-11-01,hn,infrastructure,inference_serving,Inference and serving,41,14702,0.279,198,0.07,15
-2026-11-01,hn,labs,qwen,Qwen,39,14702,0.265,5206,1.829,15
-2026-11-01,hn,applications,chatbots,Chatbots and assistants,32,14702,0.218,137,0.048,15
-2026-11-01,hn,infrastructure,ai_chips,AI chips and accelerators,28,14702,0.19,515,0.181,15
-2026-11-01,hn,techniques,safety_security,AI safety and security,27,14702,0.184,79,0.028,15
-2026-11-01,hn,market,agi,AGI and superintelligence,24,14702,0.163,59,0.021,15
-2026-11-01,hn,techniques,evals_benchmarks,Evals and benchmarks,24,14702,0.163,101,0.035,15
-2026-11-01,hn,words,term_assistant,Word: assistant,24,14702,0.163,132,0.046,15
-2026-11-01,hn,infrastructure,semiconductors,Semiconductors and fabs,23,14702,0.156,203,0.071,15
-2026-11-01,hn,words,term_open_weights,Word: open weights,22,14702,0.15,429,0.151,15
-2026-11-01,hn,labs,xai_grok,xAI and Grok,21,14702,0.143,121,0.043,15
-2026-11-01,hn,applications,robotics,Robotics and embodied AI,20,14702,0.136,265,0.093,15
-2026-11-01,hn,labs,other_china_labs,Kimi GLM and MiniMax,20,14702,0.136,837,0.294,15
-2026-11-01,hn,applications,ai_search,AI search and answer engines,19,14702,0.129,129,0.045,15
-2026-11-01,hn,applications,voice_audio,Voice speech and audio,18,14702,0.122,37,0.013,15
-2026-11-01,hn,market,copyright_licensing,Copyright and data rights,17,14702,0.116,86,0.03,15
-2026-11-01,hn,applications,autonomous_driving,Autonomous driving,13,14702,0.088,51,0.018,15
-2026-11-01,hn,applications,rag,Retrieval-augmented generation (RAG),13,14702,0.088,267,0.094,15
-2026-11-01,hn,techniques,rl_post_training,Reinforcement learning and preference tuning,12,14702,0.082,225,0.079,15
-2026-11-01,hn,applications,world_models,World models,12,14702,0.082,321,0.113,15
-2026-11-01,hn,techniques,moe,Mixture-of-experts models,12,14702,0.082,86,0.03,15
-2026-11-01,hn,applications,computer_use,Computer and browser use,9,14702,0.061,12,0.004,15
-2026-11-01,hn,market,regulation_policy,Regulation and policy,8,14702,0.054,718,0.252,15
-2026-11-01,hn,applications,medical_ai,Medical AI,7,14702,0.048,14,0.005,15
-2026-11-01,hn,infrastructure,kv_cache,Prompt caching (KV cache),7,14702,0.048,19,0.007,15
-2026-11-01,hn,applications,video_generation,Video generation,7,14702,0.048,19,0.007,15
-2026-11-01,hn,applications,ai_for_science,AI for science,6,14702,0.041,116,0.041,15
-2026-11-01,hn,infrastructure,quantization,Quantization,5,14702,0.034,264,0.093,15
-2026-11-01,hn,techniques,embeddings_vector_search,Embeddings and vector search,5,14702,0.034,276,0.097,15
-2026-11-01,hn,applications,image_generation,Image generation,4,14702,0.027,290,0.102,15
-2026-11-01,hn,techniques,long_context,Long context,4,14702,0.027,4,0.001,15
-2026-11-01,hn,techniques,reasoning,Reasoning and test-time compute,4,14702,0.027,13,0.005,15
-2026-11-01,hn,labs,mistral,Mistral,4,14702,0.027,12,0.004,15
-2026-11-01,hn,labs,meta_llama,Meta Llama,4,14702,0.027,492,0.173,15
-2026-11-01,hn,techniques,fine_tuning,Fine-tuning (incl. LoRA),4,14702,0.027,44,0.015,15
-2026-11-01,hn,techniques,multimodal,Multimodal and vision-language,3,14702,0.02,7,0.002,15
-2026-11-01,hn,techniques,hallucination,Hallucination,3,14702,0.02,19,0.007,15
-2026-11-01,hn,techniques,interpretability,Interpretability,3,14702,0.02,3,0.001,15
-2026-11-01,hn,techniques,diffusion_lms,Diffusion language models,3,14702,0.02,20,0.007,15
-2026-11-01,hn,words,term_serving,Word: serving,2,14702,0.014,5,0.002,15
-2026-11-01,hn,techniques,distillation,Distillation,2,14702,0.014,3,0.001,15
-2026-11-01,hn,techniques,ssm_linear_attention,"Alternatives to transformers (Mamba, linear attention)",2,14702,0.014,79,0.028,15
-2026-11-01,hn,infrastructure,speculative_decoding,Speculative decoding (faster inference),2,14702,0.014,15,0.005,15
-2026-11-01,hn,techniques,prompt_context_engineering,Prompt and context engineering,2,14702,0.014,17,0.006,15
-2026-11-01,hn,infrastructure,fp4,FP4 low-precision compute,1,14702,0.007,2,0.001,15
-2026-11-01,hn,techniques,synthetic_data,Synthetic data,1,14702,0.007,2,0.001,15
+2026-11-01,hf_models,overall,ai_any,Any AI mention,20330,55336,36.739,10921,49.054,16
+2026-11-01,hf_models,techniques,fine_tuning,Fine-tuning (incl. LoRA),16512,55336,29.84,7653,34.375,16
+2026-11-01,hf_models,labs,qwen,Qwen,12490,55336,22.571,6258,28.109,16
+2026-11-01,hf_models,infrastructure,quantization,Quantization,10872,55336,19.647,11465,51.498,16
+2026-11-01,hf_models,infrastructure,local_on_device,Local and on-device AI,7734,55336,13.976,8649,38.849,16
+2026-11-01,hf_models,techniques,multimodal,Multimodal and vision-language,3954,55336,7.145,5198,23.348,16
+2026-11-01,hf_models,applications,voice_audio,Voice speech and audio,3391,55336,6.128,2989,13.426,16
+2026-11-01,hf_models,applications,robotics,Robotics and embodied AI,2993,55336,5.409,265,1.19,16
+2026-11-01,hf_models,techniques,rl_post_training,Reinforcement learning and preference tuning,2950,55336,5.331,478,2.147,16
+2026-11-01,hf_models,labs,meta_llama,Meta Llama,2364,55336,4.272,214,0.961,16
+2026-11-01,hf_models,techniques,moe,Mixture-of-experts models,1712,55336,3.094,3440,15.452,16
+2026-11-01,hf_models,infrastructure,inference_serving,Inference and serving,1645,55336,2.973,1640,7.366,16
+2026-11-01,hf_models,applications,image_generation,Image generation,1608,55336,2.906,2619,11.764,16
+2026-11-01,hf_models,labs,google_gemini,Google Gemini and Gemma,1569,55336,2.835,762,3.423,16
+2026-11-01,hf_models,applications,agents,AI agents,1456,55336,2.631,2200,9.882,16
+2026-11-01,hf_models,techniques,reasoning,Reasoning and test-time compute,1388,55336,2.508,1656,7.438,16
+2026-11-01,hf_models,techniques,distillation,Distillation,1130,55336,2.042,985,4.424,16
+2026-11-01,hf_models,infrastructure,gpus_nvidia,GPUs and Nvidia,1058,55336,1.912,1116,5.013,16
+2026-11-01,hf_models,techniques,embeddings_vector_search,Embeddings and vector search,995,55336,1.798,227,1.02,16
+2026-11-01,hf_models,labs,other_china_labs,Kimi GLM and MiniMax,724,55336,1.308,5550,24.929,16
+2026-11-01,hf_models,techniques,evals_benchmarks,Evals and benchmarks,705,55336,1.274,1878,8.436,16
+2026-11-01,hf_models,infrastructure,speculative_decoding,Speculative decoding (faster inference),617,55336,1.115,608,2.731,16
+2026-11-01,hf_models,infrastructure,fp4,FP4 low-precision compute,607,55336,1.097,1092,4.905,16
+2026-11-01,hf_models,labs,deepseek,DeepSeek,543,55336,0.981,734,3.297,16
+2026-11-01,hf_models,applications,medical_ai,Medical AI,528,55336,0.954,135,0.606,16
+2026-11-01,hf_models,techniques,safety_security,AI safety and security,498,55336,0.9,845,3.796,16
+2026-11-01,hf_models,labs,openai,OpenAI,482,55336,0.871,48,0.216,16
+2026-11-01,hf_models,applications,video_generation,Video generation,417,55336,0.754,700,3.144,16
+2026-11-01,hf_models,infrastructure,ai_chips,AI chips and accelerators,398,55336,0.719,31,0.139,16
+2026-11-01,hf_models,applications,rag,Retrieval-augmented generation (RAG),374,55336,0.676,43,0.193,16
+2026-11-01,hf_models,techniques,interpretability,Interpretability,352,55336,0.636,68,0.305,16
+2026-11-01,hf_models,labs,mistral,Mistral,314,55336,0.567,73,0.328,16
+2026-11-01,hf_models,applications,world_models,World models,266,55336,0.481,128,0.575,16
+2026-11-01,hf_models,applications,coding_assistants,AI coding tools,247,55336,0.446,149,0.669,16
+2026-11-01,hf_models,techniques,ssm_linear_attention,"Alternatives to transformers (Mamba, linear attention)",247,55336,0.446,109,0.49,16
+2026-11-01,hf_models,applications,ai_for_science,AI for science,232,55336,0.419,41,0.184,16
+2026-11-01,hf_models,techniques,long_context,Long context,218,55336,0.394,210,0.943,16
+2026-11-01,hf_models,labs,anthropic_claude,Anthropic and Claude,164,55336,0.296,95,0.427,16
+2026-11-01,hf_models,words,term_assistant,Word: assistant,151,55336,0.273,61,0.274,16
+2026-11-01,hf_models,applications,mcp,Model Context Protocol (MCP),125,55336,0.226,10,0.045,16
+2026-11-01,hf_models,techniques,synthetic_data,Synthetic data,124,55336,0.224,12,0.054,16
+2026-11-01,hf_models,applications,computer_use,Computer and browser use,93,55336,0.168,219,0.984,16
+2026-11-01,hf_models,techniques,hallucination,Hallucination,76,55336,0.137,17,0.076,16
+2026-11-01,hf_models,market,agi,AGI and superintelligence,58,55336,0.105,352,1.581,16
+2026-11-01,hf_models,market,regulation_policy,Regulation and policy,58,55336,0.105,3,0.013,16
+2026-11-01,hf_models,infrastructure,kv_cache,Prompt caching (KV cache),55,55336,0.099,16,0.072,16
+2026-11-01,hf_models,market,jobs_work,Jobs and work,51,55336,0.092,4,0.018,16
+2026-11-01,hf_models,applications,chatbots,Chatbots and assistants,41,55336,0.074,71,0.319,16
+2026-11-01,hf_models,applications,autonomous_driving,Autonomous driving,35,55336,0.063,13,0.058,16
+2026-11-01,hf_models,techniques,diffusion_lms,Diffusion language models,16,55336,0.029,44,0.198,16
+2026-11-01,hf_models,labs,xai_grok,xAI and Grok,14,55336,0.025,3,0.013,16
+2026-11-01,hf_models,words,term_open_weights,Word: open weights,11,55336,0.02,14,0.063,16
+2026-11-01,hf_models,infrastructure,semiconductors,Semiconductors and fabs,11,55336,0.02,0,0.0,16
+2026-11-01,hf_models,market,funding_bubble,Funding valuations and bubble talk,11,55336,0.02,1,0.004,16
+2026-11-01,hf_models,applications,ai_search,AI search and answer engines,8,55336,0.014,80,0.359,16
+2026-11-01,hf_models,words,term_serving,Word: serving,8,55336,0.014,3,0.013,16
+2026-11-01,hf_models,words,term_open_source_ai,Word: open source (AI context),5,55336,0.009,1,0.004,16
+2026-11-01,hf_models,techniques,prompt_context_engineering,Prompt and context engineering,4,55336,0.007,4,0.018,16
+2026-11-01,hf_models,infrastructure,data_centers,Data centers and power,1,55336,0.002,0,0.0,16
+2026-11-01,hf_models,market,copyright_licensing,Copyright and data rights,0,55336,0.0,0,0.0,16
+2026-11-01,hf_papers,overall,ai_any,Any AI mention,242,411,58.881,4584,57.228,16
+2026-11-01,hf_papers,techniques,evals_benchmarks,Evals and benchmarks,190,411,46.229,3802,47.466,16
+2026-11-01,hf_papers,applications,agents,AI agents,159,411,38.686,3867,48.277,16
+2026-11-01,hf_papers,techniques,reasoning,Reasoning and test-time compute,79,411,19.221,1865,23.283,16
+2026-11-01,hf_papers,techniques,multimodal,Multimodal and vision-language,74,411,18.005,1726,21.548,16
+2026-11-01,hf_papers,infrastructure,inference_serving,Inference and serving,67,411,16.302,1248,15.581,16
+2026-11-01,hf_papers,techniques,fine_tuning,Fine-tuning (incl. LoRA),60,411,14.599,1084,13.533,16
+2026-11-01,hf_papers,labs,qwen,Qwen,58,411,14.112,993,12.397,16
+2026-11-01,hf_papers,applications,robotics,Robotics and embodied AI,55,411,13.382,1645,20.537,16
+2026-11-01,hf_papers,techniques,distillation,Distillation,48,411,11.679,1190,14.856,16
+2026-11-01,hf_papers,techniques,rl_post_training,Reinforcement learning and preference tuning,48,411,11.679,1161,14.494,16
+2026-11-01,hf_papers,infrastructure,gpus_nvidia,GPUs and Nvidia,35,411,8.516,748,9.338,16
+2026-11-01,hf_papers,applications,coding_assistants,AI coding tools,33,411,8.029,712,8.889,16
+2026-11-01,hf_papers,techniques,embeddings_vector_search,Embeddings and vector search,28,411,6.813,435,5.431,16
+2026-11-01,hf_papers,applications,video_generation,Video generation,28,411,6.813,983,12.272,16
+2026-11-01,hf_papers,words,term_open_source_ai,Word: open source (AI context),23,411,5.596,556,6.941,16
+2026-11-01,hf_papers,labs,anthropic_claude,Anthropic and Claude,20,411,4.866,337,4.207,16
+2026-11-01,hf_papers,words,term_open_weights,Word: open weights,20,411,4.866,264,3.296,16
+2026-11-01,hf_papers,applications,world_models,World models,19,411,4.623,537,6.704,16
+2026-11-01,hf_papers,infrastructure,quantization,Quantization,19,411,4.623,283,3.533,16
+2026-11-01,hf_papers,techniques,long_context,Long context,19,411,4.623,444,5.543,16
+2026-11-01,hf_papers,labs,google_gemini,Google Gemini and Gemma,17,411,4.136,157,1.96,16
+2026-11-01,hf_papers,applications,voice_audio,Voice speech and audio,15,411,3.65,274,3.421,16
+2026-11-01,hf_papers,techniques,moe,Mixture-of-experts models,14,411,3.406,187,2.335,16
+2026-11-01,hf_papers,applications,image_generation,Image generation,14,411,3.406,341,4.257,16
+2026-11-01,hf_papers,words,term_serving,Word: serving,12,411,2.92,254,3.171,16
+2026-11-01,hf_papers,techniques,interpretability,Interpretability,11,411,2.676,169,2.11,16
+2026-11-01,hf_papers,applications,ai_for_science,AI for science,10,411,2.433,129,1.61,16
+2026-11-01,hf_papers,infrastructure,kv_cache,Prompt caching (KV cache),10,411,2.433,182,2.272,16
+2026-11-01,hf_papers,applications,medical_ai,Medical AI,9,411,2.19,129,1.61,16
+2026-11-01,hf_papers,labs,openai,OpenAI,9,411,2.19,81,1.011,16
+2026-11-01,hf_papers,labs,other_china_labs,Kimi GLM and MiniMax,9,411,2.19,222,2.772,16
+2026-11-01,hf_papers,applications,rag,Retrieval-augmented generation (RAG),9,411,2.19,77,0.961,16
+2026-11-01,hf_papers,applications,computer_use,Computer and browser use,9,411,2.19,210,2.622,16
+2026-11-01,hf_papers,infrastructure,local_on_device,Local and on-device AI,8,411,1.946,92,1.149,16
+2026-11-01,hf_papers,labs,meta_llama,Meta Llama,8,411,1.946,134,1.673,16
+2026-11-01,hf_papers,techniques,prompt_context_engineering,Prompt and context engineering,7,411,1.703,57,0.712,16
+2026-11-01,hf_papers,techniques,ssm_linear_attention,"Alternatives to transformers (Mamba, linear attention)",7,411,1.703,80,0.999,16
+2026-11-01,hf_papers,techniques,safety_security,AI safety and security,7,411,1.703,99,1.236,16
+2026-11-01,hf_papers,infrastructure,speculative_decoding,Speculative decoding (faster inference),7,411,1.703,119,1.486,16
+2026-11-01,hf_papers,labs,deepseek,DeepSeek,6,411,1.46,136,1.698,16
+2026-11-01,hf_papers,words,term_assistant,Word: assistant,5,411,1.217,106,1.323,16
+2026-11-01,hf_papers,market,jobs_work,Jobs and work,5,411,1.217,141,1.76,16
+2026-11-01,hf_papers,market,agi,AGI and superintelligence,5,411,1.217,187,2.335,16
+2026-11-01,hf_papers,applications,mcp,Model Context Protocol (MCP),4,411,0.973,52,0.649,16
+2026-11-01,hf_papers,techniques,hallucination,Hallucination,4,411,0.973,52,0.649,16
+2026-11-01,hf_papers,market,regulation_policy,Regulation and policy,3,411,0.73,73,0.911,16
+2026-11-01,hf_papers,techniques,diffusion_lms,Diffusion language models,3,411,0.73,55,0.687,16
+2026-11-01,hf_papers,applications,ai_search,AI search and answer engines,3,411,0.73,39,0.487,16
+2026-11-01,hf_papers,infrastructure,fp4,FP4 low-precision compute,3,411,0.73,64,0.799,16
+2026-11-01,hf_papers,applications,autonomous_driving,Autonomous driving,3,411,0.73,130,1.623,16
+2026-11-01,hf_papers,market,funding_bubble,Funding valuations and bubble talk,2,411,0.487,6,0.075,16
+2026-11-01,hf_papers,infrastructure,data_centers,Data centers and power,2,411,0.487,52,0.649,16
+2026-11-01,hf_papers,techniques,synthetic_data,Synthetic data,2,411,0.487,18,0.225,16
+2026-11-01,hf_papers,labs,mistral,Mistral,2,411,0.487,15,0.187,16
+2026-11-01,hf_papers,infrastructure,ai_chips,AI chips and accelerators,2,411,0.487,12,0.15,16
+2026-11-01,hf_papers,labs,xai_grok,xAI and Grok,1,411,0.243,5,0.062,16
+2026-11-01,hf_papers,market,copyright_licensing,Copyright and data rights,1,411,0.243,5,0.062,16
+2026-11-01,hf_papers,infrastructure,semiconductors,Semiconductors and fabs,1,411,0.243,10,0.125,16
+2026-11-01,hf_papers,applications,chatbots,Chatbots and assistants,0,411,0.0,0,0.0,16
+2026-11-01,hn,overall,ai_any,Any AI mention,3121,15908,19.619,58350,18.923,16
+2026-11-01,hn,labs,anthropic_claude,Anthropic and Claude,498,15908,3.131,12597,4.085,16
+2026-11-01,hn,applications,agents,AI agents,404,15908,2.54,3572,1.158,16
+2026-11-01,hn,applications,coding_assistants,AI coding tools,393,15908,2.47,7722,2.504,16
+2026-11-01,hn,infrastructure,gpus_nvidia,GPUs and Nvidia,339,15908,2.131,13094,4.246,16
+2026-11-01,hn,labs,openai,OpenAI,163,15908,1.025,2577,0.836,16
+2026-11-01,hn,infrastructure,data_centers,Data centers and power,140,15908,0.88,2440,0.791,16
+2026-11-01,hn,applications,mcp,Model Context Protocol (MCP),123,15908,0.773,723,0.234,16
+2026-11-01,hn,market,funding_bubble,Funding valuations and bubble talk,80,15908,0.503,3694,1.198,16
+2026-11-01,hn,infrastructure,local_on_device,Local and on-device AI,78,15908,0.49,887,0.288,16
+2026-11-01,hn,words,term_open_source_ai,Word: open source (AI context),74,15908,0.465,1610,0.522,16
+2026-11-01,hn,labs,google_gemini,Google Gemini and Gemma,69,15908,0.434,4029,1.307,16
+2026-11-01,hn,market,jobs_work,Jobs and work,59,15908,0.371,581,0.188,16
+2026-11-01,hn,labs,qwen,Qwen,43,15908,0.27,6084,1.973,16
+2026-11-01,hn,labs,deepseek,DeepSeek,43,15908,0.27,969,0.314,16
+2026-11-01,hn,infrastructure,inference_serving,Inference and serving,43,15908,0.27,202,0.066,16
+2026-11-01,hn,applications,chatbots,Chatbots and assistants,33,15908,0.207,144,0.047,16
+2026-11-01,hn,infrastructure,ai_chips,AI chips and accelerators,32,15908,0.201,537,0.174,16
+2026-11-01,hn,techniques,evals_benchmarks,Evals and benchmarks,30,15908,0.189,116,0.038,16
+2026-11-01,hn,market,agi,AGI and superintelligence,29,15908,0.182,65,0.021,16
+2026-11-01,hn,techniques,safety_security,AI safety and security,28,15908,0.176,80,0.026,16
+2026-11-01,hn,words,term_open_weights,Word: open weights,24,15908,0.151,435,0.141,16
+2026-11-01,hn,words,term_assistant,Word: assistant,24,15908,0.151,132,0.043,16
+2026-11-01,hn,infrastructure,semiconductors,Semiconductors and fabs,24,15908,0.151,205,0.066,16
+2026-11-01,hn,labs,xai_grok,xAI and Grok,23,15908,0.145,129,0.042,16
+2026-11-01,hn,market,copyright_licensing,Copyright and data rights,23,15908,0.145,145,0.047,16
+2026-11-01,hn,applications,ai_search,AI search and answer engines,22,15908,0.138,133,0.043,16
+2026-11-01,hn,labs,other_china_labs,Kimi GLM and MiniMax,21,15908,0.132,839,0.272,16
+2026-11-01,hn,applications,robotics,Robotics and embodied AI,21,15908,0.132,270,0.088,16
+2026-11-01,hn,applications,voice_audio,Voice speech and audio,19,15908,0.119,41,0.013,16
+2026-11-01,hn,applications,autonomous_driving,Autonomous driving,15,15908,0.094,56,0.018,16
+2026-11-01,hn,techniques,rl_post_training,Reinforcement learning and preference tuning,13,15908,0.082,228,0.074,16
+2026-11-01,hn,applications,rag,Retrieval-augmented generation (RAG),13,15908,0.082,267,0.087,16
+2026-11-01,hn,applications,world_models,World models,12,15908,0.075,321,0.104,16
+2026-11-01,hn,techniques,moe,Mixture-of-experts models,12,15908,0.075,89,0.029,16
+2026-11-01,hn,applications,computer_use,Computer and browser use,11,15908,0.069,35,0.011,16
+2026-11-01,hn,market,regulation_policy,Regulation and policy,9,15908,0.057,722,0.234,16
+2026-11-01,hn,applications,video_generation,Video generation,8,15908,0.05,21,0.007,16
+2026-11-01,hn,applications,medical_ai,Medical AI,8,15908,0.05,17,0.006,16
+2026-11-01,hn,infrastructure,kv_cache,Prompt caching (KV cache),7,15908,0.044,19,0.006,16
+2026-11-01,hn,applications,ai_for_science,AI for science,6,15908,0.038,116,0.038,16
+2026-11-01,hn,techniques,embeddings_vector_search,Embeddings and vector search,5,15908,0.031,283,0.092,16
+2026-11-01,hn,applications,image_generation,Image generation,5,15908,0.031,291,0.094,16
+2026-11-01,hn,labs,mistral,Mistral,5,15908,0.031,14,0.005,16
+2026-11-01,hn,infrastructure,quantization,Quantization,5,15908,0.031,266,0.086,16
+2026-11-01,hn,techniques,fine_tuning,Fine-tuning (incl. LoRA),4,15908,0.025,44,0.014,16
+2026-11-01,hn,techniques,reasoning,Reasoning and test-time compute,4,15908,0.025,13,0.004,16
+2026-11-01,hn,techniques,long_context,Long context,4,15908,0.025,4,0.001,16
+2026-11-01,hn,labs,meta_llama,Meta Llama,4,15908,0.025,492,0.16,16
+2026-11-01,hn,words,term_serving,Word: serving,3,15908,0.019,6,0.002,16
+2026-11-01,hn,techniques,multimodal,Multimodal and vision-language,3,15908,0.019,7,0.002,16
+2026-11-01,hn,techniques,diffusion_lms,Diffusion language models,3,15908,0.019,22,0.007,16
+2026-11-01,hn,techniques,interpretability,Interpretability,3,15908,0.019,3,0.001,16
+2026-11-01,hn,techniques,hallucination,Hallucination,3,15908,0.019,19,0.006,16
+2026-11-01,hn,techniques,distillation,Distillation,2,15908,0.013,3,0.001,16
+2026-11-01,hn,infrastructure,fp4,FP4 low-precision compute,2,15908,0.013,4,0.001,16
+2026-11-01,hn,techniques,ssm_linear_attention,"Alternatives to transformers (Mamba, linear attention)",2,15908,0.013,80,0.026,16
+2026-11-01,hn,infrastructure,speculative_decoding,Speculative decoding (faster inference),2,15908,0.013,15,0.005,16
+2026-11-01,hn,techniques,prompt_context_engineering,Prompt and context engineering,2,15908,0.013,17,0.006,16
+2026-11-01,hn,techniques,synthetic_data,Synthetic data,1,15908,0.006,2,0.001,16
